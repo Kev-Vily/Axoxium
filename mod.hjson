@@ -1,0 +1,8 @@
+name: axoxium
+displayName: "[red]Axoxium"
+author: "[blue]555okboi"
+description: Introduce Derepica a planet with great journeys.
+version: 0.3.1
+minGameVersion: "142"
+dependencies: []
+hidden: false

@@ -1,0 +1,8 @@
+type: staticWall
+variants: 2
+name: Acid Biome
+description: For unknown reason look like Deripica contains bunch of acid waste. For those plant that aren't strong enough to evolve to live on acid, they died gradually.
+research: {
+  parent: metallic-wall
+  planet: axoxium-derepica
+}

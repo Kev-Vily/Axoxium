@@ -1,0 +1,7 @@
+name: Charge up I
+description: Charger's greatest ego.
+applyColor: ffffff
+color: ffffff
+speedMultiplier: 2
+effect: none
+hidden: true

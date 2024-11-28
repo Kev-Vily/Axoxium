@@ -1,0 +1,6 @@
+localizedName: Copper
+type: OreBlock
+itemDrop: axocopper
+hasColor: true
+mapColor: a8a8a8
+variants: 3

@@ -1,0 +1,26 @@
+name: Hydrochloric
+description: Nickel dust which vaporize in air.
+color: 99a5ffff
+barColor: 99a5ffff
+temperature: 0.5
+coolant: false
+viscosity: 1
+boilPoint: 999
+hiddenOnPlanets: [
+  erekir
+  serpulo
+]
+canStayOn: [
+  cryofluid
+]
+research: {
+  parent: core-crickle
+  planet: axoxium-derepica
+  objectives: [
+    impact-crusher
+    {
+      type: SectorComplete
+      preset: intergate
+    }
+  ]
+}

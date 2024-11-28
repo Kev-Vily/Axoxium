@@ -1,0 +1,24 @@
+type: mech
+name: Insect
+description: Ah... Free at last... Oh grabriel... Now dawns thy reckoning. And thy GORE shall GLISTEN before the temple of mans. Creature of Steel... My gratitude upon thee for my FREEDOM. But the CRIMES thy KIND had commited against humanities are NOT forgotten... And thy PUNISHMENT is DEATH.
+speed: 1
+health: 999999
+rotateSpeed: 3
+hitSize: 7
+rotateShooting: true
+weapons: [
+  {
+    name: jugdement
+    reload: 20
+    top: true
+    mirror: false
+    rotate: false
+    inaccuracy: 3
+    shootY: 3
+    shootSound: shootSmall
+    bullet: {
+      type: EmpBulletType
+      damage: 1
+    }
+  }
+]

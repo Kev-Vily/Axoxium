@@ -1,0 +1,17 @@
+type: Wall
+name: Small Nickel Wall
+description: No description yet. Thy end is now.
+health: 900
+size: 1
+category: defense
+requirements: [
+  nickel/6
+]
+research: {
+  name: Derepica
+  requirements: [
+    nickel/50
+  ]
+  planet: axoxium-derepica
+  parent: core-crickle
+}

@@ -1,0 +1,89 @@
+name: Pyrorize
+type: ContinuousLiquidTurret
+description: Unique basic defense. Fire solid vapour or liquid which thorns down enemy.
+health: 240
+range: 120
+size: 2
+rotateSpeed: 5
+liquidCapacity: 10
+shootSound: none
+loopSound: torch
+loopSoundVolume: 1
+reload: 30
+recoil: 1
+aimChangeSpeed: 2.5
+liquidConsumed: 0.033333333333
+ammoTypes: {
+  vaporized-nickel: {
+    type: ContinuousFlameBulletType
+    damage: 15
+    colors: [
+      a8a8a8
+      cbcbcb
+      d4d4d4
+      e9e9e9
+      ffffff
+    ]
+    flareWidth: 5
+    flareLength: 15
+    flareColor: a8a8a8
+  }
+  slag: {
+    type: ContinuousFlameBulletType
+    damage: 45
+    colors: [
+      f08160
+      f5af7d
+      f7cb99f9
+      fff1d4
+      ffffff
+    ]
+    flareWidth: 5
+    makeFire: true
+    status: melting
+    reloadMultiplier: 0.5
+    rangeMultiplier: 1.5
+    flareLength: 20
+    flareColor: f08160
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: baseblock-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      outline: true
+      progress: warmup
+      heatProgress: warmup
+      moveX: 1
+      moveY: -1
+      moveRot: -45
+      heatColor: F69163FF
+    }
+  ]
+}
+requirements: [
+  nickel/100
+  axocopper/40
+]
+category: turret
+research: {
+  parent: spectate
+  planet: axoxium-derepica
+  requirements: [
+    axocopper/600
+    nickel/800
+  ]
+  objectives: [
+    impact-crusher
+    vaporized-nickel
+    {
+      type: SectorComplete
+      preset: intergate
+    }
+  ]
+}

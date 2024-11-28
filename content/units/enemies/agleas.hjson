@@ -1,0 +1,34 @@
+type: mech
+name: Agleas
+description: The prototype that has origin from insects biology, They use acid to attack.
+speed: 1.5
+health: 900
+itemCapacity: 0
+rotateSpeed: 6
+hitSize: 7
+rotateShooting: true
+controller: HugAI
+weapons: [
+  {
+    name: agleas-mouth
+    reload: 20
+    top: false
+    rotate: false
+    mirror: false
+    layerOffset: -1.0e-4
+    inaccuracy: 0
+    x: 0
+    y: 4.5
+    shootSound: shootSmall
+    bullet: {
+      type: BasicBulletType
+      damage: 26
+      lifetime: 3
+      speed: 9
+      width: 0.01
+      height: 0.01
+      shootEffect: none
+      despawnEffect: none
+    }
+  }
+]

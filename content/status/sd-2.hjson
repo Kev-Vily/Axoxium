@@ -1,0 +1,8 @@
+name: Self destruct II
+description: We're Back! ###### ######
+applyColor: 00964a
+hidden: true
+color: fa7aff
+damage: 10
+effect: none
+speedMultiplier: 0.5

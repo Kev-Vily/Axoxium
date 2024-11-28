@@ -1,0 +1,60 @@
+type: mech
+name: Erforna
+description: Fire a homing bullets which deals area damages. When die would turn back to Aseriol.
+speed: 0.5
+health: 1500
+rotateSpeed: 2
+armor: 3
+hitSize: 20
+rotateShooting: true
+weapons: [
+  {
+    name: erforna-wrecker
+    reload: 50
+    top: false
+    mirror: true
+    rotate: false
+    inaccuracy: 0
+    shootY: 3
+    x: 5
+    y: 0
+    shootSound: shootSmall
+    bullet: {
+      type: BasicBulletType
+      damage: 40
+      shootEffect: shootSmall
+      speed: 4
+      width: 10
+      height: 10
+      lifetime: 80
+      scaleLife: true
+      scaledSplashDamage: true
+      splashDamageRadius: 30
+      splashDamage: 100
+      homingPower: 0.05
+      homingRange: 30
+      trailLength: 4
+      trailWidth: 3
+      weaveMag: 10
+      weaveSize: 2
+      hitEffect: {
+        type: ParticleEffect
+        casingFlip: true
+        particles: 20
+        region: axoxium-triangle
+        colorFrom: e58956ff
+        colorTo: ffffff
+        sizeFrom: 5
+        cone: 360
+        spin: 3
+        sizeTo: 1
+      }
+    }
+  }
+]
+abilities: [
+  {
+    type: SpawnDeathAbility
+    unit: aseriol
+  }
+]

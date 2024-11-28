@@ -1,0 +1,34 @@
+type: mech
+name: Charger
+description: This thing.... are just... annoying. "Charger" isn't true name either.
+speed: 0.8
+health: 900
+itemCapacity: 5
+rotateSpeed: 6
+hitSize: 5
+rotateShooting: true
+hovering: false
+weapons: [
+  {
+    reload: 1
+    shootOnDeath: true
+    mirror: true
+    lifetime: 0
+    shootCone: 360
+    shake: 1
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 305
+      splashDamageRadius: 30
+    }
+  }
+]
+abilities: [
+  {
+    type: StatusFieldAbility
+    effect: charger-up
+    duration: 270
+    reload: 180
+    range: 150
+  }
+]

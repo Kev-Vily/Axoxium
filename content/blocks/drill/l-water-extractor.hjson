@@ -1,0 +1,41 @@
+type: SolidPump
+name: Large Water Extractor
+description: Bigger means better.
+health: 500
+liquidCapacity: 60
+size: 3
+pumpAmount: 1
+updateEffect: smeltsmoke
+drawers: [
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawLiquidRegion
+    liquid: water
+  }
+  {
+    type: DrawDefault
+  }
+]
+consumes: {
+  power: 1.5
+}
+requirements: [
+  silicon/120
+  metaglass/100
+  graphite/80
+  titanium/70
+  thorium/40
+]
+category: production
+research: {
+  parent: water-extractor
+  requirements: [
+    silicon/7000
+    metaglass/1000
+    graphite/3000
+    titanium/2500
+    thorium/1000
+  ]
+}

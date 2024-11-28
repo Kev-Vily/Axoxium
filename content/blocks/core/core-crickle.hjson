@@ -1,0 +1,18 @@
+type: CoreBlock
+name: Crickle
+description: The center of industry. Need to be defend from all treats. If all core got destroyed, the sect lost.
+health: 3000
+itemCapacity: 8000
+size: 4
+category: effect
+squareSprite: false
+hasItems: true
+hasColor: true
+alwaysUnlocked: true
+research: {
+  root: true
+  name: Derepica
+  planet: axoxium-derepica
+}
+unitType: eponox
+unitCapModifier: +24

@@ -1,0 +1,30 @@
+name: Vapourized Nickel
+description: Nickel dust which vaporize in air.
+color: cbcbcb
+gas: true
+gasColor: cbcbcb
+barColor: a8a8a8
+temperature: 0.5
+coolant: false
+viscosity: 1
+boilPoint: 999
+hiddenOnPlanet: [
+  erekir
+  serpulo
+]
+canStayOn: [
+  water
+  oil
+  cryofluid
+]
+research: {
+  parent: core-crickle
+  planet: axoxium-derepica
+  objectives: [
+    impact-crusher
+    {
+      type: SectorComplete
+      preset: intergate
+    }
+  ]
+}

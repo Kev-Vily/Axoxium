@@ -1,0 +1,6 @@
+name: Slow Shock
+description: Littile slow from electric traps might save your core.
+applyColor: ffffff
+color: ffffff
+speedMultiplier: 0.95
+effect: none

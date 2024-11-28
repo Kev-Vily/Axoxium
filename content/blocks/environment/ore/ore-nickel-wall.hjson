@@ -1,0 +1,7 @@
+localizedName: nickel
+type: OreBlock
+wallOre: true
+itemDrop: nickel
+hasColor: true
+mapColor: a8a8a8
+variants: 3

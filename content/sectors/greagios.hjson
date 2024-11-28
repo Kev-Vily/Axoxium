@@ -1,0 +1,8 @@
+sector: 36
+planet: axoxium-derepica
+localizedName: Greagios
+description: The enemy base detected on ours way! Take em down before thier flying unit overwhlem us!
+difficulty: 1
+research: {
+  parent: intergate
+}

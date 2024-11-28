@@ -1,0 +1,7 @@
+name: Self destruct I
+description: We're Back! ###### ######
+applyColor: 00964a
+color: fa7aff
+damage: 0.01666667
+effect: none
+speedMultiplier: 0.5

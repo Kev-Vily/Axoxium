@@ -1,0 +1,61 @@
+type: legs
+name: Insect
+description: The prototype that has origin from insects biology, They use acid to attack.
+speed: 1
+health: 900
+itemCapacity: 5
+rotateSpeed: 6
+hitSize: 7
+rotateShooting: true
+hovering: false
+legStraightness: 0.3
+legContinuousMove: true
+lockLegBase: true
+legGroupSize: 4
+legCount: 6
+legExtension: -2
+legLength: 10
+legSpeed: 1.5
+legForwardScl: 0.7
+legMoveSpace: 1
+groundLayer: 60
+weapons: [
+  {
+    name: insect-acid
+    reload: 30
+    top: false
+    rotate: false
+    layerOffset: -1.0e-4
+    inaccuracy: 0
+    x: 2
+    y: 4.5
+    shootSound: shootSmall
+    bullet: {
+      type: BasicBulletType
+      damage: 26
+      speed: 9
+      width: 0.01
+      height: 0.01
+      shootEffect: none
+      lifetime: 8
+      pierce: true
+      pierceBuilding: true
+      ammoMultiplier: 5
+      despawnEffect: none
+      status: acid-melting
+      statusDuration: 500
+      smokeEffect: {
+        type: ParticleEffect
+        particles: 25
+        length: 70
+        lifetime: 15
+        interp: circleOut
+        cone: 3
+        colorFrom: 006f1c
+        colorTo: 00964a
+        sizeFrom: 5
+        sizeTo: 0.6
+      }
+    }
+  }
+]

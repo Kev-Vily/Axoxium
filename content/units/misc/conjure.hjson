@@ -1,0 +1,35 @@
+type: flying
+name: Conjure
+description: Got away from toxic and metal lish planet. Conjure dagger which homing your enemies.
+health: 900
+lowAltitude: true
+singleTarget: true
+faceTarget: true
+armor: 8
+speed: 2
+accel: 0.2
+drag: 0.1
+flying: true
+rotateSpeed: 5
+hitSize: 10
+engineOffset: 8.5
+rotateShooting: true
+weapons: [
+  {
+    name: conjurer
+    reload: 60
+    top: true
+    mirror: false
+    inaccuracy: 360
+    shootCone: 360
+    shootSound: none
+    shootEffect: none
+    x: 0
+    y: -2
+    bullet: {
+      type: BulletType
+      instantDisappear: true
+      spawnUnit: conjure-dronea
+    }
+  }
+]

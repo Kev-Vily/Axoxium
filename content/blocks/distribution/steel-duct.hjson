@@ -1,0 +1,19 @@
+type: Duct
+name: Steel Duct
+description: Move item along its path. Fast speed but low capacities.
+health: 30
+itemCapacity: 4
+size: 1
+category: distribution
+requirements: [
+  axocopper/2
+  nickel/2
+]
+research: {
+  parent: core-crickle
+  planet: axoxium-derepica
+  requirements: [
+    axocopper/10
+    nickel/10
+  ]
+}

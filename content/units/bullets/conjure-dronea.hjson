@@ -1,0 +1,45 @@
+type: flying
+controller: MissileAI
+flying: true
+lowAltitude: true
+speed: 5
+physics: false
+lifetime: Infinity
+rotateSpeed: 3
+hitSize: 3
+trailLength: 5
+useUnitCap: true
+health: 450
+autoFindTarget: true
+homingDelay: 0
+circleTarget: true
+faceTarget: true
+trailColor: e58956ff
+aimDst: 0.3
+drawCell: false
+outlines: false
+range: 100
+loopSound: missileTrail
+loopSoundVolume: 0.3
+missileAccelTime: 30
+targetAir: true
+targetUnderBlocks: false
+engineLayer: 110.001
+engineColor: e58956ff
+alwayShootWhenMoving: true
+hidden: true
+targetable: true
+weapons: [
+  {
+    reload: 20
+    mirror: false
+    alwaysShoot: true
+    bullet: {
+      damage: 12
+      speed: 5
+      lifetime: 40
+      width: 7
+      height: 10
+    }
+  }
+]

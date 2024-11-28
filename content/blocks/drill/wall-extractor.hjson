@@ -1,0 +1,31 @@
+name: Wall Extractor
+type: BeamDrill
+description: Grind ores from a wall. Had decent mining speed.
+health: 240
+range: 2
+size: 2
+itemCapacity: 12
+tier: 3
+drillTime: 150
+requirements: [
+  axocopper/5
+  nickel/10
+]
+hasConsumers: true
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.001
+    optional: true
+    booster: true
+  }
+}
+category: production
+research: {
+  parent: core-crickle
+  planet: axoxium-derepica
+  requirements: [
+    axocopper/25
+    nickel/30
+  ]
+}

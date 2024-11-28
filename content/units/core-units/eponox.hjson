@@ -1,0 +1,123 @@
+type: flying
+name: Eponox
+description: Defends core Crickle. Shoot traps which slow down enemies a little.
+speed: 4
+accel: 0.09
+drag: 0.08
+targetable: false
+hittable: false
+lowAltitude: false
+coreUnitDock: true
+mineSpeed: 5
+mineTier: 2
+health: 270
+itemCapacity: 50
+rotateSpeed: 21
+hitSize: 9
+buildPower: 1
+armor: 1
+canHeal: true
+mineWalls: true
+buildSpeed: 1.25
+rotateShooting: true
+commandLimit: 8
+engineOffset: 8.5
+flying: true
+targetAir: false
+allowedInPayloads: false
+weapons: [
+  {
+    name: trapper
+    reload: 60
+    x: 5
+    y: 2
+    top: false
+    mirror: true
+    rotate: false
+    inaccuracy: 8
+    velocityRnd: 0.25
+    shootY: 3
+    ejectEffect: casing2
+    shootSound: shootSmall
+    bullet: {
+      type: ArtilleryBulletType
+      autoTarget: false
+      damage: 0
+      speed: 8
+      width: 8
+      height: 8
+      shootEffect: shootSmall
+      despawnEffect: none
+      colideAir: false
+      colideGround: false
+      collideTerrain: true
+      spin: 3
+      sprite: shock-mine
+      lifetime: 10
+      fragBullets: 1
+      fragVelocityMax: 0
+      fragVelocityMin: 0
+      fragRandomSpread: 0
+      fragBullet: {
+        type: BasicBulletType
+        damage: 0
+        sprite: shock-mine
+        tileDamageMultiplier: 0.07
+        speed: 0
+        shrinkX: 0
+        shrinkY: 0
+        colideAir: false
+        shootEffect: none
+        width: 8
+        height: 8
+        lifetime: 3000
+        fragBullets: 3
+        fragVelocityMax: 4
+        fragVelocityMin: 1
+        fragRandomSpread: 360
+        fragBullet: {
+          type: LightningBulletType
+          lightningColor: a9d8ffff
+          lightningLength: 10
+          lightningLengthRand: 0
+          damage: 0
+          hitEffect: none
+          status: slow-shock
+        }
+      }
+    }
+  }
+  {
+    type: RepairBeamWeapon
+    name: eponox-beam
+    mirror: false
+    x: 0
+    y: 0
+    noAttack: true
+    shootSound: none
+    shootCone: 45
+    beamWidth: .6
+    autoTarget: true
+    targetUnits: t88rue
+    targetBuildings: true
+    shootY: 1
+    repairSpeed: .5
+    fractionRepairSpeed: .01
+    continuous: true
+    rotate: false
+    widthSinMag: .11
+    reload: 20
+    healColor: ffd37f
+    laserColor: ffd37f
+    bullet: {
+      maxRange: 50
+    }
+    parts: [
+      {
+        suffix: -f
+        moveY: -.5
+        progress: warmup
+      }
+    ]
+  }
+]

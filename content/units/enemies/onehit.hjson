@@ -1,0 +1,32 @@
+type: mech
+name: Charger
+description: They launch themselves at enemies and explode on contact... They're easy to prduce that's why they were many of them.
+speed: 0.8
+health: 900
+itemCapacity: 5
+rotateSpeed: 6
+hitSize: 5
+rotateShooting: true
+faceTarget: true
+hovering: false
+weapons: [
+  {
+    reload: 1
+    shootOnDeath: true
+    rotateSpeed: 0
+    mirror: true
+    range: 150
+    lifetime: 0
+    shootCone: 0
+    shake: 1
+    bullet: {
+      type: BulletType
+      killShooter: true
+      damage: 0
+      instantDisappear: true
+      spawnUnit: onehit-missile
+      shootEffect: shootBig
+      shootSmoke: shootSmokeMissile
+    }
+  }
+]

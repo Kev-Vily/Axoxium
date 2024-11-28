@@ -1,0 +1,58 @@
+type: mech
+name: Aseriol's turrets
+description: If they died they would left hidden turret which slow firerate and movemt speed of enemies.
+speed: 0
+targetable: false
+hittable: false
+health: 100
+canHeal: false
+rotateSpeed: 0
+hitSize: 10
+playerControllable: false
+hidden: true
+rotateShooting: false
+weapons: [
+  {
+    name: as-turret
+    reload: 20
+    top: true
+    mirror: false
+    drawOutLine: false
+    rotate: true
+    inaccuracy: 0
+    shootY: 3
+    x: 0
+    y: 0
+    shootSound: shootSmall
+    shootStatus: sd-2
+    shootStatusDuration: 2
+    bullet: {
+      type: BasicBulletType
+      damage: 0
+      shootEffect: shootSmall
+      speed: 4
+      width: 7
+      height: 10
+      lifetime: 60
+      status: hidden-debuff
+    }
+  }
+  {
+    name: as-sd
+    alwaysShooting: true
+    shootSound: none
+    reload: 99999999999
+    shootStatus: sd-1
+    shootStatusDuration: 999999999
+    bullet: {
+      type: BasicBulletType
+      lifetime: 0
+      width: 0
+      height: 0
+      speed: 0
+      shootEffect: none
+      hitEffect: none
+      despawnEffect: none
+    }
+  }
+]

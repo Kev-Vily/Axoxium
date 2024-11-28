@@ -1,0 +1,14 @@
+type: staticWall
+variants: 2
+name: Sand Biome
+description: Sands are the end of most material in form of dust and pebbles.
+research: {
+  parent: core-crickle
+  planet: axoxium-derepica
+  objectives: [
+    {
+      type: OnSector
+      preset: intergate
+    }
+  ]
+}

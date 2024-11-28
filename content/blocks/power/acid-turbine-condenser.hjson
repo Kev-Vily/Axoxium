@@ -1,0 +1,27 @@
+type: ThermalGenerator
+name: Acid Turbine Condenser
+description: none
+size: 3
+squareSprite: false
+attribute: steam
+outputLiquid: hydrochloric/0.05
+liquidCapacity: 12
+minEfficiency: 1
+powerProduction: 4
+requirements: [
+  axocopper/30
+  nickel/50
+]
+hiddenOnPlanets: [
+  erekir
+  serpulo
+]
+category: power
+research: {
+  parent: core-crickle
+  planet: axoxium-derepica
+  requirements: [
+    axocopper/300
+    nickel/500
+  ]
+}

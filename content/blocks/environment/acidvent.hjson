@@ -3,7 +3,7 @@ parent: acid-soil
 blendGroup: acid-soil
 variants: 1
 attributes: {
-  steam: 0
+  steam: 1
 }
 effect: {
   particles: 3

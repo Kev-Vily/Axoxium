@@ -5,6 +5,7 @@ itemWhitelist: [
   axocopper
   nickel
   zirconium
+  cupronickel
 ]
 clearSectorOnLose: true
 orbitTime: 540
@@ -18,7 +19,7 @@ sectorSize: 2
 startSector: 10
 atmosphereRadIn: -.01
 atmosphereRadOut: 0.35
-atmosphereColor: 35808750
+atmosphereColor: 78785150
 iconColor: 597be3
 orbitRadius: 120
 bloom: true
@@ -26,7 +27,7 @@ orbitOffset: 130
 alwaysUnlocked: true
 accessible: true
 allowLaunchToNumbered: false
-defaultEnv: 5
+defaultEnv: 1
 mesh: [
   {
     bloom: true

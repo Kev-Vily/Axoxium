@@ -6,5 +6,5 @@ difficulty: 1
 captureWave: 10
 alwaysUnlocked: true
 research: {
-  parent: intergate
+  parent: greagios
 }

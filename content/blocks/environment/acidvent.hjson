@@ -2,6 +2,7 @@ type: SteamVent
 parent: acid-soil
 blendGroup: acid-soil
 variants: 1
+boostScale: 0.111111111111111111111111111111111111
 attributes: {
   steam: 1
 }

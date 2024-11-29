@@ -16,7 +16,7 @@ plans: [
   }
 ]
 consumes: {
-  power: 2
+  power: 1.3333333333
 }
 hiddenOnPlanets: [
   erekir

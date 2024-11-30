@@ -1,4 +1,4 @@
-type: Drill
+type: BurstDrill
 category: production
 hardnessDrillMultiplier: 25
 drillTime: 250
@@ -39,15 +39,15 @@ shake: 2
 itemCapacity: 20
 fogRadius: 3
 requirements: [
-lead/10
-bauxite/20
+nickel/10
+axocopper/20
 ]
 research: {
 planet: tantros
-parent: core-pike
-name: Compression Drill
+parent: wall-extractor
+name: Floor Extractor
 requirements: [
-bauxite/10
+axocopper/10
 ]
 }
 envEnabled: 4

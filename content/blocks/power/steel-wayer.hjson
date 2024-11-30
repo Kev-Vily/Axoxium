@@ -1,3 +1,5 @@
 type: PowerNode
 size: 1
 health: 60
+laserRange: 12
+maxNodes: 4

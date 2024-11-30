@@ -1,2 +1,4 @@
-type: Drill
-drillTime: 60
+type: BurstDrill
+drillTime: 180
+tier: 2
+shake: 0

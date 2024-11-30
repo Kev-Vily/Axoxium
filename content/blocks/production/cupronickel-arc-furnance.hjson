@@ -12,8 +12,8 @@ research: {
     nickel/500
   ]
 }
-outputItem: cupronickel/1
-craftTime: 180
+outputItem: cupronickel/4
+craftTime: 60
 consumes: {
   power: 2
   items: [

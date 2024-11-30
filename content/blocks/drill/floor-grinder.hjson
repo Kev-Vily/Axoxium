@@ -2,3 +2,6 @@ type: BurstDrill
 drillTime: 180
 tier: 2
 shake: 0
+size: 2
+health: 120
+category: production

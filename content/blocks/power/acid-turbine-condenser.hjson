@@ -6,7 +6,7 @@ squareSprite: false
 attribute: steam
 outputLiquid: hydrochloric/0.05
 liquidCapacity: 12
-minEfficiency: 1
+minEfficiency: 0.9
 powerProduction: 4
 requirements: [
   axocopper/30

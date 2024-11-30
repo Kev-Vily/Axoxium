@@ -3,3 +3,8 @@ size: 1
 health: 60
 laserRange: 12
 maxNodes: 4
+category: power
+requirements: [
+  zirconium/5
+  nickel/5
+]

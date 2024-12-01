@@ -1,8 +1,8 @@
 name: Zirconium
 description: No description yet. Thy end is now!
-cost: 0.7
+cost: 1.2
 color: a8a8a8
-hardness: 1
+hardness: 3
 flammability: 0.1
 explosiveness: 0.1
 hiddenOnPlanets: [

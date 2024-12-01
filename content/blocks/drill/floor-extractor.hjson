@@ -4,48 +4,82 @@ hardnessDrillMultiplier: 25
 drillTime: 250
 size: 2
 tier: 4
-arrows: 0
 drawMineItem: false
+squareSprite: false
+arrows: 0
 drillEffect: [
 {
 particles: 5
-length: 45
-lifetime: 270
-layer: 28
+cone: 3
+baseRotation: 0
+baseLength: 0
+length: 40
+lifetime: 120
+layer: 110
 sizeFrom: 0
 sizeTo: 8
-colorFrom: 5a5352100
-colorTo: 31232010
-sizeInterp: pow3Out
-interp: pow3Out
+colorFrom: 5a53521ff
+colorTo: 31232000
 }
 {
 particles: 5
-length: 7
-layer: 80
-lifetime: 80
-sizeFrom: 6
-sizeTo: 0
-colorFrom: ffffff90
-colorTo: ffffff10
-interp: pow3Out
-sizeInterp: pow3Out
-region: white
-offset: 45
-} 
+cone: 3
+baseRotation: 90
+baseLength: 0
+length: 40
+lifetime: 120
+layer: 110
+sizeFrom: 0
+sizeTo: 8
+colorFrom: 5a53521ff
+colorTo: 31232000
+}
+{
+particles: 5
+cone: 3
+baseRotation: 180
+baseLength: 0
+length: 40
+lifetime: 120
+layer: 110
+sizeFrom: 0
+sizeTo: 8
+colorFrom: 5a53521ff
+colorTo: 31232000
+}
+{
+particles: 5
+cone: 3
+baseRotation: 270
+baseLength: 0
+length: 40
+lifetime: 120
+layer: 110
+sizeFrom: 0
+sizeTo: 8
+colorFrom: 5a53521ff
+colorTo: 31232000
+}
 ]
 shake: 2
 itemCapacity: 20
 fogRadius: 3
 requirements: [
-nickel/10
+nickel/15
 axocopper/20
 ]
 research: {
-planet: tantros
+planet: derepica
 parent: wall-extractor
 name: Floor Extractor
 requirements: [
-axocopper/10
+axocopper/50
+nickel/30
+]
+objectives: [
+{
+type: OnSector
+preset: greagios
+}
 ]
 }

@@ -4,7 +4,7 @@ hardnessDrillMultiplier: 25
 drillTime: 250
 size: 2
 tier: 4
-arrows: 2
+arrows: 0
 arrowOffset: -2
 arrowSpacing: 2
 drillEffect: [

@@ -19,7 +19,7 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawRegion
+      type: DrawBlurSpin
       suffix: -rotator
       rotateSpeed: 3
     }

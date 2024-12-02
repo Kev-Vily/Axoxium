@@ -2,3 +2,4 @@ type: Floor
 name: Sand Floor
 description: No description yet. Thy end is now.
 variants: 3
+blendGroup: oxide-floor

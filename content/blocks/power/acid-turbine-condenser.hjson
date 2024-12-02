@@ -12,6 +12,23 @@ requirements: [
   axocopper/30
   nickel/50
 ]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      rotateSpeed: 3
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
 hiddenOnPlanets: [
   erekir
   serpulo

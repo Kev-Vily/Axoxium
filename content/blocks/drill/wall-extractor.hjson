@@ -6,6 +6,7 @@ range: 2
 size: 2
 itemCapacity: 12
 tier: 2
+squareSprite: false
 drillTime: 150
 requirements: [
   axocopper/5

@@ -1,0 +1,37 @@
+type: UnitFactory
+name: Air Inserter
+description: No description yet. Thy end is now.
+category: units
+size: 3
+health: 660
+configurable: false
+plans: [
+  {
+    unit: helias
+    requirements: [
+      cupronickel/30
+      zirconium/40
+    ]
+    time: 660
+  }
+]
+consumes: {
+  power: 1.3333333333
+}
+hiddenOnPlanets: [
+  erekir
+  serpulo
+]
+buildVisibility: shown
+requirements: [
+  zirconium/160
+  cupronickel/30
+]
+research: {
+  parent: mech-inserter
+  planet: axoxium-derepica
+  requirements: [
+    zirconium/9999999
+    nickel/250
+    cupronickel/30
+  ]

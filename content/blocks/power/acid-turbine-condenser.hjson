@@ -23,10 +23,6 @@ drawer: {
       suffix: -rotator
       rotateSpeed: 3
     }
-    {
-      type: DrawRegion
-      suffix: -top
-    }
   ]
 }
 hiddenOnPlanets: [

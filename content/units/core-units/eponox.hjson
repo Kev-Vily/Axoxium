@@ -10,6 +10,7 @@ lowAltitude: false
 coreUnitDock: true
 mineSpeed: 5
 mineTier: 2
+isEnemy: false
 health: 270
 itemCapacity: 50
 rotateSpeed: 21

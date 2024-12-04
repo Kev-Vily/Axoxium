@@ -11,6 +11,12 @@ research: {
     axocopper/300
     nickel/500
   ]
+  objective: [
+    {
+     type: CompleteSector
+     preset: greagios
+    }
+  ]
 }
 hasLiquids: true
 outputLiquid: axohydrogen/0.33

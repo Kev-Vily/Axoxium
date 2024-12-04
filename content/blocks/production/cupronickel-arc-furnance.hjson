@@ -21,6 +21,17 @@ consumes: {
     axocopper/2
   ]
 }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawArcSmelt
+    }
+  ]
+}
 category: crafting
 ambientSound: machine
 ambientSoundVolume: 0.08

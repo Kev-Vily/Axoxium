@@ -1,4 +1,6 @@
 type: BurstDrill
+name: Floor Extractor
+description: Crush and extract ore from the floor can mine some harder ore than Wall extractor.
 category: production
 hardnessDrillMultiplier: 25
 drillTime: 250
@@ -61,7 +63,7 @@ colorFrom: 5a53521ff
 colorTo: 31232000
 }
 ]
-shake: 2
+shake: 1
 itemCapacity: 20
 fogRadius: 3
 requirements: [
@@ -71,7 +73,6 @@ axocopper/20
 research: {
 planet: derepica
 parent: wall-extractor
-name: Floor Extractor
 requirements: [
 axocopper/50
 nickel/30

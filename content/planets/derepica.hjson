@@ -28,6 +28,7 @@ alwaysUnlocked: true
 accessible: true
 allowLaunchToNumbered: false
 defaultEnv: 1
+techTree: derepica
 mesh: [
   {
     bloom: true

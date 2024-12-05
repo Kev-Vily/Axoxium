@@ -4,13 +4,6 @@ description: No description yet. Thy end is now!
 cost: 0.7
 size: 3
 squareSprite: false
-research: {
-  parent: impact-crusher
-  planet: axoxium-derepica
-  requirements: [
-    axocopper/300
-    nickel/500
-  ]
   objective: [
     {
      type: CompleteSector

@@ -1,6 +1,6 @@
 type: ThermalGenerator
 name: Acid Turbine Condenser
-description: none
+description: Use Acid vent's heat to generated power and condense and extract hydrochloric from the vent.
 size: 3
 squareSprite: false
 attribute: steam
@@ -9,8 +9,9 @@ liquidCapacity: 12
 minEfficiency: 0.9
 powerProduction: 4
 requirements: [
-  axocopper/30
-  nickel/50
+  axocopper/50
+  zirconium/60
+  nickel/30
 ]
 drawer: {
   type: DrawMulti
@@ -34,7 +35,8 @@ research: {
   parent: core-crickle
   planet: axoxium-derepica
   requirements: [
-    axocopper/300
-    nickel/500
+    axocopper/450
+    zirconium/100
+    nickel/200
   ]
 }

@@ -3,20 +3,6 @@ name: Impact Crusher
 description: Crushes Nickel into dust then blows to air making vapourized nickel.
 size: 3
 squareSprite: false
-research: {
-  parent: core-crickle
-  planet: axoxium-derepica
-  requirements: [
-    axocopper/300
-    nickel/500
-  ]
-  objectives: [
-    {
-      type: SectorComplete
-      preset: intergate
-    }
-  ]
-}
 outputLiquid: vaporized-nickel/0.15
 craftTime: 60
 craftEfect: mineImpactWave

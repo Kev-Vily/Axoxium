@@ -10,6 +10,10 @@ squareSprite: false
 hasItems: true
 hasColor: true
 alwaysUnlocked: true
+requirement: [
+  nickel-1500
+  copper-800
+]
 research: {
   root: true
   name: Derepica

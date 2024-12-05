@@ -36,6 +36,7 @@ abilities: [
     unit: aseriol-turret
   }
 ]
+researchCostMultiplier: 0
 research: {
   parent: core-crickle
   planet: axoxium-derepica

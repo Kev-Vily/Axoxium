@@ -4,14 +4,6 @@ description: No description yet. Thy end is now!
 cost: 0.7
 size: 3
 squareSprite: false
-research: {
-  parent: core-crickle
-  planet: axoxium-derepica
-  requirements: [
-    axocopper/300
-    nickel/500
-  ]
-}
 outputLiquid: axohydrogen/0.33
 outputItem: copper-dichloride/1
 craftTime: 60

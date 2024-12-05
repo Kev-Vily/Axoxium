@@ -2,5 +2,5 @@ localizedName: Zirconium
 type: OreBlock
 itemDrop:zirconium
 hasColor: true
-mapColor: a8a8a8
+mapColor: 6262c5
 variants: 3

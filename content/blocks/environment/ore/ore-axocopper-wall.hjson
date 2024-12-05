@@ -3,5 +3,5 @@ type: OreBlock
 wallOre: true
 itemDrop: axocopper
 hasColor: true
-mapColor: a8a8a8
+mapColor: be723c
 variants: 3

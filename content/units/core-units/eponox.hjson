@@ -9,6 +9,8 @@ hittable: false
 lowAltitude: false
 coreUnitDock: true
 defaultController: BuilderAi
+aiController: BuilderAi
+controller: BuilderAi
 mineSpeed: 5
 mineTier: 2
 isEnemy: false

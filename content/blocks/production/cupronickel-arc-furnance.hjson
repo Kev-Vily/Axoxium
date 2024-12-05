@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Cupronickel Arc Furnance
-description: Brought Zirconuim back
+description: Melt Copper and Nickel then mix them together produces Cupronickel.
 cost: 2
 size: 3
 squareSprite: false
@@ -8,8 +8,8 @@ research: {
   parent: impact-crusher
   planet: axoxium-derepica
   requirements: [
-    axocopper/300
-    nickel/500
+    axocopper/75
+    nickel/60
   ]
 }
 outputItem: cupronickel/4
@@ -36,8 +36,8 @@ category: crafting
 ambientSound: machine
 ambientSoundVolume: 0.08
 requirements: [
-  axocopper/30
-  nickel/50
+  axocopper/160
+  nickel/150
 ]
 hiddenOnPlanets: [
   erekir

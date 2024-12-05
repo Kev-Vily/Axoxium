@@ -4,13 +4,6 @@ description: No description yet. Thy end is now!
 cost: 0.7
 size: 3
 squareSprite: false
-  objective: [
-    {
-     type: CompleteSector
-     preset: greagios
-    }
-  ]
-}
 hasLiquids: true
 outputLiquid: axohydrogen/0.33
 outputItem: zirconium-dichloride/1

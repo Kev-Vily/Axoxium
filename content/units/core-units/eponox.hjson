@@ -13,6 +13,7 @@ controller: BuilderAi
 mineSpeed: 5
 mineTier: 2
 isEnemy: false
+autoFindTarget: false
 health: 270
 itemCapacity: 50
 rotateSpeed: 21

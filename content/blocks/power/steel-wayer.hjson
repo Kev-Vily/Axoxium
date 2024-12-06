@@ -8,3 +8,11 @@ requirements: [
   zirconium/5
   nickel/5
 ]
+research: {
+  parent: acid-turbine-condenser
+  planet: axoxium-derepica
+  requirements: [
+    zirconium/30
+    nickel/30
+  ]
+}

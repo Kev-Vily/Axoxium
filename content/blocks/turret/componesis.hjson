@@ -1,0 +1,95 @@
+name: Componesis
+type: ItemTurret
+description: Anti-air turret which shoot a burst of multipy laser in a long range.
+health: 400
+range: 300
+size: 2
+reload: 30
+recoil: 1
+shoot: {
+  type: ShooPattern
+  shots: 3
+  shotDelay: 10
+}
+inaccuracy: 1
+ammoTypes: {
+  nickel: {
+    damage: 12
+    speed: 5
+    ammoMultiplier: 3
+    lifetime: 40
+    width: 7
+    height: 10
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: baseblock-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: false
+      under: false
+      outline: true
+      progress: warmup
+      heatProgress: warmup
+      moveX: 0
+      moveY: -4
+      moveRot: 0
+      heatColor: F69163FF
+    }
+    {
+      type: RegionPart
+      suffix: -front
+      mirror: false
+      under: false
+      outline: true
+      progress: warmup
+      heatProgress: warmup
+      moveX: 0
+      moveY: 2.1
+      moveRot: 0
+      heatColor: F69163FF
+    }
+    {
+      type: RegionPart
+      suffix: -back
+      mirror: false
+      under: true
+      outline: true
+      progress: warmup
+      heatProgress: warmup
+      moveX: 0
+      moveY: -2
+      moveRot: 0
+      heatColor: F69163FF
+    }
+    {
+      type: RegionPart
+      suffix: -middle
+      mirror: false
+      under: false
+      outline: true
+      progress: warmup
+      heatProgress: warmup
+      moveX: 0
+      moveY: -2
+      moveRot: 0
+      heatColor: F69163FF
+    }
+  ]
+}
+requirements: [
+  axocopper/40
+  nickel/85
+]
+category: turret
+research: {
+  parent: core-crickle
+  planet: axoxium-derepica
+  requirements: [
+    axocopper/120
+    nickel/250
+  ]
+}

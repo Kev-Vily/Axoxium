@@ -2,7 +2,7 @@ sector: 2
 planet: axoxium-derepica
 localizedName: Greagios
 description: The enemy base detected on ours way! Take em down before thier flying unit overwhlem us!
-difficulty: 1
+difficulty: 3
 requirements: [
   axocopper/1500
   nickel/1500

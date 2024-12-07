@@ -4,7 +4,7 @@ description: Anti-air turret which shoot a burst of multipy laser in a long rang
 health: 400
 range: 300
 size: 2
-reload: 30
+reload: 60
 recoil: 1
 shoot: {
   type: ShooPattern
@@ -14,7 +14,8 @@ shoot: {
 inaccuracy: 1
 ammoTypes: {
   nickel: {
-    damage: 12
+    type: LaserBulletType
+    damage: 30
     speed: 5
     ammoMultiplier: 3
     lifetime: 40

@@ -20,6 +20,7 @@ ammoTypes: {
     damage: 50
     length: 300
     ammoMultiplier: 3
+    collideGround: false
   }
 }
 drawer: {
@@ -42,40 +43,27 @@ drawer: {
     {
       type: RegionPart
       suffix: -front
-      mirror: false
+      mirror: true
       under: false
       outline: true
-      progress: warmup
+      progress: recoil
       heatProgress: warmup
       moveX: 0
-      moveY: 2.1
-      moveRot: 0
+      moveY: -1
+      moveRot: 3
       heatColor: F69163FF
     }
     {
       type: RegionPart
       suffix: -back
-      mirror: false
+      mirror: true
       under: true
       outline: true
-      progress: warmup
+      progress: recoil
       heatProgress: warmup
       moveX: 0
       moveY: -2
-      moveRot: 0
-      heatColor: F69163FF
-    }
-    {
-      type: RegionPart
-      suffix: -middle
-      mirror: false
-      under: false
-      outline: true
-      progress: warmup
-      heatProgress: warmup
-      moveX: 0
-      moveY: -2
-      moveRot: 0
+      moveRot: -45
       heatColor: F69163FF
     }
   ]

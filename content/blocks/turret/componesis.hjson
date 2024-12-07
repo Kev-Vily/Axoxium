@@ -6,6 +6,7 @@ range: 300
 size: 2
 targetGround: False
 reload: 60
+rotateSpeed: 10
 recoil: 1
 shoot: {
   type: ShooPattern

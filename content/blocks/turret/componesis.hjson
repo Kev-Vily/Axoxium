@@ -16,11 +16,8 @@ ammoTypes: {
   nickel: {
     type: LaserBulletType
     damage: 30
-    speed: 5
+    length: 300
     ammoMultiplier: 3
-    lifetime: 40
-    width: 7
-    height: 10
   }
 }
 drawer: {

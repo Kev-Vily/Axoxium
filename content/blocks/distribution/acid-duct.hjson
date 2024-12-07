@@ -3,7 +3,7 @@ name: Acid Duct
 description: Move item along its path. Fast speed but low capacities.
 health: 30
 itemCapacity: 4
-variants: 4
+variants: 3
 size: 1
 category: distribution
 requirements:[

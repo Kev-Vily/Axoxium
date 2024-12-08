@@ -6,6 +6,7 @@ accel: 0.09
 drag: 0.08
 targetable: false
 hittable: false
+targetPriority = -2
 lowAltitude: false
 coreUnitDock: true
 defaultController: BuilderAi

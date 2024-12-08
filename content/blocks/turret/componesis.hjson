@@ -20,7 +20,7 @@ ammoTypes: {
     damage: 50
     length: 300
     ammoMultiplier: 3
-    collideGround: false
+    collidesGround: false
   }
 }
 drawer: {

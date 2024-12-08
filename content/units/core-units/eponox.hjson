@@ -1,4 +1,4 @@
-type: ErekirUnitType
+type: flying
 name: Eponox
 description: Defends core Crickle. Shoot traps which slow down enemies a little.
 speed: 4
@@ -10,7 +10,7 @@ targetPriority: -2
 canAttack: false
 lowAltitude: false
 coreUnitDock: true
-defaultController: BuilderAI(true, coreFleeRange)
+defaultController: BuilderAI{true, coreFleeRange}
 controller: BuilderAI(true, coreFleeRange)
 mineSpeed: 5
 mineTier: 2

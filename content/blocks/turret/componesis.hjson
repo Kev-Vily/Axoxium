@@ -4,7 +4,7 @@ description: Anti-air turret which shoot a burst of multipy laser in a long rang
 health: 400
 range: 300
 size: 2
-targetGround: False
+targetGround: false
 reload: 60
 rotateSpeed: 10
 recoil: 1
@@ -44,15 +44,15 @@ drawer: {
   ]
 }
 requirements: [
-  axocopper/40
-  nickel/85
+  axocopper/95
+  nickel/60
 ]
 category: turret
 research: {
-  parent: core-crickle
+  parent: spectate
   planet: axoxium-derepica
   requirements: [
-    axocopper/120
-    nickel/250
+    axocopper/300
+    nickel/200
   ]
 }

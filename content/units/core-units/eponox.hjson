@@ -10,8 +10,8 @@ targetPriority: -2
 canAttack: false
 lowAltitude: false
 coreUnitDock: true
-defaultController: BuilderAI{true, coreFleeRange}
-controller: BuilderAI(true, coreFleeRange)
+defaultController: BuilderAI
+controller: BuilderAI
 mineSpeed: 5
 mineTier: 2
 isEnemy: false

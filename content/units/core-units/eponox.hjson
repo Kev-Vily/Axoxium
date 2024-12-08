@@ -7,6 +7,7 @@ drag: 0.08
 targetable: false
 hittable: false
 targetPriority = -2
+canAttack: false
 lowAltitude: false
 coreUnitDock: true
 defaultController: BuilderAi

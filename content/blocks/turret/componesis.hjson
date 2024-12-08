@@ -35,10 +35,11 @@ drawer: {
       outline: true
       progress: recoil
       heatProgress: recoil
-      moveX: 1
+      moveX: 2
       moveY: -1
-      moveRot: 15
+      moveRot: -15
       heatColor: F69163FF
+      show: true
     }
   ]
 }

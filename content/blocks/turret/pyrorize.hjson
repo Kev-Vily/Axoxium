@@ -17,6 +17,8 @@ ammoTypes: {
   vaporized-nickel: {
     type: ContinuousFlameBulletType
     damage: 15
+    despawnEffect: [pulverize, artilleryTrailSmoke]
+    hitColor: a8a8a8
     colors: [
       a8a8a8
       cbcbcb
@@ -31,6 +33,8 @@ ammoTypes: {
   slag: {
     type: ContinuousFlameBulletType
     damage: 45
+    despawnEffect: [pulverize, artilleryTrailSmoke]
+    hitColor: f08160
     colors: [
       f08160
       f5af7d
@@ -55,7 +59,6 @@ drawer: {
       type: RegionPart
       suffix: -side
       mirror: true
-      under: false
       outline: true
       progress: warmup
       heatProgress: warmup

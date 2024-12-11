@@ -2,6 +2,8 @@ type: AttributeCrafter
 attribute: charcoal
 size: 2
 health: 150
+baseEfficiency: 0.0
+displayEfficiency: 0.25
 category: production
 requirements: [
   cupronickel/25

@@ -3,8 +3,8 @@ description: No description yet. Thy end is now!
 cost: 1.2
 color: a8a8a8
 hardness: 3
-flammability: 0.1
-explosiveness: 0.1
+flammability: 0
+explosiveness: 0
 hiddenOnPlanets: [
   erekir
   serpulo

@@ -3,8 +3,8 @@ description: Quite soft but not durable, Uses in basic buildings.
 cost: 0.7
 color: a8a8a8
 hardness: 1
-flammability: 0.1
-explosiveness: 0.1
+flammability: 0
+explosiveness: 0
 hiddenOnPlanet: [
   erekir
   serpulo

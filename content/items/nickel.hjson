@@ -3,8 +3,8 @@ description: Most ores that found in Derepica. Use for bulidings.
 cost: 1
 color: a8a8a8
 hardness: 2
-flammability: 0.1
-explosiveness: 0.1
+flammability: 0
+explosiveness: 0
 hiddenOnPlanet: [
   erekir
   serpulo

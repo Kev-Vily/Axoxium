@@ -10,7 +10,7 @@ requirements: [
   zirconium/15
   axocopper/20
 ]
-outputItem: coal/1
+outputItem: axocoal/1
 craftTime: 120
 craftEfect: pulverize
 consumes: {

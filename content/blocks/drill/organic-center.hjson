@@ -10,7 +10,7 @@ requirements: [
 ]
 outputItem: coal/1
 craftTime: 120
-craftEfect: mineImpactWave
+craftEfect: pulverize
 consumes: {
   power: 0.5
 }

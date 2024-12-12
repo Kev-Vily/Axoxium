@@ -1,4 +1,4 @@
-type: RegenWall
+type: powRegenWall
 health: 3600
 size: 2
 category: defense

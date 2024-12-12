@@ -1,6 +1,4 @@
-block.buildType = () => extend(Building, power-regen-wall, {
-  update(){
-    super.update();
-    //applies overcock or something
-  }
+const powReWall = extend(Wall, "power-regem-wall", {
+  size: 3,
+  health: 200
 });

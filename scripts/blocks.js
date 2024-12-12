@@ -1,4 +1,4 @@
-export class RegenWall extends Wall {
+const RegenWall = extends Wall {
 static powerConsumption = 0.1; // Power consumption per second
 
   updateTile() {

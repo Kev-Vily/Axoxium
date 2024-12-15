@@ -1,5 +1,5 @@
 type: DuctRouter
-name: Multifuction Router
+name: Multifunction Router
 description: Router which could act like sorter but not let item input from any output and has one input. Fast speed but low capacities.
 health: 60
 itemCapacity: 4

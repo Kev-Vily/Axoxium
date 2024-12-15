@@ -1,18 +1,20 @@
-type: Junction
-name: Steel Junction
-description: Let two ducts cross over each other. Fast speed but low capacities.
+type: DuctRouter
+name: Multifuction Router
+description: Router which could act like sorter but not let item input from any output and has one input. Fast speed but low capacities.
 health: 60
 itemCapacity: 4
 size: 1
 category: distribution
 requirements: [
-  axocopper/15
-  nickel/15
+  axocopper/20
+  nickel/20
+  cupronickel/5
 ]
 research: {
-  parent: steel-duct
+  parent: steel-router
   planet: axoxium-derepica
   requirements: [
-    axocopper/40
-    nickel/40
+    axocopper/100
+    nickel/100
+    cupronickel/20
   ]

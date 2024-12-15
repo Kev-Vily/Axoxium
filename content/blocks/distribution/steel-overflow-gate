@@ -1,2 +1,6 @@
 type:
+name: Steel Overflow Gate
+description: Input only one side output to sideways if can't output from the front. Fast speed but low capacities.
 health: 60
+size: 1
+itemCapacity: 4

@@ -30,21 +30,25 @@ allowLaunchToNumbered: false
 defaultEnv: 1
 mesh: [
   {
-    bloom: true
-    type: NoiseMesh
-    divisions: 6
-    radius: .9
-    color1: c8cdce
-    color2: a0babf
-    octaves: 3
-    persistence: 1.1
-    scale: 1.1
-    mag: 3.9
-    coct: 1.5
-    cper: 1.1
-    cscl: 0.7
-    cthresh: .4
-  }
+bloom: false
+type: SunMesh 
+divisions: 5
+radius: 3.6
+octaves: 1
+persistence: .5
+scl: 2
+pow: 2.2
+mag: 3
+colorScale: 1
+colors: [
+FFDC9F,
+9C8153,
+B8AF4E,
+756F31,
+43434F,
+272736,
+]
+}
 ]
 cloudMesh: [
   {

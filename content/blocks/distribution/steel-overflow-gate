@@ -3,13 +3,14 @@ name: Steel Overflow Gate
 description: Input only one side output to sideways if can't output from the front. Fast speed but low capacities.
 health: 60
 size: 1
+category: distribution
 itemCapacity: 4
 requirements: [
    copper/20
    nickel/20
 ]
 research: {
-   planet: derepica
+   planet: axoxium-derepica
    parent: steel-junction
    requirements: [
       copper/60

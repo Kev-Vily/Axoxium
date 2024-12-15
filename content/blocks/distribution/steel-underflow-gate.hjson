@@ -1,0 +1,19 @@
+type: OverflowDuct
+name: Steel Underflow Gate
+description: Input only one side output to front if can't output from the sideways. Fast speed but low capacities.
+health: 60
+size: 1
+category: distribution
+itemCapacity: 4
+requirements: [
+   copper/20
+   nickel/20
+]
+research: {
+   planet: axoxium-derepica
+   parent: steel-overflow-gate
+   requirements: [
+      copper/60
+      nickel/60
+   ]
+}

@@ -1,7 +1,7 @@
 type: Floor
-name: Acid Floor
+name: Acid Soil
 description: No description yet. Thy end is now.
 variants: 3
 attributes: {
-  charcoal: 99
+  charcoal: 1
 }

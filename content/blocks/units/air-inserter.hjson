@@ -31,8 +31,14 @@ research: {
   parent: mech-inserter
   planet: axoxium-derepica
   requirements: [
-    zirconium/9999999
+    zirconium/500
     nickel/250
     cupronickel/30
   ]
+objectives: [
+    {
+      type: SectorComplete
+      preset: greagios
+    }
+]
 }

@@ -6,14 +6,14 @@ size: 1
 category: distribution
 itemCapacity: 4
 requirements: [
-   copper/20
+   axocopper/20
    nickel/20
 ]
 research: {
    planet: axoxium-derepica
    parent: steel-junction
    requirements: [
-      copper/60
+      axocopper/60
       nickel/60
    ]
 }

@@ -1,0 +1,18 @@
+type: Junction
+name: Steel Junction
+description: Let two ducts cross over each other. Fast speed but low capacities.
+health: 60
+itemCapacity: 4
+size: 1
+category: distribution
+requirements: [
+  axocopper/15
+  nickel/15
+]
+research: {
+  parent: steel-duct
+  planet: axoxium-derepica
+  requirements: [
+    axocopper/40
+    nickel/40
+  ]

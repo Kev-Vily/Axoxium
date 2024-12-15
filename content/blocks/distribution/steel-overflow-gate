@@ -1,6 +1,18 @@
-type:
+type: OverflowDuct
 name: Steel Overflow Gate
 description: Input only one side output to sideways if can't output from the front. Fast speed but low capacities.
 health: 60
 size: 1
 itemCapacity: 4
+requirements: [
+   copper/20
+   nickel/20
+]
+research: {
+   planet: derepica
+   parent: steel-junction
+   requirements: [
+      copper/60
+      nickel/60
+   ]
+}

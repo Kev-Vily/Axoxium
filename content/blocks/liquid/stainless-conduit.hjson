@@ -1,1 +1,18 @@
 type: Conduit
+name: Stainless Conduit
+description: Can resist rust and corrosion from liquid. Move liquid along it's path, this one can input in any direction except output.
+health: 30
+size: 1
+requirements: [
+    zirconium/10
+    nickel/10
+]
+research: {
+    parent: core-crickel
+    planet: axoxium-derepica
+    requirements: [
+        zirconium/40
+        nickel/60
+    ]
+    objective: impact-crusher
+}

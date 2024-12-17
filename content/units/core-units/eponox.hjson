@@ -12,6 +12,8 @@ lowAltitude: false
 coreUnitDock: true
 defaultController: BuilderAI
 controller: BuilderAI
+fogRadius: 0
+canPayload: false
 mineSpeed: 5
 mineTier: 2
 isEnemy: false

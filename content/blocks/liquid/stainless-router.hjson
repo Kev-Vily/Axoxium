@@ -1,0 +1,17 @@
+type: liquidRouter
+name: Stainless Router
+description: Input and output liquid in all direction. Output equally on each side.
+health: 60
+category: liquid
+requirements: [
+  zirconium/20
+  nickel/15
+]
+research: {
+  planet: axoxium-derepica
+  parent: stainless-conduit
+  requirement: [
+    zirconium/90
+    nickel/70
+  ]
+}

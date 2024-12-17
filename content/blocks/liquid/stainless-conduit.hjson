@@ -3,9 +3,10 @@ name: Stainless Conduit
 description: Can resist rust and corrosion from liquid. Move liquid along it's path, this one can input in any direction except output.
 health: 30
 size: 1
+category: liquid
 requirements: [
-    zirconium/10
-    nickel/10
+    zirconium/5
+    nickel/5
 ]
 research: {
     parent: core-crickle

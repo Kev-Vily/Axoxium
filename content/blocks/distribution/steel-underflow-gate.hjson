@@ -3,6 +3,7 @@ name: Steel Underflow Gate
 description: Input only one side output to front if can't output from the sideways. Fast speed but low capacities.
 health: 60
 size: 1
+invert: true
 category: distribution
 itemCapacity: 4
 requirements: [

@@ -1,4 +1,18 @@
 type: AutoDoor
-health: 5
+description: Automatically open ups when allies units come near wall but also protects building from enemy projectiles while being closed.
+health: 400
 size: 2
 category: defense
+requirements: [
+  nickel/24
+  cupronickel/12
+]
+research: {
+  name: Derepica
+  requirements: [
+    nickel/400
+    cupronickel/200
+  ]
+  planet: axoxium-derepica
+  parent: small-nickel-wall
+}

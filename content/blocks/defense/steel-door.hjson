@@ -1,0 +1,4 @@
+type: door
+health: 5
+size: 2
+category: defense

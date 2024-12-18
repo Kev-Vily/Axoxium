@@ -4,6 +4,7 @@ description: If they died they would left hidden turret which slow firerate and 
 speed: 0
 targetable: false
 hittable: false
+physics: false
 health: 100
 canHeal: false
 rotateSpeed: 0
@@ -25,7 +26,7 @@ weapons: [
     y: 0
     shootSound: shootSmall
     shootStatus: sd-2
-    shootStatusDuration: 2
+    shootStatusDuration: 4
     bullet: {
       type: BasicBulletType
       damage: 0

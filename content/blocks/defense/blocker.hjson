@@ -3,7 +3,7 @@ name: Blocker
 health: 999999999
 destructible: true
 targetable: false
-forceShadow: true
+forceDark: true
 category: defense
 buildVisibility: OnlyEditor
 variants: 2

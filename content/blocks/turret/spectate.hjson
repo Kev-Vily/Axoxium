@@ -2,7 +2,7 @@ name: Spectate
 type: ItemTurret
 description: Basic mid-tier defense. Medium damage with fast firerated.
 health: 400
-range: 150
+range: 175
 size: 2
 reload: 10
 recoil: 1
@@ -24,7 +24,7 @@ ammoTypes: {
     damage: 12
     speed: 5
     ammoMultiplier: 3
-    lifetime: 37.5
+    lifetime: 35
     width: 7
     height: 10
   }

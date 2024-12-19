@@ -1,6 +1,6 @@
 type: StaticWall
-name: Blocker
+name: Small Blocker
 health: 999999999
 destructible: true
 targetable: false
-size: 2
+size: 1

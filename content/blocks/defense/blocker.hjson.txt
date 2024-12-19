@@ -1,0 +1,6 @@
+type: StaticWall
+name: Blocker
+health: 999999999
+destructible: true
+targetable: false
+size: 2

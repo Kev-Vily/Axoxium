@@ -1,6 +1,6 @@
-type: StaticWall
+type: staticWall
 name: Blocker
 health: 999999999
-destructible: true
+destructible: false
 targetable: false
 variants: 2

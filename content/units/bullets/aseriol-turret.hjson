@@ -35,7 +35,7 @@ weapons: [
       width: 7
       height: 10
       lifetime: 60
-      knockback: -0.5
+      knockback: -3
       status: hidden-debuff
     }
   }
@@ -43,9 +43,9 @@ weapons: [
     name: as-sd
     alwaysShooting: true
     shootSound: none
-    reload: 99999999999
+    reload: Infinity
     shootStatus: sd-1
-    shootStatusDuration: 999999999
+    shootStatusDuration: Infinity
     bullet: {
       type: BasicBulletType
       lifetime: 0

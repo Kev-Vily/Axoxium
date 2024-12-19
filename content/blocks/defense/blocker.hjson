@@ -5,5 +5,5 @@ destructible: true
 targetable: false
 forceDark: true
 category: defense
-buildVisibility: OnlyEditor
+buildVisibility: editorOnly
 variants: 2

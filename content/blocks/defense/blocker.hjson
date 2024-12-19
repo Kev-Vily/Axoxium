@@ -3,4 +3,7 @@ name: Blocker
 health: 999999999
 destructible: true
 targetable: false
+forceShadow: true
+previlege: true
+buildVisibilities: OnlyEditor
 variants: 2

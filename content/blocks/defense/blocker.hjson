@@ -4,6 +4,6 @@ health: 999999999
 destructible: true
 targetable: false
 forceShadow: true
-previlege: true
-buildVisibilities: OnlyEditor
+category: defense
+buildVisibility: OnlyEditor
 variants: 2

@@ -4,4 +4,3 @@ health: 999999999
 destructible: true
 targetable: false
 variants: 2
-size: 2

@@ -1,6 +1,6 @@
 type: AutoDoor
 description: Automatically open ups when allies units come near wall but also protects building from enemy projectiles while being closed.
-health: 400
+health: 4000
 size: 2
 category: defense
 requirements: [

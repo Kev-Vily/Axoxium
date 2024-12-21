@@ -22,7 +22,7 @@ groundLayer: 60
 weapons: [
   {
     name: insect-dasher
-    reload: 60
+    reload: 120
     top: false
     rotate: false
     mirror: false
@@ -57,7 +57,7 @@ weapons: [
     shootSound: none
     bullet: {
       type: RailBulletType
-      length: 20
+      length: 50
       damage: 24
       shootEffect: none
       despawnEffect: none

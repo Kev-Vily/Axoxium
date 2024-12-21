@@ -5,11 +5,11 @@ speed: 0.5
 health: 1500
 rotateSpeed: 2
 armor: 3
-hitSize: 20
+hitSize: 15
 rotateShooting: true
 weapons: [
   {
-    name: erforna-wrecker
+    name: erforna-blaster
     reload: 50
     top: false
     mirror: true
@@ -50,6 +50,18 @@ weapons: [
         sizeTo: 1
       }
     }
+  parts: [
+      {
+         type: regionPart
+         suffix: front
+         mirror: false
+         top: false
+         progress: recoil
+         moveRot: 0
+         moveY: -2
+         moveX: 0
+      }
+  ]
   }
 ]
 abilities: [

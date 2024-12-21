@@ -17,8 +17,8 @@ weapons: [
     inaccuracy: 0
     layerOffset: -0.00001
     shootY: 3
-    x: 5
-    y: 0
+    x: 7
+    y: 3
     shootSound: shootSmall
     bullet: {
       type: BasicBulletType
@@ -54,7 +54,7 @@ weapons: [
   parts: [
       {
          type: regionPart
-         suffix: -blaster-front
+         suffix: -front
          mirror: false
          under: true
          progress: recoil
@@ -64,7 +64,7 @@ weapons: [
       }
       {
          type: regionPart
-         suffix: -blaster-side
+         suffix: -side
          mirror: true
          under: true
          progress: warmup

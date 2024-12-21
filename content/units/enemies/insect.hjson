@@ -57,6 +57,7 @@ weapons: [
     shootSound: none
     bullet: {
       type: RailBulletType
+      length: 20
       damage: 24
       shootEffect: none
       despawnEffect: none

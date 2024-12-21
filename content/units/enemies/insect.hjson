@@ -54,12 +54,30 @@ weapons: [
     shootSound: none
     bullet: {
       type: RailBulletType
-      length: 10
+      length: 20
       damage: 24
       shootEffect: none
       despawnEffect: none
       hitEffect: none
       smokeEffect: none
     }
+    parts: [
+      {
+        mirror: true
+        suffix: -null
+        under: true
+        progress: warmup
+        moveX: 2
+        moveRot: -30
+        children: {
+           mirror: false
+           suffix: -side
+           under: true
+           progress: warmup
+           moveX: -2
+           moveRot: 30
+        }
+      }
+    ]
   }
 ]

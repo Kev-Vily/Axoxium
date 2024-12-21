@@ -13,12 +13,11 @@ weapons: [
     reload: 50
     top: false
     mirror: true
-    rotate: false
     inaccuracy: 0
     layerOffset: -0.00001
     shootY: 3
-    x: 9
-    y: 6
+    x: 12
+    y: 0
     shootSound: shootSmall
     bullet: {
       type: BasicBulletType

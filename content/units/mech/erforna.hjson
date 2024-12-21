@@ -53,13 +53,23 @@ weapons: [
   parts: [
       {
          type: regionPart
-         suffix: front
+         suffix: -blaster-front
          mirror: false
-         top: false
+         under: true
          progress: recoil
          moveRot: 0
          moveY: -2
          moveX: 0
+      }
+      {
+         type: regionPart
+         suffix: -blaster-side
+         mirror: true
+         under: true
+         progress: warmup
+         moveRot: 45
+         moveY: 0
+         moveX: 3
       }
   ]
   }

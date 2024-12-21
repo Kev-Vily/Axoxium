@@ -50,7 +50,7 @@ weapons: [
     layerOffset: -1.0e-4
     inaccuracy: 0
     x: 0
-    y: 4
+    y: 7
     shootSound: none
     bullet: {
       type: RailBulletType
@@ -71,11 +71,11 @@ weapons: [
         moveRot: -30
         moves: [
         {
-          type: PartMove
           progress: recoil
           y: -2
-          rotation: 30
+          rot: 30
         }
+        ]
       }
     ]
   }

@@ -4,7 +4,7 @@ localizedName: Blelilate
 description:
 '''
 Orchenova? This area are in a cave which [blue]ForTier [white]have been captured long ago... wait. They're coming back!!?? [red]PREPARE! [white]THE ENEMY HAS [red]MULTIPLE DROP ZONE.
-[]
+[lightgrey]Map mechanic: [cyan]<LineDrop>
 '''
 difficulty: 3
 captureWave: 2

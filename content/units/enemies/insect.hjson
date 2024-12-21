@@ -64,18 +64,17 @@ weapons: [
     parts: [
       {
         mirror: true
-        suffix: -null
+        suffix: -side
         under: true
         progress: warmup
         moveX: 2
         moveRot: -30
-        children: {
-           mirror: false
-           suffix: -side
-           under: true
-           progress: warmup
-           moveX: -2
-           moveRot: 30
+        moves: [
+        {
+          type: PartMove
+          progress: recoil
+          y: -2
+          rotation: 30
         }
       }
     ]

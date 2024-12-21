@@ -33,15 +33,14 @@ weapons: [
     shootSound: none
     bullet: {
       type: BasicBulletType
-      damage: 26
-      speed: 100
-      width: 0.01
-      height: 0.01
+      damage: 0
+      instantDisappear: true
       shootEffect: none
-      recoil: -5
+      recoil: -25
       impact: true
       lifetime: 1
-      despawnEffect: nonr
+      despawnEffect: none
+      hitEffect: none
       smokeEffect: none
     }
   }

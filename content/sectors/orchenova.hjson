@@ -1,0 +1,18 @@
+sector: 15
+planet: axoxium-derepica
+localizedName: Blelilate
+description:
+'''
+Orchenova? This area are in a cave which [blue]ForTier [white]have been captured long ago... wait. They're coming back!!?? [red]PREPARE! [white]THE ENEMY HAS [red]MULTIPLE DROP ZONE.
+[]
+'''
+difficulty: 3
+captureWave: 2
+research: {
+  parent: greagios
+  objectives: [
+    {
+      type: SectorCompleted
+      preset: greagios
+    }
+  ]

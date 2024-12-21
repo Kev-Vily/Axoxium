@@ -15,6 +15,7 @@ weapons: [
     mirror: true
     rotate: false
     inaccuracy: 0
+    layerOffset: -0.00001
     shootY: 3
     x: 5
     y: 0
@@ -67,7 +68,7 @@ weapons: [
          mirror: true
          under: true
          progress: warmup
-         moveRot: 45
+         moveRot: -45
          moveY: 0
          moveX: 3
       }

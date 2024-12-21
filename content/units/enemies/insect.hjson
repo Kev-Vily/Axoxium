@@ -26,10 +26,7 @@ weapons: [
     top: false
     rotate: false
     mirror: false
-    layerOffset: -1.0e-4
     inaccuracy: 0
-    x: 2
-    y: 0
     shootSound: none
     bullet: {
       type: BasicBulletType
@@ -52,8 +49,8 @@ weapons: [
     mirror: false
     layerOffset: -1.0e-4
     inaccuracy: 0
-    x: 2
-    y: 0
+    x: 0
+    y: 4
     shootSound: none
     bullet: {
       type: RailBulletType

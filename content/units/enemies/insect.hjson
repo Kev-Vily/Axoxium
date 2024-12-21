@@ -21,8 +21,8 @@ legMoveSpace: 1
 groundLayer: 60
 weapons: [
   {
-    name: insect-cutter
-    reload: 30
+    name: insect-dasher
+    reload: 60
     top: false
     rotate: false
     mirror: false
@@ -39,6 +39,26 @@ weapons: [
       recoil: -25
       impact: true
       lifetime: 1
+      despawnEffect: none
+      hitEffect: none
+      smokeEffect: none
+    }
+  }
+  {
+    name: insect-cutter
+    reload: 30
+    top: false
+    rotate: false
+    mirror: false
+    layerOffset: -1.0e-4
+    inaccuracy: 0
+    x: 2
+    y: 0
+    shootSound: none
+    bullet: {
+      type: RailBulletType
+      damage: 24
+      shootEffect: none
       despawnEffect: none
       hitEffect: none
       smokeEffect: none

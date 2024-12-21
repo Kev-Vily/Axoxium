@@ -28,6 +28,15 @@ ammoTypes: {
     width: 7
     height: 10
   }
+  zirconium: {
+    type: SharpnelBulletType
+    damage: 16
+    speed: 5
+    ammoMultiplier: 3
+    lifetime: 35
+    width: 7
+    height: 10
+  }
 }
 drawer: {
   type: DrawTurret

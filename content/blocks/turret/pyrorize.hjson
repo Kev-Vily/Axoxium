@@ -85,8 +85,8 @@ research: {
     impact-crusher
     vaporized-nickel
     {
-      type: SectorComplete
-      preset: intergate
+      type: OneSector
+      preset: orchenova
     }
   ]
 }

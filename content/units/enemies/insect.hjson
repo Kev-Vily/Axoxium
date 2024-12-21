@@ -34,7 +34,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
       damage: 0
-      instantDisappear: true
+      speed: 100
       shootEffect: none
       recoil: -25
       impact: true
@@ -57,7 +57,7 @@ weapons: [
     shootSound: none
     bullet: {
       type: RailBulletType
-      length: 50
+      length: 10
       damage: 24
       shootEffect: none
       despawnEffect: none

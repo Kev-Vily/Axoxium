@@ -29,7 +29,7 @@ ammoTypes: {
     height: 10
   }
   zirconium: {
-    type: SharpnelBulletType
+    type: ShrapnelBulletType
     damage: 16
     speed: 5
     ammoMultiplier: 3

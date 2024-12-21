@@ -32,6 +32,20 @@ drawer: {
 ambientSound: machine
 ambientSoundVolume: 0.08
 requirements: [
-  axocopper/30
+  axocopper/70
   nickel/50
+  cupronickel/10
 ]
+research: {
+    parent: cupronickel-arc-furnance
+    planet: axoxium-derepica
+    requirements: [
+        axocopper/180
+        nickel/100
+        cupronickel/30
+    ]
+    objective: {
+        type: OnSector
+        preset: orchenova
+    }
+}

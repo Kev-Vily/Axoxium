@@ -1,6 +1,6 @@
 type: legs
 name: Insect
-description: The prototype that has origin from insects biology, They use acid to attack.
+description: The prototype that has origin from insects biology, They use those yeeth like parts to attack.
 speed: 1
 health: 900
 itemCapacity: 5
@@ -21,41 +21,28 @@ legMoveSpace: 1
 groundLayer: 60
 weapons: [
   {
-    name: insect-acid
+    name: insect-cutter
     reload: 30
     top: false
     rotate: false
+    mirror: false
     layerOffset: -1.0e-4
     inaccuracy: 0
     x: 2
-    y: 4.5
-    shootSound: shootSmall
+    y: 0
+    shootSound: none
     bullet: {
       type: BasicBulletType
       damage: 26
-      speed: 9
+      speed: 100
       width: 0.01
       height: 0.01
       shootEffect: none
-      lifetime: 8
-      pierce: true
-      pierceBuilding: true
-      ammoMultiplier: 5
-      despawnEffect: none
-      status: acid-melting
-      statusDuration: 500
-      smokeEffect: {
-        type: ParticleEffect
-        particles: 25
-        length: 70
-        lifetime: 15
-        interp: circleOut
-        cone: 3
-        colorFrom: 006f1c
-        colorTo: 00964a
-        sizeFrom: 5
-        sizeTo: 0.6
-      }
+      recoil: -5
+      impact: true
+      lifetime: 1
+      despawnEffect: nonr
+      smokeEffect: none
     }
   }
 ]

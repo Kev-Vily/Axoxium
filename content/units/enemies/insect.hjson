@@ -22,7 +22,7 @@ groundLayer: 60
 weapons: [
   {
     name: insect-dasher
-    reload: 120
+    reload: 300
     top: false
     rotate: false
     mirror: false

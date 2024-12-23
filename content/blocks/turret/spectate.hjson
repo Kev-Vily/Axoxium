@@ -36,6 +36,7 @@ ammoTypes: {
     lifetime: 35
     width: 7
     height: 10
+    collideGround: true
   }
 }
 drawer: {

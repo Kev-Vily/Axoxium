@@ -1,7 +1,7 @@
 type: legs
 name: Insect
 description: The prototype that has origin from insects biology, They use those yeeth like parts to attack.
-speed: 1
+speed: 0.8
 health: 900
 itemCapacity: 5
 rotateSpeed: 6

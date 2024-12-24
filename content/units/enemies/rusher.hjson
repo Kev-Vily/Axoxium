@@ -16,7 +16,7 @@ weapons: [
     recoil: 25
     impact: true
     bullet: {
-      type: ExplosionBulletType
+      type: BasicBulletType
       splashDamage: 305
       lifetime: 0
       splashDamageRadius: 30

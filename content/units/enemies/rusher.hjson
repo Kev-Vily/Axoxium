@@ -16,7 +16,8 @@ weapons: [
     bullet: {
       type: BasicBulletType
       splashDamage: 305
-      lifetime: 0
+      lifetime: 1
+      speed: 10
       recoil: 25
       impact: true
       splashDamageRadius: 30
@@ -24,7 +25,7 @@ weapons: [
   }
   {
     reload: 1
-    shake: 1
+    shootCone: 360
     shootStatus: rusher-run
     shootStatusDuration: 2
     bullet: {

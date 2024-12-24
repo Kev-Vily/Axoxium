@@ -12,6 +12,7 @@ weapons: [
     shootCone: 360
     shake: 1
     shootStatus: unmoving
+    shootStatusDuration: 60
     recoil: 25
     impact: true
     bullet: {

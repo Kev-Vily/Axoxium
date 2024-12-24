@@ -7,6 +7,19 @@ rotateSpeed: 2
 armor: 6
 hitSize: 40
 weapons: [
+  {
+    reload: 60
+    shootCone: 360
+    shake: 1
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 305
+      lifetime: 0
+      splashDamageRadius: 30
+      recoil: 25
+      impact: true
+    }
+  }
 ]
 abilities: [
 ]

@@ -1,5 +1,5 @@
 type: mech
-name: Erforna
+name: Rusher
 description: Fire a homing bullets which deals area damages. When die would turn back to Aseriol.
 speed: 0.5
 health: 3000
@@ -11,13 +11,14 @@ weapons: [
     reload: 60
     shootCone: 360
     shake: 1
+    shootStatus: unmoving
+    recoil: 25
+    impact: true
     bullet: {
       type: ExplosionBulletType
       splashDamage: 305
       lifetime: 0
       splashDamageRadius: 30
-      recoil: 25
-      impact: true
     }
   }
 ]

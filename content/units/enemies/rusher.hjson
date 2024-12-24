@@ -1,0 +1,12 @@
+type: mech
+name: Erforna
+description: Fire a homing bullets which deals area damages. When die would turn back to Aseriol.
+speed: 0.5
+health: 3000
+rotateSpeed: 2
+armor: 6
+hitSize: 40
+weapons: [
+]
+abilities: [
+]

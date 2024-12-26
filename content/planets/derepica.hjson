@@ -14,6 +14,7 @@ allowLaunchLoadout: false
 allowWaveSimulation: true
 tidalLock: true
 enemyBuildSpeedMultiplier: 0.4
+campaignRuleDefaults.showSpawns: true
 parent: sun
 radius: 1.4
 minZoom: .5

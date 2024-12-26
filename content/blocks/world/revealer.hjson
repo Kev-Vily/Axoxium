@@ -1,5 +1,7 @@
 type: Radar
 name: Revealer
+health: 120
 fogRadius: 300
 revealTime: 60
 glowColor: ffffff
+category: effect

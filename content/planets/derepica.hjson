@@ -12,6 +12,8 @@ orbitTime: 540
 allowLaunchSchematics: false
 allowLaunchLoadout: false
 allowWaveSimulation: true
+tidalLock: true
+enemyBuildSpeedMultiplier: 0.4
 parent: sun
 radius: 1.4
 minZoom: .5

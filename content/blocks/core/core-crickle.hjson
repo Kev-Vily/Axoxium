@@ -10,6 +10,7 @@ squareSprite: false
 hasItems: true
 hasColor: true
 alwaysUnlocked: true
+requiresCoreZone: true
 requirements: [
   nickel/1500
   zirconium/200

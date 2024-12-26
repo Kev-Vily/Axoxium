@@ -1,2 +1,5 @@
-type:
+type: Radar
 name: Revealer
+fogRadius: 300
+revealTime: 60
+glowColor: ffffff

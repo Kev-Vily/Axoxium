@@ -8,6 +8,7 @@ itemWhitelist: [
   cupronickel
 ]
 clearSectorOnLose: true
+updateLighting: false
 orbitTime: 540
 allowLaunchSchematics: false
 allowLaunchLoadout: false

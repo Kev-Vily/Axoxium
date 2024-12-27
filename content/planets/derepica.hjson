@@ -80,11 +80,3 @@ cloudMesh: [
     thresh: 0.3
   }
 ]
-ruleSetter: {
-                r.waveTeam: Team.blue
-                r.placeRangeCheck: false
-                r.showSpawns: true
-                r.lighting: false
-                r.coreDestroyClear: true
-                r.onlyDepositCore: true
-}

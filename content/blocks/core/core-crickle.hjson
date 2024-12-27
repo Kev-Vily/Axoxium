@@ -12,10 +12,8 @@ hasColor: true
 alwaysUnlocked: true
 requiresCoreZone: true
 requirements: [
-  nickel/1500
-  zirconium/200
-  cupronickel/400
-  axocopper/800
+  nickel/1000
+  axocopper/2000
 ]
 research: {
   root: true

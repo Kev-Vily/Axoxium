@@ -15,5 +15,9 @@ research: {
       type: SectorCompleted
       preset: greagios
     }
+    {
+      type: SectorCompleted
+      preset: intergate
+    }
   ]
 }

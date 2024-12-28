@@ -2,5 +2,6 @@ type: SteamVent
 name: One Tile Vent Master 
 parent: stone
 offset: [
-  (0,0)
+  0
+  0
 ]

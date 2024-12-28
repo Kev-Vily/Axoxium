@@ -1,0 +1,10 @@
+type: SteamVent
+name: One Tile Vent Master 
+parent: stone
+offset: [
+  {
+  type: Point2
+  x: 0
+  y: 0
+  }
+]

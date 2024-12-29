@@ -4,7 +4,7 @@ description: Use Acid vent's heat to generated power and condense and extract hy
 size: 3
 squareSprite: false
 attribute: steam
-boostScale: 0.1111111111111
+boostScale: 0.1111111111111111111111111111111111
 outputLiquid: hydrochloric/0.05
 liquidCapacity: 12
 minEfficiency: 0.9

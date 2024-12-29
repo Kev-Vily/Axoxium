@@ -1,5 +1,6 @@
 type: AttributeCrafter
-attribute: charcoal
+name: Organic Extraction Center
+attribute: "organic"
 size: 2
 health: 150
 baseEfficiency: 0.0

@@ -22,7 +22,7 @@ updateEffect: {
    sizeFrom: 6
    layer: 9
    sizeTo: 0.3
-   interp: easeIn
+   interp: pow2In
 }
 consumes: {
   power: 0.5

@@ -9,6 +9,7 @@ outputLiquid: hydrochloric/0.05
 liquidCapacity: 12
 minEfficiency: 0.9
 powerProduction: 4
+displayEfficiency: false
 requirements: [
   axocopper/50
   zirconium/60

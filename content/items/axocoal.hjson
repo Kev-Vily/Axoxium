@@ -3,8 +3,8 @@ description: Gather from acidic forest so they had less combustion properties. B
 cost: 0.7
 color: a8a8a8
 hardness: 1
-flammability: 100
-explosiveness: 50
+flammability: 1
+explosiveness: 0.5
 hiddenOnPlanet: [
   erekir
   serpulo

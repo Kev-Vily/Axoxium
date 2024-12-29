@@ -3,5 +3,5 @@ name: Acid Soil
 description: No description yet. Thy end is now.
 variants: 3
 attributes: {
-  "organic": 2
+  organic: 2
 }

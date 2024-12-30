@@ -1,3 +1,4 @@
 type: Wall
 size: 2
 health: 400
+requireWater: true

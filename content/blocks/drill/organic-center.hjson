@@ -17,14 +17,15 @@ craftEffect: pulverize
 updateEffect: {
    type: ParticleEffect
    particles: 5
-   baseLength: 50
-   length: -50
-   sizeFrom: 6
+   baseLength: 0
+   length: 50
+   sizeFrom: 3
    layer: 9
    sizeTo: 0.3
    colorFrom: ffffff00
    colorTo: ffffff88
-   interp: pow2In
+   interp: reverse
+   sizeInterp: pow2In
 }
 consumes: {
   power: 0.5

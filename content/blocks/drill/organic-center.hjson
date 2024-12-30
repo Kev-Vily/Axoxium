@@ -18,7 +18,7 @@ updateEffect: {
    type: ParticleEffect
    particles: 5
    baseLength: 50
-   length: 0
+   length: -50
    sizeFrom: 6
    layer: 9
    sizeTo: 0.3

@@ -1,6 +1,6 @@
 type: legs
-name: Insect
-description: The prototype that has origin from insects biology, They use those yeeth like parts to attack.
+name: Agleas
+description: One of the insects life form in the Derepica. Got soaked into acid and evolve to survive but they all lost their queen during the ACID RAIN incident. Some of them got put into experiment and escaped so now t
 speed: 0.8
 health: 900
 itemCapacity: 5
@@ -69,7 +69,7 @@ weapons: [
         under: true
         progress: warmup
         moveX: 2
-        moveY: 5
+        moveY: 2.5
         moveRot: -30
         moves: [
         {

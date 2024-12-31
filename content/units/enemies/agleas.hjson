@@ -1,34 +1,83 @@
-type: mech
-name: Agleas
-description: The prototype that has origin from insects biology, They use acid to attack.
-speed: 1.5
+type: legs
+name: Insect
+description: The prototype that has origin from insects biology, They use those yeeth like parts to attack.
+speed: 0.8
 health: 900
-itemCapacity: 0
+itemCapacity: 5
 rotateSpeed: 6
 hitSize: 7
 rotateShooting: true
-controller: HugAI
+hovering: false
+legStraightness: 0.3
+legContinuousMove: true
+lockLegBase: true
+legGroupSize: 4
+legCount: 6
+legExtension: -2
+legLength: 10
+legSpeed: 1.5
+legForwardScl: 0.7
+legMoveSpace: 1
+groundLayer: 60
 weapons: [
   {
-    name: agleas-mouth
-    reload: 20
+    name: agleas-dasher
+    reload: 200
+    top: false
+    rotate: false
+    mirror: false
+    inaccuracy: 0
+    shootSound: none
+    bullet: {
+      type: BasicBulletType
+      damage: 0
+      speed: 100
+      shootEffect: none
+      recoil: -25
+      impact: true
+      lifetime: 1
+      despawnEffect: none
+      hitEffect: none
+      smokeEffect: none
+    }
+  }
+  {
+    name: agleas-teeth
+    reload: 30
     top: false
     rotate: false
     mirror: false
     layerOffset: -1.0e-4
     inaccuracy: 0
     x: 0
-    y: 4.5
-    shootSound: shootSmall
+    y: 10
+    shootSound: none
     bullet: {
-      type: BasicBulletType
-      damage: 26
-      lifetime: 3
-      speed: 9
-      width: 0.01
-      height: 0.01
+      type: RailBulletType
+      length: 20
+      damage: 60
       shootEffect: none
       despawnEffect: none
+      hitEffect: none
+      smokeEffect: none
     }
+    parts: [
+      {
+        mirror: true
+        suffix: -side
+        under: true
+        progress: warmup
+        moveX: 2
+        moveY: 5
+        moveRot: -30
+        moves: [
+        {
+          progress: recoil
+          x: -2
+          rot: 30
+        }
+        ]
+      }
+    ]
   }
 ]

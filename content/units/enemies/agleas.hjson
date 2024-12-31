@@ -19,6 +19,7 @@ legSpeed: 1.5
 legForwardScl: 0.7
 legMoveSpace: 1
 groundLayer: 60
+drawCell: false
 weapons: [
   {
     name: agleas-dasher

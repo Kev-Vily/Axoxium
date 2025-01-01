@@ -20,6 +20,7 @@ legForwardScl: 0.7
 legMoveSpace: 1
 groundLayer: 60
 drawCell: false
+outlineColor: 67602eff
 weapons: [
   {
     name: agleas-dasher

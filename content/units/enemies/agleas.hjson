@@ -14,7 +14,7 @@ lockLegBase: true
 legGroupSize: 4
 legCount: 6
 legExtension: -2
-legLength: 20
+legLength: 15
 legSpeed: 1.5
 legForwardScl: 0.7
 legMoveSpace: 1

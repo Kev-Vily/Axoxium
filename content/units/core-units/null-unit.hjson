@@ -1,0 +1,7 @@
+type: flying
+name: Null unit
+description: <REDACTED>
+speed: 0
+flying: true
+drawBody: false
+drawCell: false

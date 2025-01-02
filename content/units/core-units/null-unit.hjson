@@ -9,4 +9,6 @@ drawMap: false
 physics: false
 hittable: false
 targetable: false
-lowAttitude: true
+lowAltitude: true
+engineSize: 0
+shadowScale: 0

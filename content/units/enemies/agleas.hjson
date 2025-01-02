@@ -21,7 +21,6 @@ legMoveSpace: 1
 groundLayer: 60
 drawCell: false
 outlineColor: 67602eff
-createWreck false
 createScorch: false
 weapons: [
   {

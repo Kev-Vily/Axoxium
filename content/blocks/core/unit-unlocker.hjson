@@ -2,3 +2,5 @@ type: CoreBlock
 size: 1
 health: 1000000000
 itemCapacity: 0
+category: effect
+unitType: null

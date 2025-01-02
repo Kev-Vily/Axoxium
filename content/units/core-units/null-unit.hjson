@@ -5,7 +5,7 @@ speed: 0
 flying: true
 drawBody: false
 drawCell: false
-drawMiniMap: false
+drawMinimap: false
 physics: false
 hittable: false
 targetable: false

@@ -1,7 +1,12 @@
 type: flying
-name: Null unit
+name: Null Unit
 description: <REDACTED>
 speed: 0
 flying: true
 drawBody: false
 drawCell: false
+drawMap: false
+physics: false
+hittable: false
+targetable: false
+lowAttitude: true

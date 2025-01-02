@@ -6,8 +6,8 @@ description:
 [green]Agleas's nest[] detected on our ways! Seems like this sector are the origins of those insect mechanical. After they got out from enemy experiments they seem to get agressive whenever they see a machine. Oh wait. The enemy tries to get those insects back, Fast! protect them even if they seems to attack us!
 [grey]Map Mechanics: [green]<NestSpawn(Agleas)(54~62)>
 '''
-difficulty: 1
-captureWave: 10
+difficulty: 3
+captureWave: 20
 research: {
   parent: greagios
   objectives: [

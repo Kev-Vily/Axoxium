@@ -3,7 +3,7 @@ size: 1
 health: 999999999
 itemCapacity: 0
 category: effect
-unitType: null
+unitType: null-unit
 unitCapModifier: +20
 forceDark: true
 targetable: false

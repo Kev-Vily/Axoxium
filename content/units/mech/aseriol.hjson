@@ -23,7 +23,7 @@ weapons: [
       type: BasicBulletType
       damage: 26
       shootEffect: shootSmall
-      sprite: arrow-point
+      sprite: axoxium-arrow-point
       speed: 4
       width: 4
       height: 7

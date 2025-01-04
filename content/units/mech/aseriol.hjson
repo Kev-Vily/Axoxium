@@ -23,7 +23,7 @@ weapons: [
       type: BasicBulletType
       damage: 26
       shootEffect: shootSmall
-      smokeEffect: shootDisperse
+      smokeEffect: shootSmokeDisperse
       sprite: axoxium-arrow-bullet
       speed: 4
       width: 10

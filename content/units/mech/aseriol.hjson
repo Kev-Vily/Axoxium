@@ -28,7 +28,7 @@ weapons: [
       speed: 8.5
       width: 10
       height: 10
-      lifetime: 37
+      lifetime: 17
       trailRotation: true
       trailEffect: disperseTrail
       trailChance: 0.44

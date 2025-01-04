@@ -8,7 +8,7 @@ hitSize: 10
 rotateShooting: true
 weapons: [
   {
-    name: aseriol-w-wrecker
+    name: aseriol-cannon
     reload: 20
     layerOffset: -1.0e-4
     top: false

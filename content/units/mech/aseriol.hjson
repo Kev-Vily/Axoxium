@@ -32,6 +32,8 @@ weapons: [
       trailRotation: true
       trailEffect: disperseTrail
       trailChance: 0.44
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
     }
   }
 ]

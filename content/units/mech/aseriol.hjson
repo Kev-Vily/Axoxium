@@ -23,8 +23,9 @@ weapons: [
       type: BasicBulletType
       damage: 26
       shootEffect: shootSmall
+      sprite: arrow-point
       speed: 4
-      width: 7
+      width: 4
       height: 7
       lifetime: 30
     }

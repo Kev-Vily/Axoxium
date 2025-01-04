@@ -29,10 +29,9 @@ weapons: [
       width: 10
       height: 10
       lifetime: 37
-      rotationOffset: 90
       trailRotation: true
       trailEffect: disperseTrail
-
+      trailChance: 0.44
     }
   }
 ]

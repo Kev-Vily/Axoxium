@@ -25,7 +25,7 @@ weapons: [
       shootEffect: shootSmall
       smokeEffect: shootSmokeDisperse
       sprite: axoxium-arrow-bullet
-      speed: 4
+      speed: 8.5
       width: 10
       height: 10
       lifetime: 37

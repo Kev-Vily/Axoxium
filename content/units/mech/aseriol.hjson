@@ -23,11 +23,17 @@ weapons: [
       type: BasicBulletType
       damage: 26
       shootEffect: shootSmall
+      smokeEffect: shootDisperse
       sprite: axoxium-arrow-bullet
       speed: 4
       width: 10
       height: 10
       lifetime: 37
+      lifetime = 34f;
+      rotationOffset: 90
+      trailRotation: true
+      trailEffect: disperseTrail
+
     }
   }
 ]

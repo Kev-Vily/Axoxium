@@ -27,7 +27,7 @@ weapons: [
       speed: 4
       width: 10
       height: 10
-      lifetime: 30
+      lifetime: 37
     }
   }
 ]

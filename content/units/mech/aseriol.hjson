@@ -18,12 +18,12 @@ weapons: [
     shootY: 3
     x: -8
     y: 0
-    shootSound: laser-blast
     bullet: {
       type: BasicBulletType
       damage: 26
       shootEffect: shootSmall
       smokeEffect: shootSmokeDisperse
+      shootSound: laser-blast
       sprite: axoxium-arrow-bullet
       speed: 8.5
       width: 14

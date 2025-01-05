@@ -12,4 +12,9 @@ effect: {
       colorFrom: 99a5ff44
       colorTo: 99a5ffa8
       baseRotation: 90
+      useRotation: false
+      sizeFrom: 2
+      sizeTo: 2
+      length: 20
+      region: axoxium-arrow-effect
 }

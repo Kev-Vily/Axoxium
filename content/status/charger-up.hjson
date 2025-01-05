@@ -11,7 +11,7 @@ effect: {
       particles: 1
       colorFrom: 99a5ff44
       colorTo: 99a5ffa8
-      baseRotation: 0
+      baseRotation: 90
       useRotation: false
       sizeFrom: 4
       sizeTo: 4

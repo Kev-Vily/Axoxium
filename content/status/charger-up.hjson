@@ -13,8 +13,8 @@ effect: {
       colorTo: 99a5ffa8
       baseRotation: 0
       useRotation: false
-      sizeFrom: 6
-      sizeTo: 6
+      sizeFrom: 4
+      sizeTo: 4
       length: 20
       region: axoxium-arrow-effect
       cone: 0

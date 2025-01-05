@@ -5,3 +5,6 @@ color: ffffff
 speedMultiplier: 2
 effect: none
 hidden: true
+parentizeApplyEffect: true
+effect: {
+}

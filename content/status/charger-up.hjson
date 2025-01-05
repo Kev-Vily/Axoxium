@@ -8,14 +8,15 @@ hidden: true
 parentizeApplyEffect: true
 effect: {
       type: ParticleEffect
-      particles: 4
+      particles: 1
       colorFrom: 99a5ff44
       colorTo: 99a5ffa8
       baseRotation: 0
       useRotation: false
-      sizeFrom: 2
-      sizeTo: 2
+      sizeFrom: 6
+      sizeTo: 6
       length: 20
       region: axoxium-arrow-effect
       cone: 0
+      cap: false
 }

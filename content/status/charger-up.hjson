@@ -6,6 +6,7 @@ speedMultiplier: 2
 effect: none
 hidden: true
 parentizeApplyEffect: true
+parentizeEffect: true
 effect: {
       type: ParticleEffect
       particles: 1

@@ -19,7 +19,7 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       splashDamage: 305
-      splashDamageRadius: 30
+      splashDamageRadius: 32
     }
   }
 ]
@@ -53,7 +53,7 @@ abilities: [
     activeEffect: {
           type: ParticleEffect
           particles: 1
-          lifeTime: 90
+          lifeTime: 60
           colorFrom: ffffffff
           colorTo: ffffff00
           baseRotation: 90

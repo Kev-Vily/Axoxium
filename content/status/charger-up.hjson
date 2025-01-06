@@ -15,10 +15,26 @@ effect: {
       baseRotation: 90
       useRotation: false
       sizeFrom: 4
-      rotWithParent: true
       sizeTo: 4
-      length: 20
+      length: 10
       region: axoxium-arrow-effect
       cone: 0
       cap: false
+}
+applyEffect: {
+      type: ParticleEffect
+      particles: 1
+      colorFrom: 99a5ffff
+      colorTo: 99a5ff00
+      baseRotation: 90
+      randLength: false
+      offsetX: 0
+      offsetY: 0
+      useRotation: false
+      sizeFrom: 0.2
+      sizeTo: 5
+      length: 0
+      region: axoxium-charge-up
+      cone: 0
+      sizeInterp: pow2Out
 }

@@ -30,6 +30,7 @@ abilities: [
     duration: 270
     reload: 180
     range: 150
+    parentizeEffects: true
     applyEffect: {
       type: ParticleEffect
           particles: 1
@@ -38,12 +39,13 @@ abilities: [
           colorFrom: 99a5ffff
           colorTo: 99a5ff00
           baseRotation: 90
+          offset: -90
           randLength: false
           offsetX: 0
           offsetY: 0
           useRotation: false
-          sizeFrom: 0.2
-          sizeTo: 5
+          sizeFrom: 5
+          sizeTo: 30
           length: 0
           region: axoxium-charge-up
           cone: 0

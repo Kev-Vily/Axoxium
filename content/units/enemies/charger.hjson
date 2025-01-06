@@ -30,5 +30,24 @@ abilities: [
     duration: 270
     reload: 180
     range: 150
+    applyEffect: {
+      type: ParticleEffect
+          particles: 1
+          startDelay: 20
+          lifeTime: 90
+          colorFrom: 99a5ffff
+          colorTo: 99a5ff00
+          baseRotation: 90
+          randLength: false
+          offsetX: 0
+          offsetY: 0
+          useRotation: false
+          sizeFrom: 0.2
+          sizeTo: 5
+          length: 0
+          region: axoxium-charge-up
+          cone: 0
+          sizeInterp: pow2Out
+      }
   }
 ]

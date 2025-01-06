@@ -8,6 +8,33 @@ rotateSpeed: 6
 hitSize: 5
 rotateShooting: true
 hovering: false
+parts: [
+	{
+		type: HoverPart
+		x: 0
+		y: 0
+		sides: 60
+		mirror: false
+		radius: 368
+		phase: 420
+		stroke: 3
+		circles: 4
+		minStroke: 0.5
+		layer: 29
+		color: ffd37f
+	}
+	{
+		x: 0
+		y: 0
+		type: ShapePart
+		circle: true
+		hollow: true
+		radius: 366
+		stroke: 4
+		layer: 29
+		color: ffd37f
+	}
+]
 weapons: [
   {
     reload: 1

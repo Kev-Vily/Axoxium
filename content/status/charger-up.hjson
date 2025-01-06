@@ -24,6 +24,8 @@ effect: {
 applyEffect: {
       type: ParticleEffect
       particles: 1
+      startDelay: 20
+      lifeTime: 90
       colorFrom: 99a5ffff
       colorTo: 99a5ff00
       baseRotation: 90

@@ -32,7 +32,7 @@ abilities: [
     range: 150
     parentizeEffects: true
     applyEffect: {
-      type: ParticleEffect
+          type: ParticleEffect
           particles: 1
           lifeTime: 90
           colorFrom: 99a5ffff
@@ -47,6 +47,25 @@ abilities: [
           sizeTo: 30
           length: 0
           region: axoxium-charge-up
+          cone: 0
+          sizeInterp: pow2Out
+      }
+    activeEffect: {
+          type: ParticleEffect
+          particles: 1
+          lifeTime: 90
+          colorFrom: ffffffff
+          colorTo: ffffff00
+          baseRotation: 90
+          offset: -90
+          randLength: false
+          offsetX: 0
+          offsetY: 0
+          useRotation: false
+          sizeFrom: 5
+          sizeTo: 30
+          length: 0
+          region: axoxium-charge-release
           cone: 0
           sizeInterp: pow2Out
       }

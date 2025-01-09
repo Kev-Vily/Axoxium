@@ -16,7 +16,7 @@ maxRange: 180
 rotateShooting: true
 weapons: [
   {
-    name: helias-blaster
+    name: crimatro-swarm
     reload: 40
     top: true
     mirror: true

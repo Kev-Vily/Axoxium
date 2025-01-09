@@ -8,7 +8,7 @@ faceTarget: true
 armor: 0
 speed: 4
 accel: 0.2
-drag: 0.3
+drag: 0.7
 flying: true
 rotateSpeed: 5
 hitSize: 10
@@ -38,7 +38,7 @@ weapons: [
       shrinkY: 0
       lifetime: 40
       splashDamageRadius: 50
-      splashDamage: 40
+      splashDamage: 30
       backColor: ffffff
       frontColor: ffffff
       trailLength: 10

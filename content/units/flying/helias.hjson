@@ -27,7 +27,7 @@ weapons: [
     shootEffect: none
     x: 0
     y: 4
-    layerOffset: -0.00001
+    layerOffset: 1
     bullet: {
       type: BasicBulletType
       sprite: circle-bullet

@@ -7,7 +7,7 @@ singleTarget: true
 faceTarget: true
 armor: 0
 speed: 4
-accel: 0.8
+accel: 0.4
 drag: 0.6
 flying: true
 rotateSpeed: 5

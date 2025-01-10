@@ -82,5 +82,14 @@ weapons: [
         colorTo: ffffff00
       }
     }
+   parts: [
+      {
+         type: RegionPart
+         suffix: -front
+         progress: warmup
+         moveX: 1
+         moveY: -1
+      }
+   ]
   }
 ]

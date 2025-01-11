@@ -73,6 +73,11 @@ weapons: [
             sizeTo: 50
             strokeFrom: 6
           }
+          {
+          type: WrapEffect
+          color: 6af484ff
+          rotation: 24
+          }
         ]
       }
       despawnEffect: none

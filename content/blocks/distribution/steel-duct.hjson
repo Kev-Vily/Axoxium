@@ -6,8 +6,7 @@ itemCapacity: 4
 size: 1
 category: distribution
 requirements: [
-  axocopper/2
-  nickel/2
+  axocopper/1
 ]
 research: {
   parent: core-crickle

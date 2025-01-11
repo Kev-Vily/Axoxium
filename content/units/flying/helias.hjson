@@ -35,7 +35,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
       sprite: axoxium-cross-bullet
-      bottomSprite: axoxium-cross-bullet-bottom
+      backSprite: axoxium-cross-bullet-bottom
       width: 5
       height: 5
       speed: 5
@@ -45,11 +45,11 @@ weapons: [
       lifetime: 40
       splashDamageRadius: 50
       splashDamage: 30
-      backColor: ffffff
-      frontColor: ffffff
+      backColor: 6af484ff
+      frontColor: ffffffff
       trailEffect: artilleryTrail
       trailInterval: 0.333
-      trailColor: ffffff
+      trailColor: 6af484ff
       parts: [
         {
           type: FlarePart
@@ -66,6 +66,8 @@ weapons: [
         effects: [
           {
             type: WaveEffect
+            lifetime: 30
+            color: 6af484ff
             sizeFrom: 50
             sizeTo: 50
             strokeFrom: 6
@@ -84,19 +86,7 @@ weapons: [
           }
         ]
       }
-      despawnEffect: {
-        type: ParticlesEffect
-        sizeFrom: 3
-        sizeTo: 1
-        particles: 15
-        cone: 360
-        baseLength: 0
-        length: 40
-        lifetime: 30
-        colorFrom: ffffffff
-        colorTo: ffffff00
-      }
-    }
+      despawnEffect: none
    parts: [
       {
          type: RegionPart

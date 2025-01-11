@@ -48,7 +48,7 @@ weapons: [
       backColor: ffffff
       frontColor: ffffff
       trailEffect: artilleryTrail
-      trailChance: 0.333
+      trailInterval: 0.333
       trailColor: ffffff
       parts: [
         {

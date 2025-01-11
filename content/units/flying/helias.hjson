@@ -72,18 +72,7 @@ weapons: [
             sizeTo: 50
             strokeFrom: 6
           }
-          {
-            type: ParticlesEffect
-            sizeFrom: 3
-            sizeTo: 1
-            particles: 15
-            cone: 360
-            baseLength: 0
-            length: 40
-            lifetime: 30
-            colorFrom: ffffffff
-            colorTo: ffffff00
-          }
+          dynamicExplosion
         ]
       }
       despawnEffect: none

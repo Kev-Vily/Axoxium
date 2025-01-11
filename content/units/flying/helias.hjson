@@ -78,7 +78,7 @@ weapons: [
           type: WrapEffect
           color: 6af484ff
           rotation: 24
-          effect: dynamicSpike
+          effect: dynamicSpikes
           }
         ]
       }

@@ -49,8 +49,17 @@ weapons: [
       trailLength: 10
       trailWidth: 5
       trailColor: ffffff
-      weaveMag: 3
-      weaveSize: 1
+      parts: [
+        {
+          type: FlarePart
+          progress: lifetime
+          radius: 0
+          radiusTo: 35
+          stroke: 3
+          rotation: 45
+          followRotation: true
+        }
+      ]
       hitEffect: {
         type: MultiEffect
         effects: [

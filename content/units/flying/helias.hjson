@@ -58,8 +58,8 @@ weapons: [
           radius: 0
           radiusTo: 35
           stroke: 3
-          rotation: 45
-          followRotation: true
+          rotation: 0
+          followRotation: false
         }
       ]
       hitEffect: {

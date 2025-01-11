@@ -12,7 +12,7 @@ plans: [
       cupronickel/30
       nickel/40
     ]
-    time: 660
+    time: 960
   }
 ]
 consumes: {

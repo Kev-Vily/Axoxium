@@ -34,7 +34,8 @@ weapons: [
     layerOffset: 0
     bullet: {
       type: BasicBulletType
-      sprite: circle-bullet
+      sprite: axoxium-cross-bullet
+      bottomSprite: axoxium-cross-bullet-bottom
       width: 5
       height: 5
       speed: 5
@@ -46,6 +47,7 @@ weapons: [
       splashDamage: 30
       backColor: ffffff
       frontColor: ffffff
+      trailEffect: artilleryTrail
       trailLength: 10
       trailWidth: 5
       trailColor: ffffff

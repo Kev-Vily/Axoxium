@@ -75,6 +75,7 @@ weapons: [
         ]
       }
       despawnEffect: none
+     }
    parts: [
       {
          type: RegionPart
@@ -87,6 +88,5 @@ weapons: [
          moveY: -1
       }
    ]
-  }
 }
 ]

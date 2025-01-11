@@ -54,7 +54,7 @@ weapons: [
       parts: [
         {
           type: FlarePart
-          progress: lifetime
+          progress: life
           radius: 0
           radiusTo: 35
           stroke: 3

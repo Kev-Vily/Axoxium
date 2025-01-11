@@ -1,4 +1,4 @@
-&type: flying
+type: flying
 name: Helias
 description: 
 '''
@@ -88,3 +88,5 @@ weapons: [
       }
    ]
   }
+}
+]

@@ -72,7 +72,11 @@ weapons: [
             sizeTo: 50
             strokeFrom: 6
           }
-          dynamicExplosion
+          {
+            type: WrapEffect
+            color: 6af484ff
+            rotation: 24
+          }
         ]
       }
       despawnEffect: none

@@ -8,17 +8,17 @@ research: {
   parent: core-crickle
   planet: axoxium-derepica
   requirements: [
-    axocopper/75
-    nickel/60
+    0-0-axocopper/75
+    0-1-nickel/60
   ]
 }
-outputItem: cupronickel/4
+outputItem: 0-3-cupronickel/4
 craftTime: 60
 consumes: {
   power: 2
   items: [
-    nickel/2
-    axocopper/2
+    0-1-nickel/2
+    0-0-axocopper/2
   ]
 }
 drawer: {
@@ -36,8 +36,8 @@ category: crafting
 ambientSound: machine
 ambientSoundVolume: 0.08
 requirements: [
-  axocopper/160
-  nickel/150
+  0-0-axocopper/160
+  0-1-nickel/150
 ]
 hiddenOnPlanets: [
   erekir

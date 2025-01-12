@@ -4,15 +4,19 @@ health: 4000
 size: 2
 category: defense
 requirements: [
-  nickel/24
-  cupronickel/12
+  0-1-nickel/24
+  0-3-cupronickel/12
 ]
 research: {
   name: Derepica
   requirements: [
-    nickel/400
-    cupronickel/200
+    0-1-nickel/400
+    0-3-cupronickel/200
   ]
   planet: axoxium-derepica
-  parent: small-nickel-wall
+  parent: 2-0-small-nickel-wall
+  objectives: {
+    type: OnSector
+    preset: g-1-greagios
+  }
 }

@@ -6,16 +6,16 @@ itemCapacity: 4
 size: 1
 category: distribution
 requirements: [
-  axocopper/20
-  nickel/20
-  cupronickel/5
+  0-0-axocopper/20
+  0-1-nickel/20
+  0-3-cupronickel/5
 ]
 research: {
-  parent: steel-router
+  parent: 4-2-steel-router
   planet: axoxium-derepica
   requirements: [
-    axocopper/100
-    nickel/100
-    cupronickel/20
+    0-0-axocopper/100
+    0-1-nickel/100
+    0-3-cupronickel/20
   ]
 }

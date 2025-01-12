@@ -9,8 +9,8 @@ tier: 2
 squareSprite: false
 drillTime: 150
 requirements: [
-  axocopper/5
-  nickel/10
+  0-0-axocopper/5
+  0-1-nickel/10
 ]
 hasConsumers: true
 consumes: {
@@ -23,10 +23,10 @@ consumes: {
 }
 category: production
 research: {
-  parent: core-crickle
+  parent: 8-0-core-crickle
   planet: axoxium-derepica
   requirements: [
-    axocopper/25
-    nickel/30
+    0-0-axocopper/25
+    0-1-nickel/30
   ]
 }

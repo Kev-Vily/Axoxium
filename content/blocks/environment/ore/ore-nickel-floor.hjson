@@ -1,6 +1,6 @@
 localizedName: Nickel
 type: OreBlock
-itemDrop: nickel
+itemDrop: 0-1-nickel
 hasColor: true
 mapColor: a8a8a8
 variants: 3

@@ -20,7 +20,7 @@ shoot: {
 }
 inaccuracy: 1
 ammoTypes: {
-  0-0-nickel: {
+  0-1-nickel: {
     damage: 12
     speed: 5
     ammoMultiplier: 3

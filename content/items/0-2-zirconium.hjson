@@ -11,5 +11,5 @@ hiddenOnPlanets: [
 ]
 research: {
   planet: derepica
-  parent: axocopper
+  parent: 0-1-nickel
 }

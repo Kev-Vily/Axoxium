@@ -11,5 +11,5 @@ hiddenOnPlanet: [
 ]
 research: {
   planet: derepica
-  parent: nickel
+  parent: 0-2-zirconium
 }

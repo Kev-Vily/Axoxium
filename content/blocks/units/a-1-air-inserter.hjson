@@ -9,10 +9,10 @@ plans: [
   {
     unit: helias
     requirements: [
-      cupronickel/30
-      zirconium/40
+      0-3-cupronickel/30
+      0-2-zirconium/40
     ]
-    time: 1090
+    time: 1290
   }
 ]
 consumes: {
@@ -24,16 +24,16 @@ hiddenOnPlanets: [
 ]
 buildVisibility: shown
 requirements: [
-  zirconium/160
-  cupronickel/30
+  0-2-zirconium/160
+  0-3-cupronickel/30
 ]
 research: {
   parent: mech-inserter
   planet: axoxium-derepica
   requirements: [
-    zirconium/500
-    nickel/250
-    cupronickel/30
+    0-2-zirconium/500
+    0-1-nickel/250
+    0-3-cupronickel/30
   ]
 objectives: [
     {

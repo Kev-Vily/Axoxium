@@ -18,13 +18,13 @@ canStayOn: [
   cryofluid
 ]
 research: {
-  parent: core-crickle
+  parent: b-0-hydrochloric-acid
   planet: axoxium-derepica
   objectives: [
-    impact-crusher
+    1-1-impact-crusher
     {
       type: SectorComplete
-      preset: intergate
+      preset: g-0-intergate
     }
   ]
 }

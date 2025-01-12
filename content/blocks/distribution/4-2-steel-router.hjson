@@ -7,14 +7,14 @@ speed: 5
 size: 1
 category: distribution
 requirements: [
-  axocopper/10
-  nickel/5
+  0-0-axocopper/10
+  0-1-nickel/5
 ]
 research: {
-  parent: steel-duct
+  parent: 4-0-steel-duct
   planet: axoxium-derepica
   requirements: [
-    axocopper/30
-    nickel/30
+    0-0-axocopper/30
+    0-1-nickel/30
   ]
 }

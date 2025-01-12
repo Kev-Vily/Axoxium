@@ -3,12 +3,12 @@ name: Impact Crusher
 description: Crushes Nickel into dust then blows to air making vapourized nickel.
 size: 3
 squareSprite: false
-outputLiquid: vaporized-nickel/0.15
+outputLiquid: a-1-vaporized-nickel/0.15
 craftTime: 60
 craftEfect: mineImpactWave
 consumes: {
   items: [
-    nickel/3
+    0-1-nickel/3
   ]
 }
 category: crafting
@@ -21,7 +21,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: vaporized-nickel
+      drawLiquid: a-1-vaporized-nickel
       padding: 2
     }
     {
@@ -32,20 +32,20 @@ drawer: {
 ambientSound: machine
 ambientSoundVolume: 0.08
 requirements: [
-  axocopper/70
-  nickel/50
-  cupronickel/10
+  0-0-axocopper/70
+  0-1-nickel/50
+  0-3-cupronickel/10
 ]
 research: {
-    parent: cupronickel-arc-furnance
+    parent: 1-0-cupronickel-arc-furnance
     planet: axoxium-derepica
     requirements: [
-        axocopper/180
-        nickel/100
-        cupronickel/30
+        0-0-axocopper/180
+        0-1-nickel/100
+        0-3-cupronickel/30
     ]
     objective: {
         type: OnSector
-        preset: orchenova
+        preset: g-2-0-orchenova
     }
 }

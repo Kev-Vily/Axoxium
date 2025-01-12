@@ -9,15 +9,11 @@ Orchenova? This area are in a cave which [blue]ForTier []have been captured long
 difficulty: 3
 captureWave: 2
 research: {
-  parent: greagios
+  parent: g-1-greagios
   objectives: [
     {
       type: SectorCompleted
-      preset: greagios
-    }
-    {
-      type: SectorCompleted
-      preset: intergate
+      preset: g-1-greagios
     }
   ]
 }

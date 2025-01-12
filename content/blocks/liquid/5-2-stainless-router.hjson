@@ -4,14 +4,14 @@ description: Input and output liquid in all direction. Output equally on each si
 health: 60
 category: liquid
 requirements: [
-  zirconium/20
-  nickel/15
+  0-2-zirconium/20
+  0-1-nickel/15
 ]
 research: {
   planet: axoxium-derepica
-  parent: stainless-conduit
+  parent: 5-0-stainless-conduit
   requirement: [
-    zirconium/90
-    nickel/70
+    0-2-zirconium/90
+    0-1-nickel/70
   ]
 }

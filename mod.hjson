@@ -1,7 +1,11 @@
 name: axoxium
 displayName: "[red]Axoxium"
 author: "[blue]555okboi"
-description: Introduce Derepica a planet with great journeys.
+description: 
+'''
+A [green]toxic planet []mod that give big exploration to player.
+[red]Don't recommend to play with other mod especially planet mod.
+'''
 version: 0.3.1
 minGameVersion: "142"
 dependencies: []

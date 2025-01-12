@@ -1,11 +1,12 @@
 localizedName: Derepica
 generator: greer
-defaultCore: core-crickle
+defaultCore: 8-0-core-crickle
 itemWhitelist: [
-  axocopper
-  nickel
-  zirconium
-  cupronickel
+  0-0-axocopper
+  0-1-nickel
+  0-2-zirconium
+  0-3-cupronickel
+  0-4-axocoal
 ]
 clearSectorOnLose: true
 updateLighting: false

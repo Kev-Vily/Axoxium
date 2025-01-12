@@ -9,11 +9,11 @@ description:
 difficulty: 3
 captureWave: 20
 research: {
-  parent: greagios
+  parent: g-1-greagios
   objectives: [
     {
       type: SectorCompleted
-      preset: greagios
+      preset: g-1-greagios
     }
   ]
 }

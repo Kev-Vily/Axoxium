@@ -1,0 +1,6 @@
+name: Frickin Turret
+type: ItemTurret
+description: Fuck off
+health: 400
+range: 175
+size: 2

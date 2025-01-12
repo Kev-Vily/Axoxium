@@ -78,7 +78,7 @@ research: {
   parent: 9-0-spectate
   planet: axoxium-derepica
   requirements: [
-    0-2-zircoium/600
+    0-2-zirconium/600
     0-1-nickel/800
   ]
   objectives: [

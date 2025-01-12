@@ -5,15 +5,15 @@ health: 30
 size: 1
 category: liquid
 requirements: [
-    zirconium/5
-    nickel/5
+    0-2-zirconium/5
+    0-1-nickel/5
 ]
 research: {
-    parent: core-crickle
+    parent: 8-0-core-crickle
     planet: axoxium-derepica
     requirements: [
-        zirconium/40
-        nickel/60
+        0-2-zirconium/40
+        0-1-nickel/60
     ]
-    objective: impact-crusher
+    objective: 1-1-impact-crusher
 }

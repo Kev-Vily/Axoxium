@@ -65,22 +65,21 @@ colorTo: 31232000
 ]
 shake: 1
 itemCapacity: 20
-fogRadius: 3
 requirements: [
-nickel/15
-axocopper/20
+0-1-nickel/15
+0-0-axocopper/20
 ]
 research: {
 planet: derepica
-parent: wall-extractor
+parent: 7-0-wall-extractor
 requirements: [
-axocopper/50
-nickel/30
+0-0-axocopper/50
+0-1-nickel/30
 ]
 objectives: [
 {
 type: OnSector
-preset: greagios
+preset: g-1-greagios
 }
 ]
 }

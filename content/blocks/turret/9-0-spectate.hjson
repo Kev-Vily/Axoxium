@@ -20,7 +20,7 @@ shoot: {
 }
 inaccuracy: 1
 ammoTypes: {
-  nickel: {
+  0-0-nickel: {
     damage: 12
     speed: 5
     ammoMultiplier: 3
@@ -28,7 +28,7 @@ ammoTypes: {
     width: 7
     height: 10
   }
-  zirconium: {
+  0-2-zirconium: {
     type: FlakBulletType
     damage: 16
     speed: 5
@@ -98,15 +98,15 @@ drawer: {
   ]
 }
 requirements: [
-  axocopper/40
-  nickel/85
+  0-0-axocopper/40
+  0-1-nickel/85
 ]
 category: turret
 research: {
   parent: core-crickle
   planet: axoxium-derepica
   requirements: [
-    axocopper/120
-    nickel/250
+    0-0-axocopper/120
+    0-1-nickel/250
   ]
 }

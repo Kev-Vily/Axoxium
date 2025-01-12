@@ -10,6 +10,6 @@ hiddenOnPlanet: [
   serpulo
 ]
 research: {
-  parent: core-crickle
+  parent: 0-0-axocopper
   planet: derepica
 }

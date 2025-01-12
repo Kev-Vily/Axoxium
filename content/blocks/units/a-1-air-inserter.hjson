@@ -38,7 +38,7 @@ research: {
 objectives: [
     {
       type: SectorComplete
-      preset: greagios
+      preset: g-1-greagios
     }
 ]
 }

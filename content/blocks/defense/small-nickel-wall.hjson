@@ -1,0 +1,6 @@
+type: Wall
+name: Frickin Wall
+description: Protects building from enemy projectiles.
+health: 900
+size: 1
+category: defense

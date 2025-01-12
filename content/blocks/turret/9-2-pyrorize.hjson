@@ -14,7 +14,7 @@ recoil: 1
 aimChangeSpeed: 2.5
 liquidConsumed: 0.033333333333
 ammoTypes: {
-  vaporized-nickel: {
+  b-1-vaporized-nickel: {
     type: ContinuousFlameBulletType
     damage: 15
     despawnEffect: [pulverize, artilleryTrailSmoke]
@@ -70,23 +70,23 @@ drawer: {
   ]
 }
 requirements: [
-  nickel/100
-  axocopper/40
+  0-1-nickel/100
+  0-2-zirconium/40
 ]
 category: turret
 research: {
-  parent: spectate
+  parent: 9-0-spectate
   planet: axoxium-derepica
   requirements: [
-    axocopper/600
-    nickel/800
+    0-2-zircoium/600
+    0-1-nickel/800
   ]
   objectives: [
-    impact-crusher
-    vaporized-nickel
+    1-1-impact-crusher
+    b-1-vaporized-nickel
     {
       type: OneSector
-      preset: orchenova
+      preset: g-2-0-orchenova
     }
   ]
 }

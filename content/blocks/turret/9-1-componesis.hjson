@@ -22,7 +22,7 @@ ammoTypes: {
     ammoMultiplier: 3
     collidesGround: false
   }
-    0-3-nickel: {
+    0-3-cupronickel: {
     type: LaserBulletType
     damage: 75
     length: 300
@@ -62,4 +62,8 @@ research: {
     0-0-axocopper/300
     0-1-nickel/200
   ]
+  objectives: {
+     type: OnSector
+     preset: g-1-greagios
+  }
 }

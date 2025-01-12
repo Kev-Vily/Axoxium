@@ -14,8 +14,8 @@ hasColor: true
 alwaysUnlocked: true
 requiresCoreZone: true
 requirements: [
-  nickel/1000
-  axocopper/2000
+  0-1-nickel/1000
+  0-0-axocopper/2000
 ]
 research: {
   root: true

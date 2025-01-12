@@ -2,3 +2,13 @@ type: staticWall
 variants: 2
 name: Oxide Biome
 description: Oxide biome are true biome of Derepica they are only biome left after forest was covered in acid and stone covered in metal.
+research: {
+  parent: acidwall
+  planet: derepica
+  objectives: [
+    {
+      type: OnSector
+      preset: g-1-greagios
+    }
+  ]
+}

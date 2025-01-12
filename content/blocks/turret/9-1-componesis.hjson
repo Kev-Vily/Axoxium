@@ -22,6 +22,13 @@ ammoTypes: {
     ammoMultiplier: 3
     collidesGround: false
   }
+    0-3-nickel: {
+    type: LaserBulletType
+    damage: 75
+    length: 300
+    ammoMultiplier: 6
+    collidesGround: false
+  }
 }
 drawer: {
   type: DrawTurret
@@ -44,15 +51,15 @@ drawer: {
   ]
 }
 requirements: [
-  axocopper/95
-  nickel/60
+  0-0-axocopper/95
+  0-1-nickel/60
 ]
 category: turret
 research: {
-  parent: spectate
+  parent: 9-0-spectate
   planet: axoxium-derepica
   requirements: [
-    axocopper/300
-    nickel/200
+    0-0-axocopper/300
+    0-1-nickel/200
   ]
 }

@@ -1,6 +1,6 @@
 localizedName: Copper
 type: OreBlock
-itemDrop: axocopper
+itemDrop: 0-0-axocopper
 hasColor: true
 mapColor: be723c
 variants: 3

@@ -8,16 +8,12 @@ To protect the base from the hostile, They mostly choose to construct thier base
 '''
 difficulty: 2
 addStartingItems: true
-requirements: [
-  axocopper/1500
-  nickel/1500
-]
 research: {
-  parent: intergate
+  parent: g-0-intergate
 objectives: [
   {
     type: SectorCompleted
-    preset: intergate
+    preset: g-0-intergate
   }
 ]
 }

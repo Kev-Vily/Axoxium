@@ -4,15 +4,15 @@ description: Use Acid vent's heat to generated power and condense and extract hy
 size: 3
 squareSprite: false
 attribute: steam
-outputLiquid: hydrochloric/0.00740740740740740740740
+outputLiquid: b-0-hydrochloric/0.00740740740740740740740
 liquidCapacity: 12
-minEfficiency: 0.9
+minEfficiency: 8.9
 powerProduction: 0.444444444444444444444444444444
 displayEfficiency: false
 requirements: [
-  axocopper/50
-  zirconium/60
-  nickel/30
+  0-0-axocopper/50
+  0-2-zirconium/60
+  0-1-nickel/30
 ]
 drawer: {
   type: DrawMulti
@@ -33,11 +33,11 @@ hiddenOnPlanets: [
 ]
 category: power
 research: {
-  parent: core-crickle
+  parent: 8-0-core-crickle
   planet: axoxium-derepica
   requirements: [
-    axocopper/450
-    zirconium/100
-    nickel/200
+    0-0-axocopper/450
+    0-2-zirconium/100
+    0-1-nickel/200
   ]
 }

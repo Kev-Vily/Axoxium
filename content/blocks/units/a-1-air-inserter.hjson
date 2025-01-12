@@ -7,7 +7,7 @@ health: 660
 configurable: false
 plans: [
   {
-    unit: helias
+    unit: c-1-0-helias
     requirements: [
       0-3-cupronickel/30
       0-2-zirconium/40

@@ -15,7 +15,7 @@ shoot: {
 }
 inaccuracy: 1
 ammoTypes: {
-  nickel: {
+  0-1-nickel: {
     type: LaserBulletType
     damage: 50
     length: 300

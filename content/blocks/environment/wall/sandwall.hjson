@@ -3,8 +3,8 @@ variants: 2
 name: Sand Biome
 description: Sands are the end of most material in form of dust and pebbles.
 research: {
-  parent: core-crickle
-  planet: 8-0-axoxium-derepica
+  parent: 8-0-core-crickle
+  planet: axoxium-derepica
   objectives: [
     {
       type: OnSector

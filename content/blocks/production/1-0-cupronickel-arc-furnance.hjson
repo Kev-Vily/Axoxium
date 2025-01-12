@@ -5,7 +5,7 @@ cost: 2
 size: 3
 squareSprite: false
 research: {
-  parent: core-crickle
+  parent: 8-0-core-crickle
   planet: axoxium-derepica
   requirements: [
     0-0-axocopper/75

@@ -7,11 +7,11 @@ baseEfficiency: 0.0
 boostScale: 0.25
 category: production
 requirements: [
-  cupronickel/25
-  zirconium/15
-  axocopper/20
+  0-3-cupronickel/25
+  0-2-zirconium/15
+  0-0-axocopper/20
 ]
-outputItem: axocoal/1
+outputItem: 0-4-axocoal/1
 craftTime: 75
 craftEffect: pulverize
 updateEffect: {

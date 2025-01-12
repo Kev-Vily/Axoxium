@@ -7,10 +7,10 @@ health: 660
 configurable: false
 plans: [
   {
-    unit: aseriol
+    unit: c-0-0-aseriol
     requirements: [
-      cupronickel/30
-      nickel/40
+      0-3-cupronickel/30
+      0-1-nickel/40
     ]
     time: 960
   }
@@ -24,16 +24,16 @@ hiddenOnPlanets: [
 ]
 buildVisibility: shown
 requirements: [
-  zirconium/100
-  nickel/50
-  cupronickel/30
+  0-2-zirconium/100
+  0-1-nickel/50
+  0-3-cupronickel/30
 ]
 research: {
-  parent: core-crickle
+  parent: 8-0-core-crickle
   planet: axoxium-derepica
   requirements: [
-    zirconium/500
-    nickel/250
-    cupronickel/30
+    0-2-zirconium/500
+    0-1-nickel/250
+    0-3-cupronickel/30
   ]
 }

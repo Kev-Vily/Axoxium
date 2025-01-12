@@ -6,14 +6,14 @@ itemCapacity: 4
 size: 1
 category: distribution
 requirements: [
-  axocopper/15
-  nickel/15
+  0-0-axocopper/15
+  0-1-nickel/15
 ]
 research: {
   parent: steel-duct
   planet: axoxium-derepica
   requirements: [
-    axocopper/40
-    nickel/40
+    0-0-axocopper/40
+    0-1-nickel/40
   ]
 }

@@ -13,5 +13,5 @@ research: {
     0-1-nickel/50
   ]
   planet: axoxium-derepica
-  parent: core-crickle
+  parent: 8-0-core-crickle
 }

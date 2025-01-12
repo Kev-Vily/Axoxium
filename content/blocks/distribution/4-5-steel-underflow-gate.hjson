@@ -7,14 +7,14 @@ invert: true
 category: distribution
 itemCapacity: 4
 requirements: [
-   axocopper/20
-   nickel/20
+   0-0-axocopper/20
+   0-1-nickel/20
 ]
 research: {
    planet: axoxium-derepica
-   parent: steel-overflow-gate
+   parent: 4-4-steel-overflow-gate
    requirements: [
-      axocopper/60
-      nickel/60
+      0-0-axocopper/60
+      0-1-nickel/60
    ]
 }

@@ -6,14 +6,14 @@ itemCapacity: 4
 size: 1
 category: distribution
 requirements: [
-  axocopper/1
+  0-0-axocopper/1
 ]
 research: {
-  parent: core-crickle
+  parent: 8-0-core-crickle
   planet: axoxium-derepica
   requirements: [
-    axocopper/10
-    nickel/10
+    0-0-axocopper/10
+    0-1-nickel/10
   ]
 }
 bridgeReplacement: 4-3-steel-duct-bridge

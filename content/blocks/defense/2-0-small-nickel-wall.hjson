@@ -5,12 +5,12 @@ health: 900
 size: 1
 category: defense
 requirements: [
-  nickel/6
+  0-1-nickel/6
 ]
 research: {
   name: Derepica
   requirements: [
-    nickel/50
+    0-1-nickel/50
   ]
   planet: axoxium-derepica
   parent: core-crickle

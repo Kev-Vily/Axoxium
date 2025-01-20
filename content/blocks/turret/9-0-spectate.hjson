@@ -71,15 +71,15 @@ drawer: {
     }
     {
       type: RegionPart
-      suffix: -back
-      mirror: false
+      suffix: -wing
+      mirror: true
       under: true
       outline: true
       progress: warmup
       heatProgress: warmup
-      moveX: 0
+      moveX: 2
       moveY: -2
-      moveRot: 0
+      moveRot: 35
       heatColor: F69163FF
     }
     {

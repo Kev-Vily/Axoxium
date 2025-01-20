@@ -1,7 +1,0 @@
-name: Frickin Drill
-type: BeamDrill
-description: Begone.
-health: 240
-range: 2
-size: 2
-itemCapacity: 12

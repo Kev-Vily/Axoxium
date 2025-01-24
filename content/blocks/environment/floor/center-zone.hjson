@@ -1,4 +1,4 @@
 type: floor
 name: Center Zone
 allowCorePlacement: true
-variants: 0
+variants: 10

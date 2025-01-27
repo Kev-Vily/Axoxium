@@ -47,7 +47,7 @@ abilities: [
 ]
 researchCostMultiplier: 0
 research: {
-  parent: core-crickle
+  parent: 8-0-core-crickle
   planet: axoxium-derepica
   objectives: [
     {

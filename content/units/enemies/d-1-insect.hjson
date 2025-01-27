@@ -25,7 +25,7 @@ research: {
   objectives: [
      {
       type: SectorComplete
-      preset: g-0-intergate
+      preset: g-2-1-blelilate
      }
   ]
 }

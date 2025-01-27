@@ -44,8 +44,10 @@ research: {
         0-1-nickel/100
         0-3-cupronickel/30
     ]
-    objective: {
+    objectives: [
+    {
         type: OnSector
         preset: g-2-0-orchenova
     }
+    ]
 }

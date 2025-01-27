@@ -1,6 +1,6 @@
 type: legs
 name: Insect
-description: The prototype that has origin from insects biology, They use those yeeth like parts to attack.
+description: The prototype that has origin from insects biology, They use those teeth-like parts to attack.
 speed: 0.8
 health: 900
 itemCapacity: 5
@@ -19,6 +19,16 @@ legSpeed: 1.5
 legForwardScl: 0.7
 legMoveSpace: 1
 groundLayer: 60
+research: {
+  parent: d-0-charger
+  planet: axoxium-derepica
+  objectives: [
+     {
+      type: SectorComplete
+      preset: g-0-intergate
+     }
+  ]
+}
 weapons: [
   {
     name: insect-dasher

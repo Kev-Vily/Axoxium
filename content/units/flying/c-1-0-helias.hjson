@@ -100,3 +100,14 @@ weapons: [
    ]
 }
 ]
+researchCostMultiplier: 0
+research: {
+  parent: c-0-0-aseriol
+  planet: axoxium-derepica
+  objectives: [
+    {
+      type: SectorComplete
+      preset: g-1-greagios
+    }
+  ]
+}

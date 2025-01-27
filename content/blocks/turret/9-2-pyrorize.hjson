@@ -85,7 +85,7 @@ research: {
     1-1-impact-crusher
     b-1-vaporized-nickel
     {
-      type: OneSector
+      type: OnSector
       preset: g-2-0-orchenova
     }
   ]

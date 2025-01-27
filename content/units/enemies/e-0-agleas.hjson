@@ -22,6 +22,10 @@ groundLayer: 60
 drawCell: false
 outlineColor: 67602eff
 createScorch: false
+research: {
+  parent: d-1-insect
+  planet: axoxium-derepica
+}
 weapons: [
   {
     name: agleas-dasher

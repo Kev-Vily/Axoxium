@@ -1,6 +1,6 @@
 type: staticWall
 name: Corrosive Biome
-description: "Initially these metals were in wrecked unit or abandoned structure of [3f3f3f]Unknown Army[]. But after time pass [green]THE ACID RAIN[] came and the metals started to dissolve and formed up again into these chunk."
+description: "Initially these metals were in wrecked unit or abandoned structure of [3f3f3f]Unknown Army[]. But after time pass the[green] ACID RAIN[] came and the metals started to dissolve and formed up again into these chunk."
 variants: 3
 research: {
   parent: metallicwall

@@ -1,6 +1,6 @@
 type: mech
 name: Charger
-description: This thing.... are just... annoying. "Charger" isn't true name either.
+description: "One of [blue]ForTier's basic infantry units. Explode on contact with enemies units or buildings. After few seconds will starts to boost speed of its allies and itself. "Charger" isn't true name."
 speed: 0.8
 health: 900
 itemCapacity: 5
@@ -8,6 +8,16 @@ rotateSpeed: 6
 hitSize: 5
 rotateShooting: true
 hovering: false
+research: {
+  parent: c-0-0-aseriol
+  planet: axoxium-derepica
+  objectives: [
+     {
+      type: SectorComplete
+      preset: g-0-intergate
+     }
+  ]
+}
 parts: [
 	{
 		x: 0

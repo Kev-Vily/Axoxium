@@ -1,3 +1,14 @@
 name: Copper Oxide Biome
 type: staticWall
+description: A one of many variants of Oxide Biome. This one came from copper mainly.
 variants: 2
+research: {
+  parent: oxide-wall
+  planet: axoxium-derepica
+  objectives: [
+     {
+      type: OnSector
+      preset: g-2-1-blelilate
+     }
+  ]
+}

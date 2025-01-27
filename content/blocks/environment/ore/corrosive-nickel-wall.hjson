@@ -1,0 +1,6 @@
+localizedName: Corrosive Nickel
+type: wall
+itemDrop: 0-1-nickel
+hasColor: true
+mapColor: a8a8a8
+variants: 3

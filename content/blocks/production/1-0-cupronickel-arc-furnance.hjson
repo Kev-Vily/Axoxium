@@ -1,4 +1,4 @@
-type: GenericCrafter
+*type: GenericCrafter
 name: Cupronickel Arc Furnance
 description: Melt Copper and Nickel then mix them together produces Cupronickel.
 cost: 2
@@ -10,6 +10,12 @@ research: {
   requirements: [
     0-0-axocopper/75
     0-1-nickel/60
+  ]
+  objectives: [
+    {
+     type: OnSector
+     preset: g-1-greagios
+    }
   ]
 }
 outputItem: 0-3-cupronickel/4

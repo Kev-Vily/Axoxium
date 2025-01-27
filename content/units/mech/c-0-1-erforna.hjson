@@ -80,3 +80,14 @@ abilities: [
     unit: c-0-0-aseriol
   }
 ]
+researchCostMultiplier: 0
+research: {
+  parent: c-0-1-erforna
+  planet: axoxium-derepica
+  objectives: [
+    {
+      type: SectorComplete
+      preset: g-2-0-orchenova
+    }
+  ]
+}

@@ -8,7 +8,7 @@ research: {
   objectives: [
      {
       type: OnSector
-      preset: g-2-orchenova
+      preset: g-2-0-orchenova
      }
   ]
 }

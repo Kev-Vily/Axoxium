@@ -103,7 +103,7 @@ requirements: [
 ]
 category: turret
 research: {
-  parent: core-crickle
+  parent: 8-0-core-crickle
   planet: axoxium-derepica
   requirements: [
     0-0-axocopper/120

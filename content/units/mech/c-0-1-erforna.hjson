@@ -82,7 +82,7 @@ abilities: [
 ]
 researchCostMultiplier: 0
 research: {
-  parent: c-0-1-erforna
+  parent: c-0-0-aseriol
   planet: axoxium-derepica
   objectives: [
     {

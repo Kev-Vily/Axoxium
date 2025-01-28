@@ -28,7 +28,7 @@ requirements: [
   0-3-cupronickel/30
 ]
 research: {
-  parent: mech-inserter
+  parent: a-0-mech-inserter
   planet: axoxium-derepica
   requirements: [
     0-2-zirconium/500

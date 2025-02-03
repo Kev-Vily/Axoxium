@@ -1,5 +1,58 @@
 type: mech
 speed: 0
-health: 120
+targetable: false
+hittable: false
+physics: false
+health: 100
+canHeal: false
 rotateSpeed: 0
+hitSize: 5
+playerControllable: false
+hidden: true
 rotateShooting: false
+weapons: [
+  {
+    name: weak-mine-destructor
+    reload: 3
+    top: true
+    mirror: false
+    drawOutLine: false
+    rotate: true
+    inaccuracy: 0
+    shootY: 3
+    x: 0
+    y: 0
+    shootSound: shootSmall
+    shootStatus: sd-2
+    shootStatusDuration: 4
+    bullet: {
+      type: BasicBulletType
+      damage: 0
+      shootEffect: shootSmall
+      speed: 4
+      width: 7
+      height: 10
+      lifetime: 60
+      knockback: -3
+      status: hidden-debuff
+    }
+  }
+  {
+    name: as-sd
+    alwaysShooting: true
+    shootSound: none
+    reload: Infinity
+    shootStatus: sd-1
+    shootStatusDuration: Infinity
+    bullet: {
+      type: BasicBulletType
+      lifetime: 0
+      width: 0
+      height: 0
+      speed: 0
+      shootEffect: none
+      hitEffect: none
+      despawnEffect: none
+    }
+  }
+]

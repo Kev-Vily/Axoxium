@@ -36,14 +36,13 @@ allowedInPayloads: false
 weapons: [
   {
     name: trapper
-    reload: 60
+    reload: 120
     x: 5
     y: 2
     top: false
     mirror: true
     rotate: false
-    inaccuracy: 8
-    velocityRnd: 0.25
+    inaccuracy: 0
     shootY: 3
     ejectEffect: casing2
     shootSound: shootSmall
@@ -69,30 +68,9 @@ weapons: [
       fragBullet: {
         type: BasicBulletType
         damage: 0
-        sprite: shock-mine
-        tileDamageMultiplier: 0.07
-        speed: 0
-        shrinkX: 0
-        shrinkY: 0
-        colideAir: false
-        shootEffect: none
-        width: 8
-        height: 8
-        lifetime: 3000
-        fragBullets: 3
-        fragVelocityMax: 4
-        fragVelocityMin: 1
-        fragRandomSpread: 360
-        fragBullet: {
-          type: LightningBulletType
-          lightningColor: a9d8ffff
-          lightningLength: 10
-          lightningLengthRand: 0
-          damage: 0
-          hitEffect: none
-          status: slow-shock
+        instantDisappear: true
+        spawnUnit: weak-mine
         }
-      }
     }
   }
   {

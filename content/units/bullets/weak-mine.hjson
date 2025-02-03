@@ -1,0 +1,75 @@
+type: mech
+speed: 0
+targetable: false
+hittable: false
+physics: false
+health: 100
+canHeal: false
+rotateSpeed: 0
+hitSize: 5
+playerControllable: false
+hidden: true
+rotateShooting: false
+weapons: [
+    {
+    reload: 1
+    shootOnDeath: true
+    mirror: true
+    shootCone: 360
+    shake: 1
+    bullet: {
+      type: ExplosionBulletType
+      buildingDamageMultiplier: 0
+      splashDamage: 20
+      splashDamageRadius: 15
+    }
+  }
+  {
+    name: as-sd
+    alwaysShooting: true
+    shootSound: none
+    reload: Infinity
+    shootStatus: sd-1
+    shootStatusDuration: Infinity
+    bullet: {
+      type: BasicBulletType
+      lifetime: 0
+      width: 0
+      height: 0
+      speed: 0
+      shootEffect: none
+      hitEffect: none
+      despawnEffect: none
+    }
+  }
+  {
+    name: mine-debuffer
+    alwaysShooting: true
+    shootSound: none
+    reload: 1
+    bullet: {
+      type: ExplosionBulletType
+      buildingDamageMultiplier: 0
+      splashDamage: 0
+      splashDamageRadius: 60
+      status: slow-shock
+      statusDuration: 300
+      shootEffect: none
+      hitEffect: none
+      despawnEffect: none
+    }
+  }
+]
+parts: [
+        {
+                x: 0
+                y: 0
+                type: ShapePart
+                circle: true
+                hollow: true
+                radius: 60
+                stroke: 4
+                layer: 29
+                color: 99a5ffbb
+        }
+]

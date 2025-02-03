@@ -1,1 +1,5 @@
-type: legs
+type: mech
+speed: 0
+health: 120
+rotateSpeed: 0
+rotateShooting: false

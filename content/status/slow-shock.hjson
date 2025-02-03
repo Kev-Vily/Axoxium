@@ -3,5 +3,5 @@ description: Littile slow from electric traps might save your core.
 applyColor: ffffff
 color: ffffff
 speedMultiplier: 0.90
-reloadMultiplier: 1.10
+reloadMultiplier: 0.90
 effect: none

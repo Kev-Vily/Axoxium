@@ -50,6 +50,9 @@ weapons: [
     bullet: {
       type: BasicBulletType
       buildingDamageMultiplier: 0
+      lifetime: 0
+      width: 0
+      height: 0
       splashDamage: 0
       splashDamageRadius: 60
       status: slow-shock

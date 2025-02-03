@@ -43,12 +43,10 @@ weapons: [
     }
   }
   {
-    name: minded debuff radius
+    name: mine-debuffer
     alwaysShooting: true
     shootSound: none
-    reload: Infinity
-    shootStatus: sd-1
-    shootStatusDuration: Infinity
+    reload: 1
     bullet: {
       type: ExplosionBulletType
       buildingDamageMultiplier: 0
@@ -56,6 +54,9 @@ weapons: [
       splashDamageRadius: 60
       status: slow-shock
       statusDuration: 300
+      shootEffect: none
+      hitEffect: none
+      despawnEffect: none
     }
   }
 ]

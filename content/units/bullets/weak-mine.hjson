@@ -19,9 +19,9 @@ weapons: [
     shake: 1
     bullet: {
       type: ExplosionBulletType
+      buildingDamageMultiplier: 0
       splashDamage: 20
-      buildingDamage
-      splashDamageRadius: 30
+      splashDamageRadius: 15
     }
   }
   {
@@ -40,6 +40,22 @@ weapons: [
       shootEffect: none
       hitEffect: none
       despawnEffect: none
+    }
+  }
+  {
+    name: minded debuff radius
+    alwaysShooting: true
+    shootSound: none
+    reload: Infinity
+    shootStatus: sd-1
+    shootStatusDuration: Infinity
+    bullet: {
+      type: ExplosionBulletType
+      buildingDamageMultiplier: 0
+      splashDamage: 0
+      splashDamageRadius: 60
+      status: slow-shock
+      statusDuration: 300
     }
   }
 ]

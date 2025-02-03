@@ -48,7 +48,7 @@ weapons: [
     shootSound: none
     reload: 1
     bullet: {
-      type: ExplosionBulletType
+      type: BasicBulletType
       buildingDamageMultiplier: 0
       splashDamage: 0
       splashDamageRadius: 60

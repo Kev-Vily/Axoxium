@@ -69,7 +69,7 @@ weapons: [
         type: BasicBulletType
         damage: 0
         instantDisappear: true
-        spawn: weak-mine
+        spawnUnit: weak-mine
         }
     }
   }

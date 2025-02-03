@@ -11,30 +11,17 @@ playerControllable: false
 hidden: true
 rotateShooting: false
 weapons: [
-  {
-    name: weak-mine-destructor
-    reload: 3
-    top: true
-    mirror: false
-    drawOutLine: false
-    rotate: true
-    inaccuracy: 0
-    shootY: 3
-    x: 0
-    y: 0
-    shootSound: shootSmall
-    shootStatus: sd-2
-    shootStatusDuration: 4
+    {
+    reload: 1
+    shootOnDeath: true
+    mirror: true
+    shootCone: 360
+    shake: 1
     bullet: {
-      type: BasicBulletType
-      damage: 0
-      shootEffect: shootSmall
-      speed: 4
-      width: 7
-      height: 10
-      lifetime: 60
-      knockback: -3
-      status: hidden-debuff
+      type: ExplosionBulletType
+      splashDamage: 20
+      buildingDamage
+      splashDamageRadius: 30
     }
   }
   {

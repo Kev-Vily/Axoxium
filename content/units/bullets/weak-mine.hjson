@@ -73,8 +73,8 @@ parts: [
                 circle: true
                 hollow: true
                 radius: 60
-                stroke: 4
+                stroke: 2
                 layer: 29
-                color: 99a5ffbb
+                color: d40b00ff
         }
 ]

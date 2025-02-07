@@ -1,6 +1,7 @@
 type: mech
 speed: 0
 targetable: false
+fogRadius: 0
 hittable: false
 physics: false
 health: 100
@@ -48,7 +49,7 @@ weapons: [
     shootSound: none
     reload: 1
     bullet: {
-      type: BasicBulletType
+      type: BulletType
       buildingDamageMultiplier: 0
       lifetime: 0
       width: 0
@@ -60,6 +61,7 @@ weapons: [
       shootEffect: none
       hitEffect: none
       despawnEffect: none
+      ejectEffect: none
     }
   }
 ]

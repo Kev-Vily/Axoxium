@@ -5,8 +5,10 @@ size: 3
 health: 150
 itemCapacity: 20
 consumes: {
+  power: 0.5
   items: [
-    0-4-axocopper/1
+    0-4-axocopper/3
   ]
 }
 itemDuration: 180
+powerProduction: 4

@@ -5,7 +5,7 @@ size: 3
 health: 150
 consumes: {
   items: [
-    0-1-nickel/3
+    0-4-axocopper/1
   ]
 }
 itemDuration: 180

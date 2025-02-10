@@ -1,3 +1,6 @@
 type: ConsumeGenerator
 name: Acidic Combustion Generator
 description: "Begone."
+size: 3
+health: 150
+itemDuration: 180

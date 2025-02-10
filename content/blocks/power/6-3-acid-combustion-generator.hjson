@@ -3,5 +3,9 @@ name: Acidic Combustion Generator
 description: "Begone."
 size: 3
 health: 150
-consume: 
+consumes: {
+  items: [
+    0-1-nickel/3
+  ]
+}
 itemDuration: 180

@@ -1,10 +1,10 @@
 name: Coal
-description: Gather from acidic forest so they had less combustion properties. But contain more hydrocarbon.
+description: Gather from acidic forest so they could deal better explosion. But contain more hydrocarbon.
 cost: 0.7
 color: a8a8a8
 hardness: 1
 flammability: 1
-explosiveness: 0.5
+explosiveness: 0.8
 hiddenOnPlanet: [
   erekir
   serpulo

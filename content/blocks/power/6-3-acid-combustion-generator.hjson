@@ -1,18 +1,17 @@
-type: ConsumeGenerator
+type: VariableReactor
 name: Acidic Combustion Generator
 description: "Begone."
 size: 3
 health: 150
 itemCapacity: 20
+liquidCapacity: 5
 consumes: {
-  liquids: [
-  b-0-hydrochloric/0.0166666666666667
-  ]
   items: [
     0-4-axocoal/3
   ]
 }
-
+maxHeat: 10
+unstableSpeed: 0
 itemDuration: 180
 powerProduction: 4
 category: power

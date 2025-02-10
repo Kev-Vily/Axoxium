@@ -6,7 +6,7 @@ health: 150
 itemCapacity: 20
 consumes: {
   liquids: [
-  hydrochloric
+  b-0-hydrochloric
   ]
   items: [
     0-4-axocoal/3

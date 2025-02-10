@@ -10,11 +10,17 @@ consumes: {
     0-4-axocopper/3
   ]
 }
+
 itemDuration: 180
 powerProduction: 4
 category: power
-research: {
-  parent: 6-2-acid-turbine-condensor
+requirements: [
+    0-0-axocopper/70
+    0-2-zirconium/40
+    0-1-nickel/25
+  ]
+dresearch: {
+  parent: 6-2-acid-turbine-condenser
   planet: axoxium-derepica
   requirements: [
     0-0-axocopper/450

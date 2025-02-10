@@ -3,6 +3,7 @@ name: Acidic Combustion Generator
 description: "Begone."
 size: 3
 health: 150
+itemCapacity: 20
 consumes: {
   items: [
     0-4-axocopper/1

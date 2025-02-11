@@ -4,8 +4,8 @@ description: Crushes Nickel into dust then blows to air making vapourized nickel
 size: 3
 squareSprite: false
 outputLiquids: [
-    b-4-carbon-dioxide/0.15
-    water
+    b-4-carbon-dioxide/0.06666666666666667
+    water/0.06666666666666667
 ]
 liquidOutputDirections: [
 1

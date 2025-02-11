@@ -20,7 +20,7 @@ canStayOn: [
   cryofluid
 ]
 research: {
-  parent: b-0-hydrochloric
+  parent: b-2-mixed-liquid-a
   planet: axoxium-derepica
   objectives: [
     1-1-impact-crusher

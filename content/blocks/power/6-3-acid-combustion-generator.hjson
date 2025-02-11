@@ -1,11 +1,15 @@
-type: ImpactReactor
+type: ConsumeGenerator
 name: Acidic Combustion Generator
 description: "Begone."
 size: 3
 health: 150
+hasPower: true
+hasItem: true
+hasLiquid: true
 itemCapacity: 20
 liquidCapacity: 5
 consumes: {
+  power: 1
   items: [
     0-4-axocoal/3
   ]

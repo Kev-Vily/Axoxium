@@ -7,10 +7,10 @@ outputLiquids: [
     b-4-carbon-dioxide/0.15
     water
 ]
-liquidOutputDirections: {
+liquidOutputDirections: [
 1
 3
-}
+]
 craftTime: 60
 craftEfect: mineImpactWave
 consumes: {

@@ -7,8 +7,8 @@ group: liquids
 rotate: true
 invertFlip: true
 outputLiquids: [
-    b-4-carbon-dioxide/0.06666666666666667
-    water/0.06666666666666667
+    b-4-carbon-dioxide/0.11666666666666667
+    water/0.016666666666667
 ]
 liquidOutputDirections: [
 1

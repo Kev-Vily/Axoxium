@@ -1,10 +1,10 @@
 type: liquid
 name: Carbon Hydroxide
-description: Common gas that could be found in a planet with lifeforms or carbon.
+description: Common gas that could be found in a planet with lifeforms or carbon. It has no color upon release.
 cost: 0.7
 color: 484848ff
 gas: true
-gasColor: 484848ff
+gasColor: 00000000
 barColor: 484848ff
 temperature: 0.5
 coolant: false

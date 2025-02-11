@@ -3,7 +3,6 @@ name: Mixed Water A
 description: "Mixture of Carbon dioxide and Water. Get from the (Acid)Combustion Generator"
 cost: 0.7
 color: 484848ff
-gas: true
 gasColor: 484848ff
 barColor: 484848ff
 temperature: 0.5

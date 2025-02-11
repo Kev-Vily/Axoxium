@@ -17,7 +17,9 @@ consumes: {
 }
 itemDuration: 180
 powerProduction: 4k
-outliquid: b-2-mixed-liquid-a/0.13333333333333333
+outliquid: [
+    b-2-mixed-liquid-a/0.13333333333333333
+]
 category: power
 requirements: [
     0-0-axocopper/70

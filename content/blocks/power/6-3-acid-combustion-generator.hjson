@@ -16,7 +16,7 @@ consumes: {
   ]
 }
 itemDuration: 180
-powerProduction: 4k
+powerProduction: 4
 outliquid: [
     b-2-mixed-liquid-a/0.13333333333333333
 ]

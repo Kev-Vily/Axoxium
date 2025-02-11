@@ -3,6 +3,8 @@ name: Seperator Module
 description: Crushes Nickel into dust then blows to air making vapourized nickel.
 size: 3
 squareSprite: false
+rotate: true
+invertFlip: true
 outputLiquids: [
     b-4-carbon-dioxide/0.06666666666666667
     water/0.06666666666666667
@@ -11,7 +13,7 @@ liquidOutputDirections: [
 1
 3
 ]
-craftTime: 60
+craftTime: 10
 craftEfect: mineImpactWave
 consumes: {
   power: 0.5

@@ -8,7 +8,7 @@ barColor: 484848ff
 temperature: 0.5
 coolant: false
 viscosity: 1
-boilPoint: 1
+boilPoint: 0.5
 hiddenOnPlanets: [
   erekir
   serpulo

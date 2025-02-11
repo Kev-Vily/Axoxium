@@ -7,6 +7,7 @@ outputLiquid: b-1-vaporized-nickel/0.15
 craftTime: 60
 craftEfect: mineImpactWave
 consumes: {
+  power: 0.5
   liquids: [
     b-2-mixed-liquid-a/0.133333333333333
   ]
@@ -18,11 +19,6 @@ drawer: {
     {
       type: DrawRegion
       suffix: -bottom
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: b-1-vaporized-nickel
-      padding: 2
     }
     {
       type: DrawDefault

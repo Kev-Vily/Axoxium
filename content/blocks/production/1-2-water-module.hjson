@@ -3,9 +3,11 @@ name: Seperator Module
 description: Crushes Nickel into dust then blows to air making vapourized nickel.
 size: 3
 squareSprite: false
+hasLiquid: true
 group: liquids
 rotate: true
 invertFlip: true
+liquidCapacity: 30
 outputLiquids: [
     b-4-carbon-dioxide/0.11666666666666667
     b-3-axowater/0.016666666666667

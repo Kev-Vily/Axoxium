@@ -1,4 +1,4 @@
-type: ConsumeReactor
+type: ConsumeGenerator
 name: Acidic Combustion Generator
 description: "Begone."
 size: 3

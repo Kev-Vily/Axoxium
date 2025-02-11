@@ -1,9 +1,12 @@
 type: GenericCrafter
-name: Impact Crusher
+name: Seperator Module
 description: Crushes Nickel into dust then blows to air making vapourized nickel.
 size: 3
 squareSprite: false
-outputLiquid: b-1-vaporized-nickel/0.15
+outputLiquid: liquids: [
+    b-4-carbon-dioxide/0.15
+    water
+]
 craftTime: 60
 craftEfect: mineImpactWave
 consumes: {

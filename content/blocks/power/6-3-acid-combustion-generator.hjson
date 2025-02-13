@@ -33,6 +33,7 @@ drawer: {
     {
       type: DrawGlowRegion
       suffix: -top
+      glowScale: 5
     }
   ]
 }

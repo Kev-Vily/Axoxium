@@ -23,7 +23,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: b-1-vaporized-nickel
+      drawLiquid: b-2-mixed-liquid-a
       padding: 2
     }
     {

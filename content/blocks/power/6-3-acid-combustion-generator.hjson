@@ -14,6 +14,26 @@ consumes: {
   items: [
     0-4-axocoal/8
   ]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: b-1-vaporized-nickel
+      padding: 2
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFade
+    }
+  ]
+}
 }
 itemDuration: 180
 powerProduction: 6

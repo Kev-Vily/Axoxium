@@ -31,7 +31,8 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawFade
+      type: DrawGlowRegion
+      suffix: -top
     }
   ]
 }

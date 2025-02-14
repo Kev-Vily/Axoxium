@@ -28,6 +28,10 @@ drawer: {
       padding: 2
     }
     {
+      type: DrawBubbles
+      
+    }
+    {
       type: DrawDefault
     }
     {

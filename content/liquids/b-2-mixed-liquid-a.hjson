@@ -1,10 +1,11 @@
 type: liquid
-name: Mixed Water A
-description: "Mixture of Carbon dioxide and Water. Get from the (Acid)Combustion Generator"
+name: Carbon Dioxide Steam
+description: "Mixture of Carbon dioxide and Steam. Get from the (Acid)Combustion Generator"
 cost: 0.7
-color: 484848ff
-gasColor: 484848ff
-barColor: 484848ff
+gas: true
+color: 838dbaff
+gasColor: 838dbaff
+barColor: 838dbaff
 temperature: 0.5
 coolant: false
 viscosity: 1

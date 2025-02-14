@@ -29,7 +29,7 @@ drawer: {
     }
     {
       type: DrawBubbles
-      color: a8a8a8ff
+      color: 9fa9d9ff
     }
     {
       type: DrawDefault

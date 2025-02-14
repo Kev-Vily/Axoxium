@@ -4,7 +4,7 @@ description: "Mixture of Carbon dioxide and Steam. Get from the (Acid)Combustion
 cost: 0.7
 gas: true
 color: 838dbaff
-gasColor: 838dbaff
+gasColor: ffffffa8
 barColor: 838dbaff
 temperature: 0.5
 coolant: false

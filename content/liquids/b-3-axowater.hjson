@@ -2,8 +2,8 @@ type: liquid
 name: Mixed Water A
 description: "Mixture of Carbon dioxide and Water. Get from the (Acid)Combustion Generator"
 cost: 0.7
-color: 596ab8ff
-barColor: 596ab8
+color: 838dbaff
+barColor: 838dbaff
 temperature: 0.5
 coolant: false
 viscosity: 1

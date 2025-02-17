@@ -18,7 +18,7 @@ weapons: [
   {
     name: crimatro-swarm
     reload: 20
-    baseRotation: 30
+    baseRotation: -30
     top: true
     mirror: true
     inaccuracy: 0

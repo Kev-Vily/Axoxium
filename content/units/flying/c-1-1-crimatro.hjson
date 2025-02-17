@@ -27,15 +27,19 @@ weapons: [
     shootEffect: none
     x: 3
     y: 3
+    shoot: {
+    shots: 2
+    shotDelay: 5
+    }
     bullet: {
       type: BasicBulletType
       sprite: axoxium-arrow-bullet
       width: 5
       height: 5
-      speed: 4
+      speed: 8
       shrinkX: 0
       shrinkY: 0
-      lifetime: 40
+      lifetime: 60
       damage: 60
       backColor: ffffff
       frontColor: ffffff

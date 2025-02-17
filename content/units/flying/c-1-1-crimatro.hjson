@@ -39,7 +39,7 @@ weapons: [
       speed: 8
       shrinkX: 0
       shrinkY: 0
-      lifetime: 60
+      lifetime: 40
       damage: 60
       backColor: ffffff
       frontColor: ffffff

@@ -4,7 +4,7 @@ health: 700
 lowAltitude: true
 singleTarget: true
 faceTarget: true
-armor: 0
+armor: 5
 speed: 4
 accel: 0.2
 drag: 0.7
@@ -17,15 +17,16 @@ rotateShooting: true
 weapons: [
   {
     name: crimatro-swarm
-    reload: 40
+    reload: 20
+    baseRotation: 30
     top: true
     mirror: true
     inaccuracy: 0
     shootCone: 6
     shootSound: none
     shootEffect: none
-    x: 0
-    y: -2
+    x: 3
+    y: 3
     bullet: {
       type: BasicBulletType
       sprite: axoxium-arrow-bullet
@@ -35,14 +36,12 @@ weapons: [
       shrinkX: 0
       shrinkY: 0
       lifetime: 40
-      damage: 30
+      damage: 60
       backColor: ffffff
       frontColor: ffffff
       trailLength: 10
       trailWidth: 5
       trailColor: ffffff
-      weaveMag: 3
-      weaveSize: 5
     }
   }
 ]

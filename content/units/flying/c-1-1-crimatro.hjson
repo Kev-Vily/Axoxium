@@ -33,7 +33,6 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      sprite: axoxium-arrow-bullet
       pierce: true
       pierceCap: 3
       width: 5

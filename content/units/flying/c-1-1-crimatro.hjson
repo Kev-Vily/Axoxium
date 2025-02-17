@@ -22,7 +22,7 @@ weapons: [
     top: true
     mirror: true
     inaccuracy: 0
-    shootCone: 6
+    shootCone: 60
     shootSound: none
     shootEffect: none
     x: 3

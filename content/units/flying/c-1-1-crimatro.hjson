@@ -17,7 +17,7 @@ rotateShooting: true
 weapons: [
   {
     name: crimatro-cannon
-    reload: 26
+    reload: 45
     baseRotation: -30
     top: true
     mirror: true
@@ -49,12 +49,12 @@ weapons: [
       trailColor: ffffff
       homingPower: 0.2
       homingRange: 50
-      homingDelay: 20
+      homingDelay: 5
     }
   }
   {
     name: crimatro-swarm
-    reload: 17
+    reload: 32
     baseRotation: -30
     top: true
     mirror: true
@@ -74,10 +74,10 @@ weapons: [
       pierceCap: 3
       width: 3
       height: 5
-      speed: 8
+      speed: 5
       shrinkX: 0
       shrinkY: 0
-      lifetime: 35
+      lifetime: 56
       damage: 60
       backColor: ffffff
       frontColor: ffffff
@@ -86,7 +86,7 @@ weapons: [
       trailColor: ffffff
       homingPower: 0.2
       homingRange: 50
-      homingDelay: 20
+      homingDelay: 5
     }
   }
 ]

@@ -46,6 +46,8 @@ weapons: [
       trailLength: 10
       trailWidth: 5
       trailColor: ffffff
+      homingPower: 0.2
+      homingRange: 50
     }
   }
 ]

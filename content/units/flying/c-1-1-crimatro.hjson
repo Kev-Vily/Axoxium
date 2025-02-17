@@ -70,8 +70,6 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      pierce: true
-      pierceCap: 3
       width: 3
       height: 5
       speed: 5

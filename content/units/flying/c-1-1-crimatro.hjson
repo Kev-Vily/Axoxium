@@ -16,8 +16,8 @@ maxRange: 180
 rotateShooting: true
 weapons: [
   {
-    name: crimatro-swarm
-    reload: 20
+    name: crimatro-cannon
+    reload: 26
     baseRotation: -30
     top: true
     mirror: true
@@ -29,13 +29,50 @@ weapons: [
     y: 3
     shoot: {
     shots: 2
-    shotDelay: 5
+    shotDelay: 10
     }
     bullet: {
       type: BasicBulletType
       pierce: true
       pierceCap: 3
       width: 5
+      height: 7
+      speed: 8
+      shrinkX: 0
+      shrinkY: 0
+      lifetime: 35
+      damage: 120
+      backColor: ffffff
+      frontColor: ffffff
+      trailLength: 10
+      trailWidth: 5
+      trailColor: ffffff
+      homingPower: 0.2
+      homingRange: 50
+      homingDelay: 20
+    }
+  }
+  {
+    name: crimatro-swarm
+    reload: 17
+    baseRotation: -30
+    top: true
+    mirror: true
+    inaccuracy: 15
+    shootCone: 60
+    shootSound: none
+    shootEffect: none
+    x: 3
+    y: 3
+    shoot: {
+    shots: 3
+    shotDelay: 5
+    }
+    bullet: {
+      type: BasicBulletType
+      pierce: true
+      pierceCap: 3
+      width: 3
       height: 5
       speed: 8
       shrinkX: 0
@@ -44,11 +81,12 @@ weapons: [
       damage: 60
       backColor: ffffff
       frontColor: ffffff
-      trailLength: 10
+      trailLength: 5
       trailWidth: 5
       trailColor: ffffff
       homingPower: 0.2
       homingRange: 50
+      homingDelay: 20
     }
   }
 ]

@@ -70,21 +70,24 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
+      sprite: circle
       width: 3
-      height: 5
+      height: 3
       speed: 5
       shrinkX: 0
       shrinkY: 0
       lifetime: 32
       damage: 60
-      backColor: ffffff
-      frontColor: ffffff
       trailLength: 5
       trailWidth: 5
-      trailColor: ffffff
       homingPower: 0.2
       homingRange: 50
       homingDelay: 5
+      backColor: 6af484ff
+      frontColor: ffffffff
+      trailEffect: artilleryTrail
+      trailInterval: 0.333
+      trailColor: 6af484ff
     }
   }
 ]

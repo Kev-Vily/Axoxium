@@ -1,11 +1,11 @@
 name: Crimatro
 description: No description yet. Thy end is now!
-health: 700
+health: 1600
 lowAltitude: true
 singleTarget: true
 faceTarget: true
 armor: 5
-speed: 4
+speed: 6
 accel: 0.2
 drag: 0.7
 flying: true

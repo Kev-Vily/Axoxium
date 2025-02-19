@@ -88,6 +88,12 @@ weapons: [
       trailEffect: artilleryTrail
       trailInterval: 0.333
       trailColor: 6af484ff
+      hitEffect: {
+          type: WrapEffect
+          color: 6af484ff
+          rotation: 6
+          effect: dynamicSpikes
+          }
     }
   }
 ]

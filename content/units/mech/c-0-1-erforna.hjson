@@ -24,16 +24,16 @@ weapons: [
       damage: 40
       shootEffect: shootSmall
       speed: 4
-      width: 10
+      width: 15
       height: 10
-      lifetime: 80
+      lifetime: 85
       scaleLife: true
       scaledSplashDamage: true
       splashDamageRadius: 30
       splashDamage: 100
       homingPower: 0.05
       homingRange: 30
-      trailEffect: artilleryTrail
+      trailEffect: disperseTrail
       trailInterval: 0.333
       trailLength: 4
       trailWidth: 3

@@ -34,7 +34,7 @@ weapons: [
       homingPower: 0.05
       homingRange: 30
       trailEffect: disperseTrail
-      trailInterval: 0.333
+      trailInterval: 0.5
       trailLength: 4
       trailWidth: 3
       trailRotation: true

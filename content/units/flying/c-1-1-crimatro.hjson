@@ -18,14 +18,14 @@ weapons: [
   {
     name: crimatro-cannon
     reload: 45
-    baseRotation: -30
+    baseRotation: 0
     top: true
-    mirror: true
+    mirror: false
     inaccuracy: 0
     shootCone: 60
     shootSound: none
     shootEffect: none
-    x: 3
+    x: 0
     y: 3
     shoot: {
     shots: 2

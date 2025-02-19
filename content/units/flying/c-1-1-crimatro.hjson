@@ -42,7 +42,7 @@ weapons: [
       shrinkY: 0
       lifetime: 25
       damage: 120
-      backColor: ffffff
+      backColor: e1ffe6ff
       frontColor: ffffff
       trailLength: 10
       trailWidth: 5

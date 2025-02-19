@@ -33,6 +33,8 @@ weapons: [
       splashDamage: 100
       homingPower: 0.05
       homingRange: 30
+      trailEffect: artilleryTrail
+      trailInterval: 0.333
       trailLength: 4
       trailWidth: 3
       weaveMag: 10

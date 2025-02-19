@@ -22,7 +22,7 @@ weapons: [
     top: true
     mirror: false
     inaccuracy: 0
-    shootCone: 60
+    shootCone: 3
     shootSound: none
     shootEffect: none
     x: 0
@@ -47,9 +47,9 @@ weapons: [
       trailLength: 10
       trailWidth: 5
       trailColor: ffffff
-      homingPower: 0.2
+      homingPower: 0.05
       homingRange: 50
-      homingDelay: 5
+      homingDelay: 0
     }
   }
   {

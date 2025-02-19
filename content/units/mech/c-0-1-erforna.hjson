@@ -37,6 +37,7 @@ weapons: [
       trailInterval: 0.333
       trailLength: 4
       trailWidth: 3
+      trailRotation: true
       weaveMag: 10
       weaveSize: 2
       hitEffect: {

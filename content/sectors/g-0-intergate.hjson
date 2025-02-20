@@ -1,6 +1,6 @@
 sector: 10
 planet: axoxium-derepica
-localizedName: Intergate
+name: Intergate
 description: Hey what is this planet? It have been covered with acid and metal. And enemies had sent experiment towards us!
 difficulty: 1
 captureWave: 10

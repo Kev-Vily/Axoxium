@@ -1,11 +1,5 @@
 sector: 2
 planet: axoxium-derepica
-localizedName: Greagios
-description:
-'''
-To protect the base from the hostile, They mostly choose to construct thier base in those acidic fog... Huh? The enemy base are in our way?? Oh shoot! Destroy them before they use their air unit to destroy us!
-[grey]Map mechanics: [brown]<FogOfWar>
-'''
 difficulty: 2
 addStartingItems: true
 research: {

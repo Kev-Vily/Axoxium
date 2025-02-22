@@ -4,3 +4,4 @@ size: 3
 attribute: starlith
 baseEfficiency: 0.0
 boostScale: 0.1111111111
+minBoost: 0.9999999999

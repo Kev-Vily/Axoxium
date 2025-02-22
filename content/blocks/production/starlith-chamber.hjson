@@ -4,8 +4,8 @@ size: 3
 attribute: starlith
 category: crafting
 baseEfficiency: 0.0
-boostScale: 0.1111111111
-minEfficiency: 1
+boostScale: 1
+minEfficiency: 8.9
 requirements: [
   0-0-axocopper/1
 ]

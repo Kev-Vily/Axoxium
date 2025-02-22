@@ -6,3 +6,6 @@ category: crafting
 baseEfficiency: 0.0
 boostScale: 0.1111111111
 minBoost: 0.9999999999
+requirements: [
+  0-0-axocopper/1
+]

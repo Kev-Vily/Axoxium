@@ -1,2 +1,5 @@
 type: floor
 variants: 3
+attributes: {
+  starlith: 1
+}

@@ -2,7 +2,7 @@ type: attributeCrafter
 health: 400
 size: 3
 attribute: starlith
-category: crafter
+category: crafting
 baseEfficiency: 0.0
 boostScale: 0.1111111111
 minBoost: 0.9999999999

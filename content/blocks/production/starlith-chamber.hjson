@@ -1,3 +1,5 @@
 type: attributeCrafter
 health: 400
-attributes:
+size: 3
+baseEfficiency: 0.0
+boostScale: 0.25

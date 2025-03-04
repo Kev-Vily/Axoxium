@@ -1,6 +1,6 @@
 sector: 10
 planet: axoxium-derepica
-difficulty: 26
+difficulty: 1
 captureWave: 10
 alwaysUnlocked: true
 research: {

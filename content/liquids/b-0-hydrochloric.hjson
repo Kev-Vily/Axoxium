@@ -18,7 +18,7 @@ research: {
   objectives: [
     6-2-acid-turbine-condenser
     {
-      type: SectorComplete
+      type: OnComplete
       preset: g-1-greagios
     }
   ]

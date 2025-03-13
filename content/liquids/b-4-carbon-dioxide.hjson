@@ -1,5 +1,5 @@
 type: liquid
-name: Carbon Hydroxide
+name: Carbon Dioxide
 description: Common gas that could be found in a planet with lifeforms or carbon. It has no color upon release.
 cost: 0.7
 color: 484848ff

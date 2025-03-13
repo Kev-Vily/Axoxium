@@ -20,7 +20,7 @@ canStayOn: [
   cryofluid
 ]
 research: {
-  parent: b-2-mixed-liquid-a
+  parent: b-2-steam-carbon
   planet: axoxium-derepica
   objectives: [
     1-1-impact-crusher

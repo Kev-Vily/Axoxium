@@ -23,8 +23,8 @@ research: {
   objectives: [
     1-1-impact-crusher
     {
-      type: SectorComplete
-      preset: g-0-intergate
+      type: OnSector
+      preset: g-2-0-orchenova
     }
   ]
 }

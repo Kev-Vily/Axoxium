@@ -1,5 +1,3 @@
-name: Hydrochloric
-description: Nickel dust which vaporize in air.
 color: 99a5ffff
 barColor: 99a5ffff
 temperature: 0.5
@@ -18,10 +16,10 @@ research: {
   parent: 8-0-core-crickle
   planet: axoxium-derepica
   objectives: [
-    1-1-impact-crusher
+    6-2-acid-turbine-condenser
     {
       type: SectorComplete
-      preset: g-0-intergate
+      preset: g-1-greagios
     }
   ]
 }

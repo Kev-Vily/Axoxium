@@ -3,10 +3,11 @@ displayName: "[red]Axoxium"
 author: "[blue]555okboi"
 description: 
 '''
-A [green]toxic planet []mod that give big exploration to player.
-[red]Don't recommend to play with other mod especially planet mod.
+A mod that adds a new planet, Derepica. Explore this planet with full of waste and toxic acid.
+[red]Not recommended to play with other planet mod.
 '''
 version: 0.3.1
 minGameVersion: "142"
 dependencies: []
 hidden: false
+subtitle: A [green]Toxic Planet

@@ -31,6 +31,7 @@ orbitOffset: 130
 alwaysUnlocked: true
 accessible: true
 allowLaunchToNumbered: false
+prebuildBase: false
 defaultEnv: 1
 mesh: [
   {

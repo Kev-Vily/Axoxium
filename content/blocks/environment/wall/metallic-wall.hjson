@@ -1,7 +1,5 @@
 type: staticWall
 variants: 2
-name: Metallic Biome
-description: Derepica had bunch of metal materials with unknown reason. This is what does it looks like when bunch of metal are in one place. Mostly you could found Nickel here.
 research: {
   parent: sandwall
   planet: axoxium-derepica

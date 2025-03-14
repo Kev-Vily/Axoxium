@@ -1,2 +1,3 @@
 type: floor
-drownTime = 120
+drownTime: 120
+isLiquid: true

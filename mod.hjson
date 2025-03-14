@@ -10,4 +10,4 @@ version: 0.3.1
 minGameVersion: "142"
 dependencies: []
 hidden: false
-subtitle: A [green]Toxic Planet
+subtitle: "A [green]Toxic Planet"

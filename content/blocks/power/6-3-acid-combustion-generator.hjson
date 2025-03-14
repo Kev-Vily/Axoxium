@@ -23,7 +23,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: b-2-mixed-liquid-a
+      drawLiquid: b-2-steam-carbon
       padding: 2
     }
     {
@@ -42,7 +42,7 @@ drawer: {
 }
 itemDuration: 180
 powerProduction: 6
-outputLiquid: b-2-mixed-liquid-a/0.13333333333333333
+outputLiquid: b-2-steam-carbon/0.13333333333333333
 category: power
 requirements: [
     0-0-axocopper/70

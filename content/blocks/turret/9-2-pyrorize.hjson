@@ -1,6 +1,4 @@
-name: Pyrorize
 type: ContinuousLiquidTurret
-description: Unique basic defense. Fire solid vapour or liquid which thorns down enemy.
 health: 240
 range: 120
 size: 2

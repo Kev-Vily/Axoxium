@@ -1,5 +1,4 @@
 type: staticWall
-name: Blocker
 health: 999999999
 destructible: true
 targetable: false

@@ -1,6 +1,4 @@
 type: Wall
-name: Small Nickel Wall
-description: Protects building from enemy projectiles.
 health: 900
 size: 1
 category: defense

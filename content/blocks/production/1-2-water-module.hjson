@@ -21,7 +21,7 @@ craftEfect: mineImpactWave
 consumes: {
   power: 0.5
   liquids: [
-    b-2-mixed-liquid-a/0.133333333333333
+    b-2-steam-carbon/0.133333333333333
   ]
 }
 category: crafting

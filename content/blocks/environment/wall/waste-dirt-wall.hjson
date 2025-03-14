@@ -1,6 +1,4 @@
 type: staticWall
-name: Waste Dirt Biome
-description: After Derepica had been filled with toxic and waste, Those dirt had started to loses thier fertility and became more toxic. Any common creature can't live here anymore. They can form into a chunk of rocks.
 variants: 3
 research: {
   parent: sandwall

@@ -1,6 +1,4 @@
 type: Router
-name: Steel Router
-description: Spread items to all direction equally. Fast speed but low capacities.
 health: 30
 itemCapacity: 4
 speed: 5

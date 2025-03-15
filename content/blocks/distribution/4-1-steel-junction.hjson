@@ -1,6 +1,4 @@
 type: Junction
-name: Steel Junction
-description: Let two ducts cross over each other. Fast speed but low capacities.
 health: 30
 itemCapacity: 4
 size: 1

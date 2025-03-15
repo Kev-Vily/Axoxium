@@ -1,6 +1,4 @@
 type: DuctBridge
-name: Steel Duct Bridge
-description: Transport item across the walls or buildings. Fast speed but low capacities.
 health: 60
 size: 1
 category: distribution

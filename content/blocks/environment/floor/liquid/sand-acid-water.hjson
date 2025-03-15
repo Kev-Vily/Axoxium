@@ -1,4 +1,5 @@
 type: floor
+variants: 3
 speedMultiplier: 0.9
 variants: 0
 isLiquid: true

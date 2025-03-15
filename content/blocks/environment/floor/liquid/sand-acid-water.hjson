@@ -7,5 +7,4 @@ statusDuration: 1
 drownTime: 0
 cacheLayer: water
 albedo: 0.9
-floorBase: sandfloor
 supportsOverlay: true

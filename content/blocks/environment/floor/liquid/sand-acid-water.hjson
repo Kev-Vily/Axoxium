@@ -8,5 +8,5 @@ drownTime: 0
 cacheLayer: water
 albedo: 0.9
 liquidBase: acid-water
-floorBase: sand-floor
+floorBase: sandfloor
 supportsOverlay: true

@@ -1,6 +1,4 @@
 type: Duct
-name: Steel Duct
-description: Move item along its path. Fast speed but low capacities.
 health: 30
 itemCapacity: 4
 size: 1

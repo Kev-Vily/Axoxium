@@ -1,7 +1,6 @@
 type: shallowLiquid
 variants: 3
 speedMultiplier: 0.8
-isLiquid: true
 status: acid-melting
 statusDuration: 1
 drownTime: 0

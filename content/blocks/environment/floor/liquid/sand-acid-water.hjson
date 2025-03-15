@@ -1,10 +1,10 @@
-type: shallowLiquid
-variants: 3
+type: floor
 speedMultiplier: 0.8
+variants: 3
+isLiquid: true
 status: acid-melting
 statusDuration: 1
 drownTime: 0
 cacheLayer: water
 albedo: 0.9
 supportsOverlay: true
-mapColor: 9d8c54

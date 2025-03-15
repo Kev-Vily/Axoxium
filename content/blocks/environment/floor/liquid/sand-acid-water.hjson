@@ -1,4 +1,4 @@
-type: floor
+type: shallowLiquid
 variants: 3
 speedMultiplier: 0.9
 variants: 0

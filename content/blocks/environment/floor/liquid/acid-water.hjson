@@ -1,5 +1,5 @@
 type: floor
-speedMultiplier: 0.2f
+speedMultiplier: 0.5
 variants: 0
 isLiquid: true
 status: acid-melting

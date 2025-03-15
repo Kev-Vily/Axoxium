@@ -1,0 +1,10 @@
+type: floor
+speedMultiplier: 0.2f
+variants: 0
+isLiquid: true
+status: acid-melting
+statusDuration: 120
+drownTime: 200
+cacheLayer: water
+albedo: 0.9
+supportsOverlay: true

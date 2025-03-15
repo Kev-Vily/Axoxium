@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Impact Crusher
-description: Crushes Nickel into dust then blows to air making vapourized nickel.
 size: 3
 squareSprite: false
 outputLiquid: b-1-vaporized-nickel/0.15

@@ -1,6 +1,4 @@
 type: ThermalGenerator
-name: Acid Turbine Condenser
-description: Use Acid vent's heat to generated power and condense and extract hydrochloric from the vent.
 size: 3
 squareSprite: false
 attribute: steam

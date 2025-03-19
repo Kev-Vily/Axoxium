@@ -1,6 +1,4 @@
 type: liquidRouter
-name: Stainless Router
-description: Input and output liquid in all direction. Output equally on each side.
 health: 60
 category: liquid
 requirements: [

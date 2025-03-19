@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Seperator Module
-description: Crushes Nickel into dust then blows to air making vapourized nickel.
 size: 3
 squareSprite: false
 hasLiquid: true

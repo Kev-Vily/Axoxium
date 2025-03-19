@@ -1,5 +1,4 @@
 type: AttributeCrafter
-name: Organic Extraction Center
 attribute: organic
 size: 2
 health: 150

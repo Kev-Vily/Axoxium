@@ -1,5 +1,4 @@
 type: PowerNode
-name: Steel Wayer
 size: 1
 health: 60
 laserRange: 12

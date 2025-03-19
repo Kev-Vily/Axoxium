@@ -1,6 +1,5 @@
 name: Ecorseer
 type: ItemTurret
-description: A Galactic class turret which
 health: 5100
 range: 500
 size: 4

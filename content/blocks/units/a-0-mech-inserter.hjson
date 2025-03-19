@@ -1,6 +1,4 @@
 type: UnitFactory
-name: Mech Inserter
-description: No description yet. Thy end is now.
 category: units
 size: 3
 health: 660

@@ -1,6 +1,4 @@
-name: Unit Melter
 type: ItemTurret
-description: Burn down enemy while dealed quick damages and gave them debuffs.
 health: 5100
 range: 200
 size: 4

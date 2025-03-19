@@ -1,6 +1,4 @@
-name: Wall Extractor
 type: BeamDrill
-description: Grind ores from a wall. Had decent mining speed.
 health: 240
 range: 2
 size: 2

@@ -1,5 +1,4 @@
 type: Radar
-name: Revealer
 health: 120
 fogRadius: 30
 revealTime: 60

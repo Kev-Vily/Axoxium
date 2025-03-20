@@ -1,5 +1,3 @@
-name: Cracked
-description: Whenever units are cracked, They would surely receive massive damages.
 applyColor: 00964a
 color: fa7aff
 damage: 1.12

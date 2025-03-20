@@ -1,6 +1,4 @@
 type: statusEffect
-name: Run Mode
-description: Rusher running buff.
 applyColor: ffffff
 color: ffffff
 speedMultiplier: 3

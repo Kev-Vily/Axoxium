@@ -1,6 +1,4 @@
 type: liquid
-name: Carbon Dioxide Steam
-description: "Mixture of Carbon dioxide and Steam. Get from the (Acid)Combustion Generator"
 cost: 0.7
 gas: true
 color: 838dbaff

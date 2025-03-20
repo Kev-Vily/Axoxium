@@ -4,4 +4,4 @@ health: 900
 category: turret
 reload: 15
 recoil: 1
-range: 
+range: 160

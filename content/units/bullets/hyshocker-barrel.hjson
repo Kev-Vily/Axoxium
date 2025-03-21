@@ -36,10 +36,10 @@ abilities: [
    {
      type: EnergyFieldAbility
      damage: 30
-     reload: 10
+     reload: 1
      range: 160
      hitBuildings: false
-     maxTargets: 5
+     maxTargets: 1
      healPercent: 0
    }
 ]

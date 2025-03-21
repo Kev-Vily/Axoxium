@@ -1,5 +1,5 @@
 type: flying
-health: 4
+health: 7
 speed: 0
 drawCell: false
 drawMinimap: false

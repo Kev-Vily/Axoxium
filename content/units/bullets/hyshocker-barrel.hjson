@@ -1,6 +1,5 @@
 type: flying
 speed: 0
-flying: true
 drawCell: false
 drawMinimap: false
 hittable: false
@@ -11,4 +10,49 @@ engineSize: 0
 isEnemy: false
 shadowElevationScl: 0
 useUnitCap: false
-lifeTime: 330
+weapons: [
+  {
+    name: as-turret
+    reload: 20
+    top: true
+    mirror: false
+    drawOutLine: false
+    rotate: true
+    inaccuracy: 0
+    shootY: 3
+    x: 0
+    y: 0
+    shootSound: shootSmall
+    shootStatus: sd-2
+    shootStatusDuration: 4
+    bullet: {
+      type: BasicBulletType
+      damage: 0
+      shootEffect: shootSmall
+      speed: 4
+      width: 7
+      height: 10
+      lifetime: 60
+      knockback: -3
+      status: hidden-debuff
+    }
+  }
+  {
+    name: as-sd
+    alwaysShooting: true
+    shootSound: none
+    reload: Infinity
+    shootStatus: sd-1
+    shootStatusDuration: Infinity
+    bullet: {
+      type: BasicBulletType
+      lifetime: 0
+      width: 0
+      height: 0
+      speed: 0
+      shootEffect: none
+      hitEffect: none
+      despawnEffect: none
+    }
+  }
+]

@@ -6,5 +6,7 @@ reload: 15
 recoil: 1
 range: 160
 shootType: {
-      type: EmpBulletType
+      type: BulletType
+      instantDisappear: true
+      spawnUnit: hyshocker-barrel
 }

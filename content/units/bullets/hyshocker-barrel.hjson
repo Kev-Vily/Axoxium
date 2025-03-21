@@ -3,7 +3,6 @@ speed: 0
 flying: true
 drawCell: false
 drawMinimap: false
-physics: false
 hittable: false
 wobble: false
 targetable: false
@@ -12,4 +11,4 @@ engineSize: 0
 isEnemy: false
 shadowElevationScl: 0
 useUnitCap: false
-lifeTime: 300
+lifeTime: 360

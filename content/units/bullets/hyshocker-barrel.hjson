@@ -40,5 +40,7 @@ abilities: [
      range: 160
      hitBuildings: false
      hitUnits: false
+     maxTarget: 5
+     healPercent: 0
    }
 ]

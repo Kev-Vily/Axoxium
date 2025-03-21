@@ -39,7 +39,7 @@ abilities: [
      reload: 10
      range: 160
      hitBuildings: false
-     maxTarget: 5
+     maxTargets: 5
      healPercent: 0
    }
 ]

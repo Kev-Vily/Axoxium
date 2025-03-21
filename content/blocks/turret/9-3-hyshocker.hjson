@@ -10,3 +10,6 @@ shootType: {
       instantDisappear: true
       spawnUnit: hyshocker-barrel
 }
+requirements: [
+     0-0-axocopper/1
+]

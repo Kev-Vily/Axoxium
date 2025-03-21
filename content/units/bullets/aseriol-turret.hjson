@@ -11,23 +11,32 @@ rotateSpeed: 0
 hitSize: 10
 playerControllable: false
 hidden: true
-rotateShooting: true
+rotateShooting: false
 weapons: [
   {
-    name: 
+    name: as-turret
     reload: 20
     top: true
     mirror: false
-    rotate: false
+    drawOutLine: false
+    rotate: true
     inaccuracy: 0
     shootY: 3
     x: 0
     y: 0
     shootSound: shootSmall
+    shootStatus: sd-2
     shootStatusDuration: 4
     bullet: {
-      type: EmpBulletType
-      damage: 70
+      type: BasicBulletType
+      damage: 0
+      shootEffect: shootSmall
+      speed: 4
+      width: 7
+      height: 10
+      lifetime: 60
+      knockback: -3
+      status: hidden-debuff
     }
   }
   {

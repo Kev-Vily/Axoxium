@@ -2,6 +2,7 @@ type: flying
 flying: false
 health: 7
 speed: 0
+physics: false
 drawCell: false
 drawMinimap: false
 hittable: false
@@ -24,23 +25,12 @@ weapons: [
     shootY: 3
     x: 0
     y: 0
-    shootSound: shootSmall
-    shootStatus: sd-2
-    shootStatusDuration: 4
     bullet: {
-      type: BasicBulletType
-      damage: 0
-      shootEffect: shootSmall
-      speed: 4
-      width: 7
-      height: 10
-      lifetime: 60
-      knockback: -3
-      status: hidden-debuff
+      type: EmpBulletType
+      damage: 150
     }
   }
   {
-    name: as-sd
     alwaysShooting: true
     shootSound: none
     reload: Infinity

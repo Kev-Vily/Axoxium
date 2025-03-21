@@ -3,8 +3,8 @@ size: 3
 health: 900
 category: turret
 reload: 15
-recoil: 1
-range: 160
+recoil: 0
+range: 240
 shootType: {
       type: BulletType
       instantDisappear: true

@@ -11,3 +11,4 @@ lowAltitude: true
 engineSize: 0
 isEnemy: false
 shadowElevationScl: 0
+useUnitCap: false

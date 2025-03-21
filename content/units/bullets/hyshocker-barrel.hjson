@@ -1,4 +1,5 @@
 type: flying
+flying: false
 health: 7
 speed: 0
 drawCell: false

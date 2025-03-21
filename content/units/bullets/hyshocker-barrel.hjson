@@ -38,5 +38,7 @@ abilities: [
      damage: 30
      reload: 10
      range: 160
+     hitBuildings: false
+     hitUnits: false
    }
 ]

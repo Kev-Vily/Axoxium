@@ -15,22 +15,6 @@ shadowElevationScl: 0
 useUnitCap: false
 weapons: [
   {
-    name: as-turret
-    reload: 20
-    top: true
-    mirror: false
-    drawOutLine: false
-    rotate: true
-    inaccuracy: 0
-    shootY: 3
-    x: 0
-    y: 0
-    bullet: {
-      type: SapBulletType
-      damage: 150
-    }
-  }
-  {
     alwaysShooting: true
     shootSound: none
     reload: Infinity
@@ -47,4 +31,9 @@ weapons: [
       despawnEffect: none
     }
   }
+]
+abilities: [
+   {
+     type: EneryFieldAbility
+   }
 ]

@@ -35,5 +35,8 @@ weapons: [
 abilities: [
    {
      type: EnergyFieldAbility
+     damage: 30
+     reload: 10
+     range: 160
    }
 ]

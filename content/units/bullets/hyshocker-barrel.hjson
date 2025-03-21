@@ -11,4 +11,4 @@ engineSize: 0
 isEnemy: false
 shadowElevationScl: 0
 useUnitCap: false
-lifeTime: 360
+lifeTime: 330

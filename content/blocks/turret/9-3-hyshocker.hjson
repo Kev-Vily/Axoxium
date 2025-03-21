@@ -2,7 +2,7 @@ type: powerTurret
 size: 3
 health: 900
 category: turret
-reload: 360
+reload: 540
 recoil: 0
 range: 240
 shootType: {

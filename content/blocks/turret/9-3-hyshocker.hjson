@@ -3,7 +3,7 @@ size: 3
 health: 900
 category: turret
 reload: 540
-recoil: 0
+recoil: 1
 range: 240
 shootType: {
       type: BulletType

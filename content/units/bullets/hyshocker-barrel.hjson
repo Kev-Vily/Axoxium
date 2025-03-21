@@ -1,0 +1,13 @@
+type: flying
+speed: 0
+flying: true
+drawCell: false
+drawMinimap: false
+physics: false
+hittable: false
+wobble: false
+targetable: false
+lowAltitude: true
+engineSize: 0
+isEnemy: false
+shadowElevationScl: 0

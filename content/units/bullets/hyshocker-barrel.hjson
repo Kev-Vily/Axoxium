@@ -35,9 +35,9 @@ weapons: [
 abilities: [
    {
      type: EnergyFieldAbility
-     damage: 30
+     damage: 80
      reload: 1
-     range: 160
+     range: 200
      hitBuildings: false
      maxTargets: 1
      healPercent: 0

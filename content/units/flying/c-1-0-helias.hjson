@@ -1,10 +1,4 @@
 type: flying
-name: Helias
-description: 
-'''
-A common air forces. Slow fire rate but deal damage in large area. Weak against tough buildings and units.
-[grey]Type: [orange]Infantary[grey], [blue]Flying[grey], [white]AOEDealer
-'''
 health: 700
 lowAltitude: true
 singleTarget: true

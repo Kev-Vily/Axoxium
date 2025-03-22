@@ -1,6 +1,4 @@
 type: legs
-name: Insect
-description: The prototype that has origin from insects biology, They use those teeth-like parts to attack.
 speed: 0.8
 health: 900
 itemCapacity: 5

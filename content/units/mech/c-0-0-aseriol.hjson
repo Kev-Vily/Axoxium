@@ -1,6 +1,4 @@
 type: mech
-name: Aseriol
-description: Common infantry units. Even if they died they would left hidden turret which slow firerate and movemt speed of enemies.
 speed: 0.6
 health: 800
 rotateSpeed: 3

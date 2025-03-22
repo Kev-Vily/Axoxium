@@ -1,5 +1,3 @@
-name: Crimatro
-description: No description yet. Thy end is now!
 health: 1600
 lowAltitude: true
 singleTarget: true

@@ -1,6 +1,4 @@
 type: mech
-name: Charger
-description: "One of [blue]ForTier[]'s basic infantry units. Explode on contact with enemies units or buildings. After few seconds will starts to boost speed of its allies and itself. <Charger> isn't true name."
 speed: 0.8
 health: 900
 itemCapacity: 5

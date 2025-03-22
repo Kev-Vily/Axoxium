@@ -1,6 +1,4 @@
 type: mech
-name: Aseriol's turrets
-description: If they died they would left hidden turret which slow firerate and movemt speed of enemies.
 speed: 0
 targetable: false
 hittable: false

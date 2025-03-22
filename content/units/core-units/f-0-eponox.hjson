@@ -1,6 +1,4 @@
 type: flying
-name: Eponox
-description: Defends core Crickle. Shoot traps which slow down enemies a little.
 speed: 4
 accel: 0.09
 drag: 0.08

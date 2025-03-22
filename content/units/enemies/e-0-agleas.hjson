@@ -1,6 +1,4 @@
 type: legs
-name: Agleas
-description: "One of the insects life form in the Derepica. Got soaked into acid and evolve to survive but they all lost their queen during the [green]ACID RAIN[] incident. Some of them got put into experiment and escaped so now if it see any of machine wandering around they'll attack them with [red]anger and hatred. []This one dash to enemies then use its teeth to cut enemies apart."
 speed: 0.8
 health: 1300
 itemCapacity: 5

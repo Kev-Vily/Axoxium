@@ -35,11 +35,12 @@ weapons: [
 abilities: [
    {
      type: EnergyFieldAbility
-     damage: 80
-     reload: 1
+     damage: 100
+     reload: 10
      range: 200
+     hitAllies: false
      hitBuildings: false
-     maxTargets: 1
+     maxTargets: 2
      healPercent: 0
    }
 ]

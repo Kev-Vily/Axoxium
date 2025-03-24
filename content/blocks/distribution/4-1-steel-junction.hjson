@@ -1,5 +1,5 @@
 type: Junction
-health: 120
+health: 100
 itemCapacity: 4
 size: 1
 category: distribution

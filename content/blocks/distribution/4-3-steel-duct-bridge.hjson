@@ -1,5 +1,5 @@
 type: DuctBridge
-health: 60
+health: 200
 size: 1
 category: distribution
 itemCapacity: 4

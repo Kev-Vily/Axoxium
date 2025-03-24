@@ -1,5 +1,6 @@
 type: GenericCrafter
 size: 3
+health: 460
 squareSprite: false
 outputLiquid: b-1-vaporized-nickel/0.15
 craftTime: 60

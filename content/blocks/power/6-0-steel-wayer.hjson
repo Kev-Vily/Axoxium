@@ -1,6 +1,6 @@
 type: PowerNode
 size: 1
-health: 60
+health: 100
 laserRange: 12
 maxNodes: 4
 category: power

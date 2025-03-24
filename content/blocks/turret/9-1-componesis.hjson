@@ -1,7 +1,7 @@
 name: Componesis
 type: ItemTurret
 description: Anti-air turret which shoot a burst of multipy laser in a long range.
-health: 400
+health: 980
 range: 300
 size: 2
 targetGround: false

@@ -2,6 +2,7 @@ type: BurstDrill
 category: production
 hardnessDrillMultiplier: 25
 drillTime: 250
+health: 380
 size: 2
 tier: 4
 drawMineItem: false

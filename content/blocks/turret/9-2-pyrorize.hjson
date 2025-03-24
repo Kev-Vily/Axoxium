@@ -1,5 +1,5 @@
 type: ContinuousLiquidTurret
-health: 240
+health: 980
 range: 120
 size: 2
 rotateSpeed: 5

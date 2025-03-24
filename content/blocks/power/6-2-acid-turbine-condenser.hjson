@@ -1,4 +1,5 @@
 type: ThermalGenerator
+health: 460
 size: 3
 squareSprite: false
 attribute: steam

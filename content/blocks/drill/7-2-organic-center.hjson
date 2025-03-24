@@ -1,7 +1,7 @@
 type: AttributeCrafter
 attribute: organic
 size: 2
-health: 150
+health: 460
 baseEfficiency: 0.0
 boostScale: 0.25
 category: production

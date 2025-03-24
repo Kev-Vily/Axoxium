@@ -1,5 +1,5 @@
 type: CoreBlock
-health: 3000
+health: 4680
 isFirstTier: true
 itemCapacity: 8000
 size: 4
@@ -21,4 +21,4 @@ research: {
   planet: axoxium-derepica
 }
 unitType: f-0-eponox
-unitCapModifier: +24
+unitCapModifier: +16

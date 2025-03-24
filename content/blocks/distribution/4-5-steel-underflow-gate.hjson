@@ -1,5 +1,5 @@
 type: OverflowDuct
-health: 60
+health: 100
 size: 1
 invert: true
 category: distribution

@@ -1,5 +1,5 @@
 type: liquidRouter
-health: 60
+health: 100
 category: liquid
 requirements: [
   0-2-zirconium/20

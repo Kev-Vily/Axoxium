@@ -1,0 +1,17 @@
+type: ArmouredConduit
+health: 80
+size: 1
+category: liquid
+requirements: [
+    0-2-zirconium/5
+    0-1-nickel/5
+]
+research: {
+    parent: 8-0-core-crickle
+    planet: axoxium-derepica
+    requirements: [
+        0-2-zirconium/40
+        0-1-nickel/60
+    ]
+    objective: 1-1-impact-crusher
+}

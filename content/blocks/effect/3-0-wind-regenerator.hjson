@@ -4,6 +4,7 @@ size: 3
 category: effect
 range: 20
 healPercent: 0.008333333
+optionalMultiplier: 1
 requirements: [
    0-0-axocopper/1
 ]

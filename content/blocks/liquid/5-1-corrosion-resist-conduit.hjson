@@ -7,7 +7,7 @@ requirements: [
     0-1-nickel/5
 ]
 research: {
-    parent: 8-0-core-crickle
+    parent: 5-0-stainless-conduit
     planet: axoxium-derepica
     requirements: [
         0-2-zirconium/40

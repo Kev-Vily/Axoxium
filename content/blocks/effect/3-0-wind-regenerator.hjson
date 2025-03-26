@@ -2,7 +2,8 @@ type: regenProjector
 health: 470
 size: 3
 category: effect
-healPercent: 0.05
+range: 20
+healPercent: 0.008333333
 requirements: [
    0-0-axocopper/1
 ]

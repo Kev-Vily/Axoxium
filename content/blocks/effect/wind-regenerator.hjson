@@ -1,2 +1,3 @@
 type: regenProjector
 health: 470
+healPercent: 0.05

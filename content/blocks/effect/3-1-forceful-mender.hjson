@@ -3,7 +3,7 @@ health: 470
 size: 2
 category: effect
 range: 60
-healPercent: 10
+healPercent: 12
 reload: 800
 requirements: [
    0-0-axocopper/1

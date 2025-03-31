@@ -2,6 +2,12 @@ type: mendProjector
 health: 470
 size: 2
 category: effect
+consumes: {
+  power: 1
+  liquids: [
+    b-0-hydrochloric/0.0333333333
+  ]
+}
 range: 60
 healPercent: 12
 reload: 800

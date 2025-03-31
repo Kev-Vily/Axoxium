@@ -2,8 +2,9 @@ type: mendProjector
 health: 470
 size: 2
 category: effect
-range: 20
-healPercent: 5
+range: 60
+healPercent: 10
+reload: 800
 requirements: [
    0-0-axocopper/1
 ]

@@ -5,13 +5,13 @@ parentizeApplyEffect: true
 parentizeEffect: true
 effect: {
   type: ParticleEffect
-  layer: 100
   particles: 8
   sizeFrom: 2.7
   sizeTo: 1
-  cone: 16
+  cone: 360
   colorFrom: 00964aff
   colorTo: 006f1cff
   interp: circleOut
+  length: 10
 }
 speedMultiplier: 0.9

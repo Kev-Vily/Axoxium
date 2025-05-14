@@ -8,7 +8,7 @@ effect: {
   layer: 100
   particles: 8
   sizeFrom: 2.7
-  sizeTo: 1
+  sizeTo: 0
   cone: 360
   colorFrom: 00964aff
   colorTo: 006f1cff

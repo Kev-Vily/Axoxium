@@ -5,6 +5,7 @@ parentizeApplyEffect: true
 parentizeEffect: true
 effect: {
   type: ParticleEffect
+  layer: 100
   particles: 8
   sizeFrom: 2.7
   sizeTo: 1

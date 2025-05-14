@@ -2,7 +2,7 @@ type: floor
 speedMultiplier: 0.2
 variants: 0
 isLiquid: true
-status: acid-melting
+status: sulphuric-melting
 statusDuration: 120
 drownTime: 200
 cacheLayer: water

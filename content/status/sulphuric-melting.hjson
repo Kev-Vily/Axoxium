@@ -1,5 +1,5 @@
-applyColor: 00964a
-color: 00964a
+applyColor: d953d0ff
+color: d953d0ff
 damage: 0.34
 parentizeApplyEffect: true
 parentizeEffect: true
@@ -10,8 +10,8 @@ effect: {
   sizeFrom: 2.7
   sizeTo: 0
   cone: 360
-  colorFrom: 00964aff
-  colorTo: 006f1cff
+  colorFrom: d953d0ff
+  colorTo: d953d0ff
   interp: circleOut
   length: 10
 }

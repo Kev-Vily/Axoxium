@@ -3,9 +3,10 @@ color: 00964a
 damage: 0.34
 effect: {
   type: ParticleEffect
+  layer: 100
   particles: 8
-  sizeFrom: 1
-  sizeTo: 2.7
+  sizeFrom: 2.7
+  sizeTo: 1
   cone: 16
   colorFrom: 00964a
   colorTo: 006f1c

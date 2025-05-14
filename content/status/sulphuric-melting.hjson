@@ -10,8 +10,8 @@ effect: {
   sizeFrom: 2.7
   sizeTo: 1
   cone: 16
-  colorFrom: 00964a
-  colorTo: 006f1c
+  colorFrom: 00964aff
+  colorTo: 006f1cff
   interp: circleOut
 }
 speedMultiplier: 0.9

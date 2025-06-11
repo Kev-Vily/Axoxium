@@ -2,7 +2,7 @@ type: regenProjector
 health: 680
 size: 4
 category: effect
-range: 20
+range: 60
 hasPower: false
 healPercent: 0.083333333333333
 optionalMultiplier: 1

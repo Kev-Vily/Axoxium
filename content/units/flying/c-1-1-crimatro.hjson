@@ -88,6 +88,18 @@ weapons: [
       trailEffect: artilleryTrail
       trailInterval: 0.333
       trailColor: 6af484ff
+      parts: [
+       {
+          type: FlarePart
+          progress: life
+          color1: 6af484ff
+          radius: 0
+          radiusTo: 35
+          stroke: 3
+          rotation: 0
+          followRotation: false
+        }
+      ]
       hitEffect: {
         type: MultiEffect
         effects: [

@@ -33,18 +33,18 @@ weapons: [
       type: BasicBulletType
       pierce: true
       pierceCap: 1
-      width: 5
-      height: 7
+      width: 4
+      height: 5
       speed: 8
       shrinkX: 0
       shrinkY: 0
       lifetime: 25
       damage: 120
-      backColor: e1ffe6ff
+      backColor: e58956ff
       frontColor: ffffff
       trailLength: 10
-      trailWidth: 5
-      trailColor: ffffff
+      trailWidth: 4
+      trailColor: e58956ff
       homingPower: 0.05
       homingRange: 50
       homingDelay: 0

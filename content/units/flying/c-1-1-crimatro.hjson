@@ -17,7 +17,7 @@ weapons: [
     name: crimatro-cannon
     reload: 45
     baseRotation: 0
-    top: true
+    top: false
     mirror: false
     inaccuracy: 0
     shootCone: 3
@@ -97,7 +97,7 @@ weapons: [
       {
          type: RegionPart
          suffix: -front
-         mirror: true
+         mirror: false
          outline: true
          under: true
          progress: warmup

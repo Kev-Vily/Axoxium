@@ -24,7 +24,7 @@ weapons: [
     shootSound: none
     shootEffect: none
     x: 0
-    y: 3
+    y: 4
     shoot: {
     shots: 2
     shotDelay: 10
@@ -60,8 +60,8 @@ weapons: [
     shootCone: 60
     shootSound: none
     shootEffect: none
-    x: 3
-    y: 3
+    x: 4
+    y: 4
     shoot: {
     shots: 3
     shotDelay: 5

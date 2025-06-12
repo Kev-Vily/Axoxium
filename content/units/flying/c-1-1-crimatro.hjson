@@ -24,7 +24,7 @@ weapons: [
     shootSound: none
     shootEffect: none
     x: 0
-    y: 4
+    y: 6
     shoot: {
     shots: 2
     shotDelay: 10
@@ -61,7 +61,7 @@ weapons: [
     shootSound: none
     shootEffect: none
     x: 4
-    y: 4
+    y: 6
     shoot: {
     shots: 3
     shotDelay: 5

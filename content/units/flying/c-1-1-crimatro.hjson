@@ -49,7 +49,7 @@ weapons: [
   }
   {
     name: crimatro-swarm
-    reload: 32
+    reload: 20
     baseRotation: 30
     top: false
     mirror: true
@@ -64,7 +64,7 @@ weapons: [
     y: 4
     shoot: {
     shots: 3
-    shotDelay: 5
+    shotDelay: 0
     }
     bullet: {
       type: BasicBulletType

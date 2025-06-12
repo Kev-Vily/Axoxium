@@ -92,7 +92,8 @@ weapons: [
           rotation: 6
           effect: dynamicSpikes
           }
-      parts: [
+    }
+    parts: [
       {
          type: RegionPart
          suffix: -front
@@ -103,7 +104,6 @@ weapons: [
          moveX: -2
          moveY: 2
       }
-      ]
-    }
+    ]
   }
 ]

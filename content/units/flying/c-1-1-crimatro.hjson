@@ -60,9 +60,11 @@ weapons: [
     shootCone: 60
     shootSound: none
     shootEffect: none
-    layerOffset: 0
-    x: 4
-    y: 6
+    layerOffset: -0.0000001
+    shootX:
+    shootY:
+    x: 2
+    y: 4
     shoot: {
     shots: 3
     shotDelay: 5

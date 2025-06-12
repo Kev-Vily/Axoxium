@@ -106,6 +106,7 @@ weapons: [
          progress: warmup
          moveX: -2
          moveY: 2
+         moveRot: 30
       }
     ]
   }

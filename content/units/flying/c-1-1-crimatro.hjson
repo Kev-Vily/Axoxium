@@ -108,7 +108,8 @@ weapons: [
           }
         ]
       }
-      parts: [
+}
+parts: [
       {
          type: RegionPart
          suffix: -front
@@ -122,6 +123,5 @@ weapons: [
          layer: -0.0000001
       }
     ]
-}
 }
 ]

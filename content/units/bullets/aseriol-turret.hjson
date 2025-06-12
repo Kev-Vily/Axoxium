@@ -10,6 +10,7 @@ hitSize: 10
 playerControllable: false
 hidden: true
 rotateShooting: false
+isEnemy: false
 weapons: [
   {
     name: as-turret

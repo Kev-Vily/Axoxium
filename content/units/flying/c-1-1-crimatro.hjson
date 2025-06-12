@@ -54,15 +54,15 @@ weapons: [
     name: crimatro-swarm
     reload: 32
     baseRotation: -30
-    top: true
+    top: false
     mirror: true
     inaccuracy: 15
     shootCone: 60
     shootSound: none
     shootEffect: none
     layerOffset: -0.0000001
-    shootX: 2
-    shootY: 2
+    shootX: 4
+    shootY: 6
     x: 2
     y: 4
     shoot: {

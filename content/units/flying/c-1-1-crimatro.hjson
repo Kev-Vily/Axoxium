@@ -96,19 +96,19 @@ weapons: [
             lifetime: 30
             colorFrom: 6af484ff
             colorTo: 6af484ff
-            sizeFrom: 10
-            sizeTo: 10
+            sizeFrom: 50
+            sizeTo: 50
             strokeFrom: 6
           }
           {
           type: WrapEffect
           color: 6af484ff
-          rotation: 6
+          rotation: 24
           effect: dynamicSpikes
           }
-          ]
-  }
-parts: [
+        ]
+      }
+      parts: [
       {
          type: RegionPart
          suffix: -front

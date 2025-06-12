@@ -61,8 +61,8 @@ weapons: [
     shootSound: none
     shootEffect: none
     layerOffset: -0.0000001
-    shootX: -2
-    shootY: 4
+    shootX: -3
+    shootY: 5
     x: -2
     y: 4
     shoot: {

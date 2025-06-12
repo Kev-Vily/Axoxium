@@ -40,11 +40,8 @@ weapons: [
       shrinkY: 0
       lifetime: 25
       damage: 120
-      backColor: e58956ff
-      frontColor: ffffff
       trailLength: 10
       trailWidth: 4
-      trailColor: e58956ff
       homingPower: 0.05
       homingRange: 50
       homingDelay: 0

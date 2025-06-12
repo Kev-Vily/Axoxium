@@ -101,13 +101,14 @@ weapons: [
             strokeFrom: 6
           }
           {
-          type: WrapEffectAdd commentMore actions
+          type: WrapEffect
           color: 6af484ff
           rotation: 6
           effect: dynamicSpikes
           }
           ]
-    parts: [
+  }
+parts: [
       {
          type: RegionPart
          suffix: -front
@@ -121,7 +122,6 @@ weapons: [
          layer: -0.0000001
       }
     ]
-  }
 }
 }
 ]

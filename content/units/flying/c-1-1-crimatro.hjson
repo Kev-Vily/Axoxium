@@ -9,7 +9,7 @@ drag: 0.7
 flying: true
 rotateSpeed: 5
 hitSize: 10
-engineOffset: 10
+engineOffset: 12
 maxRange: 180
 rotateShooting: true
 weapons: [

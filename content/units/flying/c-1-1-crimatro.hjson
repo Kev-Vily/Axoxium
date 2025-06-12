@@ -107,6 +107,7 @@ weapons: [
          moveX: -2
          moveY: 2
          moveRot: 30
+         layerOffset: -0.0000001
       }
     ]
   }

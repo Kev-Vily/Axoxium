@@ -89,10 +89,16 @@ weapons: [
       trailInterval: 0.333
       trailColor: 6af484ff
       hitEffect: {
-          type: WrapEffect
-          color: 6af484ff
-          rotation: 6
-          effect: dynamicSpikes
+        type: MultiEffect
+        effects: [
+          {
+            type: WaveEffect
+            lifetime: 30
+            colorFrom: 6af484ff
+            colorTo: 6af484ff
+            sizeFrom: 10
+            sizeTo: 10
+            strokeFrom: 6
           }
     }
     parts: [

@@ -62,7 +62,7 @@ weapons: [
     shootEffect: none
     layerOffset: -0.0000001
     shootX: -3
-    shootY: 5
+    shootY: 7
     x: -2
     y: 4
     shoot: {
@@ -120,7 +120,7 @@ parts: [
          moveX: -2
          moveY: 2
          moveRot: -30
-         layerOffset: -1
+         layerOffset: -0.0005
       }
     ]
 }

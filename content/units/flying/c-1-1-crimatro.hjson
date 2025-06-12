@@ -101,26 +101,13 @@ weapons: [
         }
       ]
       hitEffect: {
-        type: MultiEffect
-        effects: [
-          {
-            type: WaveEffect
-            lifetime: 30
-            colorFrom: 6af484ff
-            colorTo: 6af484ff
-            sizeFrom: 50
-            sizeTo: 50
-            strokeFrom: 6
-          }
-          {
           type: WrapEffect
           color: 6af484ff
           rotation: 24
           effect: dynamicSpikes
           }
-        ]
+       despawnEffect: none
       }
-}
 parts: [
       {
          type: RegionPart

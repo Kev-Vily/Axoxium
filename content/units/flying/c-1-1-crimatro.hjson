@@ -100,7 +100,13 @@ weapons: [
             sizeTo: 10
             strokeFrom: 6
           }
-    }
+          {
+          type: WrapEffectAdd commentMore actions
+          color: 6af484ff
+          rotation: 6
+          effect: dynamicSpikes
+          }
+          ]
     parts: [
       {
          type: RegionPart

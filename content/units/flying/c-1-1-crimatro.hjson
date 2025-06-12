@@ -94,7 +94,7 @@ weapons: [
           progress: life
           color1: 6af484ff
           radius: 0
-          radiusTo: 35
+          radiusTo: 15
           stroke: 3
           rotation: 0
           followRotation: false
@@ -103,7 +103,7 @@ weapons: [
       hitEffect: {
           type: WrapEffect
           color: 6af484ff
-          rotation: 24
+          rotation: 15
           effect: dynamicSpikes
           }
        despawnEffect: none

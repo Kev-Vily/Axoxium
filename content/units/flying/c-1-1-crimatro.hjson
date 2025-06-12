@@ -1,5 +1,4 @@
 health: 1600
-lowAltitude: true
 singleTarget: true
 faceTarget: true
 armor: 5

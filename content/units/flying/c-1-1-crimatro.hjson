@@ -120,7 +120,7 @@ parts: [
          moveX: -2
          moveY: 2
          moveRot: -30
-         layer: -0.0000001
+         layerOffset: -1
       }
     ]
 }

@@ -92,6 +92,18 @@ weapons: [
           rotation: 6
           effect: dynamicSpikes
           }
+      parts: [
+      {
+         type: RegionPart
+         suffix: -front
+         mirror: true
+         outline: true
+         under: true
+         progress: warmup
+         moveX: -2
+         moveY: 2
+      }
+      ]
     }
   }
 ]

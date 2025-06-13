@@ -1,1 +1,17 @@
 type: directionLiquidBridge
+health: 100
+size: 1
+category: distribution
+itemCapacity: 4
+requirements: [
+   0-0-axocopper/10
+   0-1-nickel/10
+]
+research: {
+   planet: axoxium-derepica
+   parent: 4-1-steel-junction
+   requirements: [
+      0-0-axocopper/40
+      0-1-nickel/40
+   ]
+}

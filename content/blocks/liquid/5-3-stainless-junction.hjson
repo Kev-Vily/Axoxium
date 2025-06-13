@@ -1,1 +1,15 @@
-
+type: liquidJunction
+health: 100
+category: liquid
+requirements: [
+  0-2-zirconium/20
+  0-1-nickel/20
+]
+research: {
+  planet: axoxium-derepica
+  parent: 5-0-stainless-conduit
+  requirement: [
+    0-2-zirconium/100
+    0-1-nickel/80
+  ]
+}

@@ -3,7 +3,7 @@ health: 80
 size: 1
 category: liquid
 junctionReplacement: 5-3-stainless-junction
-bridgeReplacement: 5-4-stainless-bridge
+rotBridgeReplacement: 5-4-stainless-bridge
 requirements: [
     0-2-zirconium/5
     0-1-nickel/5

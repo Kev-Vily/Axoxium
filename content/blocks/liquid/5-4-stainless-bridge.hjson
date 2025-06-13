@@ -1,6 +1,7 @@
 type: directionLiquidBridge
 health: 100
 category: liquid
+liquidCapacity: 10
 requirements: [
   0-2-zirconium/20
   0-1-nickel/20

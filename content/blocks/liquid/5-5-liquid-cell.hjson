@@ -1,4 +1,4 @@
-type: liquidBlock
+type: liquidRouter
 health: 900
 liquidCapacity: 120
 size: 2

@@ -1,7 +1,7 @@
 type: liquidBlock
 health: 900
 liquidCapacity: 120
-size: 1
+size: 2
 category: liquid
 requirements: [
   0-1-nickel/40

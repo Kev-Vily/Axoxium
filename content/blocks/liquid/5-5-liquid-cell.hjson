@@ -1,1 +1,16 @@
 type: liquidBlock
+health: 900
+size: 1
+category: defense
+requirements: [
+  0-1-nickel/40
+  0+3-zirconium/25
+]
+research: {
+  name: Derepica
+  requirements: [
+    0-1-nickel/50
+  ]
+  planet: axoxium-derepica
+  parent: 1-1-impact-crusher
+}

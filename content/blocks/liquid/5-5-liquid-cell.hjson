@@ -4,7 +4,7 @@ size: 1
 category: defense
 requirements: [
   0-1-nickel/40
-  0+3-zirconium/25
+  0-2-zirconium/25
 ]
 research: {
   name: Derepica

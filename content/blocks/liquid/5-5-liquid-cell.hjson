@@ -1,6 +1,6 @@
 type: liquidRouter
 health: 900
-liquidCapacity: 120
+liquidCapacity: 900
 size: 2
 category: liquid
 requirements: [

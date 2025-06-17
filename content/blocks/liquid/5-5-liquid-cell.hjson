@@ -1,7 +1,8 @@
 type: liquidBlock
 health: 900
+liquidCapacity: 120
 size: 1
-category: defense
+category: liquid
 requirements: [
   0-1-nickel/40
   0-2-zirconium/25

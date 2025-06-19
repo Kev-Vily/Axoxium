@@ -77,7 +77,7 @@ weapons: [
       lifetime: 40
       damage: 60
       trailLength: 5
-      trailWidth: 5
+      trailWidth: 3
       homingPower: 0.2
       homingRange: 50
       homingDelay: 5

@@ -1,6 +1,6 @@
 sector: 15
 planet: axoxium-derepica
-difficulty: 2
+difficulty: 3
 captureWave: 2
 research: {
   parent: g-1-greagios

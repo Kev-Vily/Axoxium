@@ -7,7 +7,7 @@ requirements: [
 ]
 research: {
   planet: axoxium-derepica
-  parent: 5-2-stainless-router
+  parent: 5-0-stainless-conduit
   requirement: [
     0-2-zirconium/90
     0-1-nickel/70
